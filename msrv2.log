@@ -1,0 +1,231 @@
+>>>...MODULE:hello_world()
+>>>...MODULE:hello_world()
+>>>...MODULE:hello_world()
+>>>...MODULE:hello_world()
+>>>...MODULE:hello_world()
+>>>...MODULE:hello_world()
+>>>...MODULE:hello_world()
+>>>...MODULE:order_insert_multi()
+>>>...MODULE:order_insert_multi()
+>>>...MODULE:order_insert_multi()
+request data
+>>>...MODULE:order_insert_multi()
+request data:b'author=wenjen&text=This+is+content!!'
+>>>...MODULE:order_insert_multi()
+request data:b'author=wenjen&text=This+is+content!!'
+>>>...MODULE:order_insert_multi()
+request data type: <class 'bytes'>
+request data content: b'author=wenjen&text=This+is+content!!'
+>>>...MODULE:order_insert_multi()
+request data type: <class 'bytes'>
+request data content: b'author=%E7%8E%8B%E8%8F%B2&text=%E6%88%91%E4%B8%8D%E9%A1%98%E6%84%8F!!'
+>>>...MODULE:order_insert_multi()
+request data type: <class 'bytes'>
+>>>...MODULE:order_insert_multi()
+request data type: <class 'bytes'>
+request data length: 69
+request data content: b'author=%E7%8E%8B%E8%8F%B2&text=%E6%88%91%E4%B8%8D%E9%A1%98%E6%84%8F!!'
+>>>...MODULE:order_insert_multi()
+>>>...MODULE:order_insert_multi()
+request data get error ==> Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:order_insert_multi()
+request data get error ==> Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:order_insert_multi()
+request data get error ==> Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:order_insert_multi()
+request data get error ==> Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:order_insert_multi()
+request data content: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+request data get error ==> Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:order_insert_multi()
+request data content: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+request data get error ==> dump() missing 1 required positional argument: 'fp'
+>>>...MODULE:order_insert_multi()
+request data content: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+request data get error ==> b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}' is not JSON serializable
+>>>...MODULE:order_insert_multi()
+request data content: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+request data get error ==> dump() missing 1 required positional argument: 'fp'
+>>>...MODULE:order_insert_multi()
+request data content: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+request data get error ==> Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:order_insert_multi()
+request data content: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+>>>...MODULE:order_insert_multi()
+request data content: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+request data type: <class 'bytes'>
+>>>...MODULE:order_insert_multi()
+request data content: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+request data get error ==> __init__() got an unexpected keyword argument 'encoding'
+>>>...MODULE:order_insert_multi()
+request data content: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+request data type: <class 'bytes'>
+>>>...MODULE:order_insert_multi()
+request data content: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+request data content: "b'{\"author\":\"\\xe7\\x8e\\x8b\\xe8\\x8f\\xb2\",\"text\":\"\\xe6\\x88\\x91\\xe4\\xb8\\x8d\\xe9\\xa1\\x98\\xe6\\x84\\x8f!!\"}'"
+request data type: <class 'bytes'>
+>>>...MODULE:order_insert_multi()
+request data content: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+request data to json: "b'{\"author\":\"\\xe7\\x8e\\x8b\\xe8\\x8f\\xb2\",\"text\":\"\\xe6\\x88\\x91\\xe4\\xb8\\x8d\\xe9\\xa1\\x98\\xe6\\x84\\x8f!!\"}'"
+>>>...MODULE:order_insert_multi()
+request data content: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+request data to json: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+>>>...MODULE:order_insert_multi()
+request data content: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+request data to json: b'"b\'{\\"author\\":\\"\\\\xe7\\\\x8e\\\\x8b\\\\xe8\\\\x8f\\\\xb2\\",\\"text\\":\\"\\\\xe6\\\\x88\\\\x91\\\\xe4\\\\xb8\\\\x8d\\\\xe9\\\\xa1\\\\x98\\\\xe6\\\\x84\\\\x8f!!\\"}\'"'
+>>>...MODULE:order_insert_multi()
+request data content: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+request data to json: b'"b\'{\\"author\\":\\"\\\\xe7\\\\x8e\\\\x8b\\\\xe8\\\\x8f\\\\xb2\\",\\"text\\":\\"\\\\xe6\\\\x88\\\\x91\\\\xe4\\\\xb8\\\\x8d\\\\xe9\\\\xa1\\\\x98\\\\xe6\\\\x84\\\\x8f!!\\"}\'"'
+>>>...MODULE:order_insert_multi()
+request data content: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+request data to json: b'"b\'{\\"author\\":\\"\\\\xe7\\\\x8e\\\\x8b\\\\xe8\\\\x8f\\\\xb2\\",\\"text\\":\\"\\\\xe6\\\\x88\\\\x91\\\\xe4\\\\xb8\\\\x8d\\\\xe9\\\\xa1\\\\x98\\\\xe6\\\\x84\\\\x8f!!\\"}\'"'
+>>>...MODULE:order_insert_multi()
+request data content: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+request data to json: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+>>>...MODULE:order_insert_multi()
+request data content: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+request data to json: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+>>>...MODULE:order_insert_multi()
+request data content: b'{"author":"\xe7\x8e\x8b\xe8\x8f\xb2","text":"\xe6\x88\x91\xe4\xb8\x8d\xe9\xa1\x98\xe6\x84\x8f!!"}'
+request data to json: "b'{\"author\":\"\\xe7\\x8e\\x8b\\xe8\\x8f\\xb2\",\"text\":\"\\xe6\\x88\\x91\\xe4\\xb8\\x8d\\xe9\\xa1\\x98\\xe6\\x84\\x8f!!\"}'"
+>>>...MODULE:order_insert_multi()
+request data fail: byte indices must be integers, not str
+>>>...MODULE:order_insert_multi()
+request data content: 123
+request data to json: "b'{\"author\":\"\\xe7\\x8e\\x8b\\xe8\\x8f\\xb2\",\"text\":\"\\xe6\\x88\\x91\\xe4\\xb8\\x8d\\xe9\\xa1\\x98\\xe6\\x84\\x8f!!\"}'"
+>>>...MODULE:order_insert_multi()
+request data content: 34
+request data to json: "b'{\"author\":\"\\xe7\\x8e\\x8b\\xe8\\x8f\\xb2\",\"text\":\"\\xe6\\x88\\x91\\xe4\\xb8\\x8d\\xe9\\xa1\\x98\\xe6\\x84\\x8f!!\"}'"
+>>>...MODULE:order_insert_multi()
+request data content: 43
+request data to json: "b'{\"author\":\"\\xe7\\x8e\\x8b\\xe8\\x8f\\xb2\",\"text\":\"\\xe6\\x88\\x91\\xe4\\xb8\\x8d\\xe9\\xa1\\x98\\xe6\\x84\\x8f!!\"}'"
+>>>...MODULE:order_insert_multi()
+request data fail: 'bytes' object has no attribute 'read'
+>>>...MODULE:order_insert_multi()
+request data content: {'text': '我不願意!!', 'author': '王菲'}
+request data to json: "{'text': '我不願意!!', 'author': '王菲'}"
+>>>...MODULE:order_insert_multi()
+request data content: {'text': '我不願意!!', 'author': '王菲'}
+request data to json: "{'text': '我不願意!!', 'author': '王菲'}"
+>>>...MODULE:order_insert_multi()
+request data content: 2
+request data to json: "{'author': '王菲', 'text': '我不願意!!'}"
+>>>...MODULE:order_insert_multi()
+request data content: 2
+request data to json: "{'author': '王菲', 'text': '我不願意!!'}"
+>>>...MODULE:order_insert_multi()
+request data content: 2
+>>>...MODULE:order_insert_multi()
+request data content: 2
+request data fail: too many values to unpack (expected 2)
+>>>...MODULE:order_insert_multi()
+request data content: 2
+request data fail: need more than 1 value to unpack
+>>>...MODULE:order_insert_multi()
+request data content: 2
+text
+author
+>>>...MODULE:order_insert_multi()
+request data content: 2
+request data fail: string indices must be integers
+>>>...MODULE:order_insert_multi()
+request data content: 2
+author:a
+text:e
+>>>...MODULE:order_insert_multi()
+request data fail: the JSON object must be str, not 'dict'
+>>>...MODULE:order_insert_multi()
+request data fail: the JSON object must be str, not 'dict'
+>>>...MODULE:order_insert_multi()
+request data content: {'text': '我不願意!!', 'author': '王菲'}
+request data fail: too many values to unpack (expected 2)
+>>>...MODULE:order_insert_multi()
+request data content: {'text': '我不願意!!', 'author': '王菲'}
+text
+author
+>>>...MODULE:order_insert_multi()
+request data content: {'author': '王菲', 'text': '我不願意!!'}
+author:王菲
+text:我不願意!!
+>>>...MODULE:order_insert_multi()
+request data content: {'text': '我不願意!!', 'author': '王菲'}
+>>>...MODULE:order_insert_multi()
+request data content: {'author': '王菲', 'text': '我不願意!!'}
+>>>...MODULE:order_insert_multi()
+request data content: {'text': '我不願意!!', 'author': '王菲'}
+>>>...MODULE:order_insert_multi()
+request data fail: 400: Bad Request
+>>>...MODULE:order_insert_multi()
+request data content: {'Book_Barcode': '111111', 'Book_Description': '44444', 'Book_Price': '33333', 'Book_Name': '22222'}
+>>>...MODULE:book_insert_multi()
+request data content: {'Book_Description': 'aaaa', 'Book_Price': 'tttt', 'Book_Name': 'eeeee', 'Book_Barcode': 'wwww'}
+>>>...MODULE:app_validation_request()
+request data content: {'Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Password': 'e99999', 'Username': 'e99999'}
+>>>...MODULE:app_validation_request()
+request data content: {'Username': 'e99999', 'Password': 'e99999', 'Idfa': ''}
+>>>...MODULE:app_validation_request()
+request data content: {'Password': 'e99999', 'Idfa': '', 'Username': 'e99999'}
+密語發送失敗: 'ascii' codec can't encode characters in position 159-160: ordinal not in range(128)
+>>>...MODULE:app_validation_request()
+request data content: {'Password': 'e99999', 'Idfa': '', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Password': 'e99999', 'Idfa': '', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Password': 'e99999', 'Idfa': '', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Password': 'e99999', 'Idfa': '', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Password': 'e99999', 'Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Password': 'e99999', 'Idfa': '', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Password': 'e99999', 'Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Password': 'e99999', 'Idfa': '', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Password': 'e99999', 'Idfa': '', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Password': 'e99999', 'Idfa': '', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Password': 'e99999', 'Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Password': 'e99999', 'Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Password': 'e99999', 'Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Password': 'e99999', 'Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Password': 'e99999', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Password': 'e99999', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Password': 'e99999', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Password': 'e99999', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Password': 'e99999', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Password': 'e99999', 'Username': 'e99999'}
+密語信件發送完成
+>>>...MODULE:app_validation_request()
+request data content: {'Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Password': 'e99999', 'Username': 'e99999'}
+密語信件發送完成
