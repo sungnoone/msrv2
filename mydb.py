@@ -1,0 +1,41 @@
+TEST_DB_IP = "192.168.1.230"
+TEST_DB_PORT = 27017
+TEST_DB_NAME = "test2"
+TEST_DB_COLLECTION_NAME = "post1"
+
+
+DB_IP = "192.168.1.230"
+DB_PORT = 27017
+
+
+# DB -- Order
+DB_ORDER = "orders"
+COLLECTION_ORDER_OUTPUT = "order_output"
+
+
+#DB -- Books
+DB_BOOK_NAME = "books"
+COLLECTION_BOOK_STOCK = "book_in_stock"
+
+
+#DB -- Users
+DB_USERS = "users"
+COLLECTION_USERS = "account"
+#fields name map
+ACCOUNT_FIELD_USER_NAME = "User_Name"
+ACCOUNT_FIELD_USER_PASSWORD = "User_Password"
+ACCOUNT_FIELD_USER_EMAIL = "User_Email"
+ACCOUNT_FIELD_USER_PHONE_MOBILE = "User_Phone_Mobile"
+
+#DB -- Apps
+DB_APPS = "apps"
+COLLECTION_APP_REGISTER = "app_register"
+#fields name map
+APP_REGISTER_FIELD_APP_NAME = "App_Name"
+APP_REGISTER_FIELD_APP_USER = "App_User"
+APP_REGISTER_FIELD_APP_IDFA = "App_Idfa"
+APP_REGISTER_FIELD_Sys_Pass_Word = "Sys_Pass_Word"
+APP_REGISTER_FIELD_REGISTER_TIME = "Register_Time"
+APP_REGISTER_FIELD_ACTIVE = "App_Active"
+APP_REGISTER_FIELD_ACTION = "App_Action"
+

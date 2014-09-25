@@ -1,0 +1,2724 @@
+>>>...>>>...MODULE:record_save()2014-09-12 15:06:45.458274
+DB: users
+Collection: account
+Write Content: {'User_Name': 'hl', 'User_Email': 'wenjen@snoone.net', 'User_Password': '1234', 'User_Phone_Mobile': '8825252'}
+save data OK.
+>>>...>>>...MODULE:record_query()2014-09-12 16:06:25.832658
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-12 16:54:41.027217
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-12 16:54:41.032633
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'e99999', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_Name': None}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 10:39:12.329216
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 10:39:12.397476
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_User': 'e99999', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-09-16 10:39:19.458801
+DB: apps
+Collection: app_register
+Write Content: {'Sys_Pass_Word': 9553, 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_User': 'e99999', 'App_Name': 'iden1'}
+save data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 10:46:29.700861
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 10:46:29.706807
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_User': 'e99999', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 11:21:02.480715
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 11:21:02.489518
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_User': 'e99999', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 11:22:59.567821
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 11:22:59.573210
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_User': 'e99999', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 14:10:54.463896
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 14:10:54.470027
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'e99999', 'App_Name': 'iden1', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582'}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-09-16 14:10:59.168745
+DB: apps
+Collection: app_register
+Write Content: {'App_User': 'e99999', 'App_Name': 'iden1', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Register_Time': datetime.datetime(2014, 9, 16, 14, 10, 59, 168586), 'Sys_Pass_Word': 6063}
+save data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 14:11:02.457104
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 14:11:02.462186
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'e99999', 'App_Name': 'iden1', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 14:49:45.049810
+DB: apps
+Collection: account
+Query Content: {'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Sys_Pass_Word': '6063', 'App_User': 'e99999', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 14:55:00.504127
+DB: apps
+Collection: account
+Query Content: {'App_User': 'e99999', 'App_Name': 'iden1', 'Sys_Pass_Word': '6063', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 14:55:18.944349
+DB: apps
+Collection: account
+Query Content: {'App_User': 'e99999', 'App_Name': 'iden1', 'Sys_Pass_Word': '6063', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 14:56:51.885359
+DB: apps
+Collection: account
+Query Content: {'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Sys_Pass_Word': '6063', 'App_User': 'e99999', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 14:57:04.448591
+DB: apps
+Collection: account
+Query Content: {'Sys_Pass_Word': '6063', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 16:12:11.289214
+DB: apps
+Collection: account
+Query Content: {'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_User': 'e99999', 'Sys_Pass_Word': '6063', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 16:14:32.360598
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 16:14:32.365765
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-09-16 16:14:37.364219
+DB: apps
+Collection: app_register
+Write Content: {'App_Name': 'iden1', 'Sys_Pass_Word': '8907', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_User': 'e99999', 'Register_Time': datetime.datetime(2014, 9, 16, 16, 14, 37, 364074)}
+save data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 16:14:47.204585
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 16:14:47.218327
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-09-16 16:14:53.007916
+DB: apps
+Collection: app_register
+Write Content: {'App_Name': 'iden1', 'Sys_Pass_Word': '2036', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_User': 'e99999', 'Register_Time': datetime.datetime(2014, 9, 16, 16, 14, 53, 7708)}
+save data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 16:15:35.316586
+DB: apps
+Collection: account
+Query Content: {'App_Name': 'iden1', 'Sys_Pass_Word': '6063', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 16:16:14.472575
+DB: apps
+Collection: account
+Query Content: {'Sys_Pass_Word': '2036', 'App_User': 'e99999', 'App_Name': 'iden1', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 16:16:38.397698
+DB: apps
+Collection: account
+Query Content: {'Sys_Pass_Word': '2036', 'App_User': 'e99999', 'App_Name': 'iden1', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 16:17:54.168022
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'Sys_Pass_Word': '2036', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 16:23:14.134648
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'Sys_Pass_Word': '2036', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 16:25:50.967952
+DB: apps
+Collection: app_register
+Query Content: {'Sys_Pass_Word': '2036', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 16:26:37.742751
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_User': 'e99999', 'App_Name': 'iden1', 'Sys_Pass_Word': '2036'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 16:31:06.174698
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'e99999', 'App_Name': 'iden1', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Sys_Pass_Word': '2036'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 16:32:03.561257
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_User': 'e99999', 'App_Name': 'iden1', 'Sys_Pass_Word': '2036'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 16:32:47.348034
+DB: apps
+Collection: app_register
+Query Content: {'Sys_Pass_Word': '2036', 'App_User': 'e99999', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 16:32:50.439049
+DB: apps
+Collection: app_register
+Query Content: {'Sys_Pass_Word': '2036', 'App_User': 'e99999', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 16:37:19.858465
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'e99999', 'Sys_Pass_Word': '2036', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 17:08:45.177816
+DB: apps
+Collection: app_register
+Query Content: {'Sys_Pass_Word': '2036', 'App_User': 'e99999', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 17:09:18.089552
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 17:09:18.094671
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'e99999', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-09-16 17:09:21.766310
+DB: apps
+Collection: app_register
+Write Content: {'App_User': 'e99999', 'Register_Time': datetime.datetime(2014, 9, 16, 17, 9, 21, 766185), 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_Name': 'iden1', 'Sys_Pass_Word': '4561'}
+save data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 17:10:08.558560
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'e99999', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_Name': 'iden1', 'Sys_Pass_Word': '4561'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 17:11:24.341305
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Sys_Pass_Word': '4561'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 17:11:40.447837
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Sys_Pass_Word': '4561', 'App_User': 'e99999', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-16 17:11:42.826966
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Sys_Pass_Word': '4561', 'App_User': 'e99999', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 09:06:13.854856
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_User': 'e99999', 'Sys_Pass_Word': '4561', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 10:51:07.689755
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'e99999', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Sys_Pass_Word': '4561', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 10:51:10.508063
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'e99999', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'Sys_Pass_Word': '4561', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 10:55:14.811885
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 10:55:14.816565
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'e99999', 'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 13:50:46.595305
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 13:50:46.600928
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '072D6713-5FD5-4B92-A2C1-06D125E50582', 'App_User': 'e99999', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 13:58:24.622124
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 13:58:24.627947
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_User': 'e99999', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-09-17 13:58:29.324850
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'e99999'}
+Update Content: {'Sys_Pass_Word': '5400', 'App_User': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Register_Time': datetime.datetime(2014, 9, 17, 13, 58, 29, 324715), 'App_Name': 'e99999'}
+save data error: multi update only works with $ operators
+>>>...>>>...MODULE:record_query() 2014-09-17 14:08:11.879594
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 14:08:11.884589
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-17 14:08:15.489291
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'e99999'}
+Update Content: {'Register_Time': datetime.datetime(2014, 9, 17, 14, 8, 15, 489141), 'Sys_Pass_Word': '1523'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 14:11:56.830200
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 14:11:56.835533
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-17 14:12:00.210083
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'e99999'}
+Update Content: {'Register_Time': datetime.datetime(2014, 9, 17, 14, 12, 0, 209934), 'App_User': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '9482', 'App_Name': 'e99999'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 14:18:51.355636
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 14:18:51.360472
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'e99999', 'App_Name': 'iden1', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-17 14:18:54.874465
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'e99999', 'App_Name': 'iden1', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+Update Content: {'Register_Time': datetime.datetime(2014, 9, 17, 14, 18, 54, 874239), 'Sys_Pass_Word': '7461', 'App_User': 'e99999', 'App_Name': 'iden1', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 14:19:34.310182
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 14:19:34.315021
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 14:23:17.621943
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 14:23:17.627285
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-17 14:23:21.232083
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+Update Content: {'Register_Time': datetime.datetime(2014, 9, 17, 14, 23, 21, 231922), 'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '5685'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 15:05:51.587261
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 15:05:51.592476
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'e99999', 'App_Name': 'iden1', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-17 15:05:55.497625
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'e99999', 'App_Name': 'iden1', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+Update Content: {'App_User': 'e99999', 'App_Name': 'iden1', 'App_Active': 'false', 'Sys_Pass_Word': '2191', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Register_Time': datetime.datetime(2014, 9, 17, 15, 5, 55, 497447)}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 15:06:01.183882
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 15:06:01.189063
+DB: apps
+Collection: app_register
+Query Content: {'App_User': 'e99999', 'App_Name': 'iden1', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 15:29:08.009980
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 15:29:08.015285
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-17 15:29:11.574624
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '6030', 'App_Active': 'false', 'App_Action': datetime.datetime(2014, 9, 17, 15, 29, 11, 574471), 'App_Name': 'iden1', 'App_User': 'e99999', 'Register_Time': datetime.datetime(2014, 9, 17, 15, 29, 11, 574419)}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 15:29:15.525328
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 15:29:15.529834
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 15:29:18.417372
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 15:29:18.421771
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:29:02.559901
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:31:18.275215
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:34:56.451706
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:36:12.815562
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:37:53.402927
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:41:56.883072
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:41:56.887709
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999', 'Sys_Pass_Word': '4561'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:45:55.726315
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:45:55.731300
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-17 16:46:00.267923
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 17, 16, 46, 0, 267786), 'App_Active': 'false', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '2712', 'App_Name': 'iden1', 'App_User': 'e99999', 'Register_Time': datetime.datetime(2014, 9, 17, 16, 46, 0, 267717)}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:46:03.795711
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:46:03.801685
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:46:07.308818
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:46:07.313672
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:46:53.413597
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:46:53.418164
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '2712', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-17 16:46:53.441031
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '2712', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 17, 16, 46, 53, 440936), 'App_Active': 'true'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:47:31.926653
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:47:31.931609
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '2712', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-17 16:47:31.936541
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '2712', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 17, 16, 47, 31, 936458), 'App_Active': 'true'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:48:02.699937
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:48:02.704882
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '2712', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-17 16:48:02.709514
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '2712', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 17, 16, 48, 2, 709440), 'App_Active': 'true'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:48:38.883338
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:48:38.889312
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:49:35.012347
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:49:35.017014
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '2712', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:49:49.181994
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 16:49:49.187085
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '2712', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 17:12:43.257984
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 17:12:43.263431
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-17 17:12:46.961117
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 17, 17, 12, 46, 960973), 'App_Active': 'false', 'App_Idfa': '', 'Sys_Pass_Word': '6047', 'App_Name': 'iden1', 'App_User': 'e99999', 'Register_Time': datetime.datetime(2014, 9, 17, 17, 12, 46, 960937)}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 17:15:17.149047
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 17:15:17.153641
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 17:16:21.842083
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 17:16:21.846842
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 17:17:43.836173
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 17:17:43.857908
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 17:21:32.502902
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 17:21:32.507712
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 17:53:42.535965
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-17 17:53:42.542085
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:12:50.477209
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:12:50.485472
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:13:52.332043
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:13:52.336940
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-18 08:13:56.340465
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+Update Content: {'App_Name': 'iden1', 'App_Active': 'false', 'App_Action': datetime.datetime(2014, 9, 18, 8, 13, 56, 340269), 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '8307', 'App_User': 'e99999', 'Register_Time': datetime.datetime(2014, 9, 18, 8, 13, 56, 340234)}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:14:28.513019
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:14:28.517804
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:20:43.357145
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:20:43.361784
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:22:59.064976
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:22:59.069707
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:26:19.698279
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:26:19.703100
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:30:21.075808
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:30:21.080604
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:34:52.959128
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:34:52.963886
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:36:35.121839
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:36:35.127085
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:36:56.247277
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:36:56.251826
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:38:41.974904
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:38:41.979296
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:40:15.590401
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:40:15.595414
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:58:01.583120
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:58:01.588119
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:59:53.098774
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 08:59:53.103509
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 09:02:09.230563
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 09:02:09.235281
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 09:02:17.235034
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 09:02:17.239856
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 09:10:30.263190
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 09:10:30.276737
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 09:11:22.525986
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 09:11:22.561836
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 09:44:43.503346
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 09:44:43.518621
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 10:22:16.363191
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 10:22:16.384715
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 13:41:44.271523
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 13:41:44.314814
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 13:47:27.368143
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 13:47:27.372991
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 13:50:05.527012
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 13:50:05.531783
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 13:53:14.653566
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 13:53:14.658942
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 14:04:15.503050
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 14:04:15.508133
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 14:05:44.111080
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 14:05:44.115540
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 14:18:23.727185
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 14:18:23.732077
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 14:45:48.111368
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 14:45:48.136888
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 14:47:01.316284
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 14:47:01.320560
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 14:52:49.545390
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 14:52:49.550288
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 15:09:13.422025
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 15:09:13.427279
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 15:11:18.486306
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 15:11:18.490884
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 15:14:05.883067
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 15:14:05.887659
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 16:44:13.488295
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 16:44:13.504970
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 16:59:29.538663
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 16:59:29.543732
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:00:22.216931
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:00:22.221403
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:03:04.768496
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:03:04.790747
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:03:29.555526
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:03:29.560404
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '1234'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:03:50.446322
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:03:50.450958
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-18 17:03:55.365475
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+Update Content: {'App_Name': 'iden1', 'App_Active': 'false', 'App_Action': datetime.datetime(2014, 9, 18, 17, 3, 55, 365270), 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '1904', 'App_User': 'e99999', 'Register_Time': datetime.datetime(2014, 9, 18, 17, 3, 55, 365232)}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:04:56.690688
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:04:56.695171
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '1904'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-18 17:04:56.731500
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '1904'}
+Update Content: {'App_Active': 'true', 'App_Action': datetime.datetime(2014, 9, 18, 17, 4, 56, 731398)}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:05:13.504394
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:05:13.508769
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:05:39.500834
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:05:39.505069
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-18 17:05:42.237167
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+Update Content: {'App_Name': 'iden1', 'App_Active': 'false', 'App_Action': datetime.datetime(2014, 9, 18, 17, 5, 42, 237035), 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '4259', 'App_User': 'e99999', 'Register_Time': datetime.datetime(2014, 9, 18, 17, 5, 42, 236999)}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:05:55.014541
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:05:55.019376
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:06:06.154238
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:06:06.158444
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:06:16.219659
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:06:16.223907
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '1234'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:06:19.702461
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:06:19.707256
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '1234'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:06:29.303701
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:06:29.308399
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '1904'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:06:29.685519
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:06:29.689740
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '1904'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:06:34.580274
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:06:34.584428
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '1904'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:06:42.838305
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:06:42.844971
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '1904'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:06:50.156593
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:06:50.160938
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-18 17:06:52.904237
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+Update Content: {'App_Name': 'iden1', 'App_Active': 'false', 'App_Action': datetime.datetime(2014, 9, 18, 17, 6, 52, 904004), 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '1531', 'App_User': 'e99999', 'Register_Time': datetime.datetime(2014, 9, 18, 17, 6, 52, 903968)}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:06:52.909375
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:06:52.912998
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:07:16.111123
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:07:16.115872
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '1531'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-18 17:07:16.120610
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '1531'}
+Update Content: {'App_Active': 'true', 'App_Action': datetime.datetime(2014, 9, 18, 17, 7, 16, 120530)}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:07:24.115895
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:07:24.120202
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:14:14.529261
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:14:14.533845
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:14:33.576991
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:14:33.581159
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-18 17:14:37.093762
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+Update Content: {'App_Name': 'iden1', 'App_Active': 'false', 'App_Action': datetime.datetime(2014, 9, 18, 17, 14, 37, 93636), 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '2259', 'App_User': 'e99999', 'Register_Time': datetime.datetime(2014, 9, 18, 17, 14, 37, 93599)}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:15:31.367684
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:15:31.371970
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:17:06.540724
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:17:06.545435
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:24:40.365656
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-18 17:24:40.405042
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': ''}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-18 17:24:43.873038
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': ''}
+Update Content: {'App_Name': 'iden1', 'App_Active': 'false', 'App_Action': datetime.datetime(2014, 9, 18, 17, 24, 43, 872834), 'App_Idfa': '', 'Sys_Pass_Word': '9951', 'App_User': 'e99999', 'Register_Time': datetime.datetime(2014, 9, 18, 17, 24, 43, 872797)}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:18:37.691042
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:18:37.713998
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': ''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:29:25.915800
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:29:25.920710
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': ''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:34:04.947807
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:34:04.952314
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': ''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:34:41.051612
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:34:41.056057
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': ''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:35:26.508821
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:35:26.513467
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': ''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:36:57.796041
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:36:57.800557
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': ''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:40:35.310893
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:40:35.315753
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:40:57.310051
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:40:57.316102
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '2259'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:58:35.484427
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:58:35.489586
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:58:56.408196
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:58:56.412585
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '2259'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:58:56.465579
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 08:58:56.469629
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_User': 'e99999', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 13:59:05.656929
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 13:59:05.671008
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-19 13:59:10.556369
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 19, 13, 59, 10, 556154), 'Sys_Pass_Word': '6733', 'Register_Time': datetime.datetime(2014, 9, 19, 13, 59, 10, 556108), 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Active': 'false', 'App_Name': 'iden1', 'App_User': 'e99999'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 13:59:12.606373
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 13:59:12.610750
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 13:59:13.247178
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 13:59:13.251453
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 13:59:42.677311
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 13:59:42.682401
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 13:59:43.432480
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 13:59:43.436863
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:02:57.231443
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:02:57.236073
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:02:57.932464
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:02:57.936838
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:03:16.349579
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:03:16.354328
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '6733', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:03:17.279157
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:03:17.283545
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:04:53.539694
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:04:53.544282
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-19 14:04:56.899739
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 19, 14, 4, 56, 899597), 'Sys_Pass_Word': '5221', 'Register_Time': datetime.datetime(2014, 9, 19, 14, 4, 56, 899560), 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Active': 'false', 'App_Name': 'iden1', 'App_User': 'e99999'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:04:57.793642
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:04:57.797897
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:04:58.351713
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:04:58.356351
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:06:38.449161
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:06:38.454069
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-19 14:06:41.598859
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 19, 14, 6, 41, 598721), 'Sys_Pass_Word': '3376', 'Register_Time': datetime.datetime(2014, 9, 19, 14, 6, 41, 598663), 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Active': 'false', 'App_Name': 'iden1', 'App_User': 'e99999'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:06:42.388576
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:06:42.392933
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:06:42.919069
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:06:42.923380
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:09:19.190033
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:09:19.194663
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:09:19.962022
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:09:19.966336
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:09:49.144570
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:09:49.149136
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-19 14:09:52.796028
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 19, 14, 9, 52, 795833), 'Sys_Pass_Word': '9519', 'Register_Time': datetime.datetime(2014, 9, 19, 14, 9, 52, 795796), 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Active': 'false', 'App_Name': 'iden1', 'App_User': 'e99999'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:09:53.522006
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:09:53.526183
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:09:54.076422
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:09:54.080776
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:14:04.645237
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:14:04.668126
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:14:05.357463
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:14:05.361704
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:14:53.706443
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:14:53.711082
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-19 14:14:57.382192
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 19, 14, 14, 57, 382054), 'Sys_Pass_Word': '5769', 'Register_Time': datetime.datetime(2014, 9, 19, 14, 14, 57, 382016), 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Active': 'false', 'App_Name': 'iden1', 'App_User': 'e99999'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:15:03.983803
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:15:03.989280
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:15:04.529929
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:15:04.534188
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:18:17.507663
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:18:17.525691
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:18:21.156794
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:18:21.161656
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:20:07.737935
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:20:07.742824
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-19 14:20:11.343010
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 19, 14, 20, 11, 342864), 'Sys_Pass_Word': '5718', 'Register_Time': datetime.datetime(2014, 9, 19, 14, 20, 11, 342827), 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Active': 'false', 'App_Name': 'iden1', 'App_User': 'e99999'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:20:12.110818
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:20:12.115207
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:20:12.638649
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:20:12.643213
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:21:26.089279
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:21:26.093918
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:21:57.335451
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 14:21:57.340269
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-19 14:22:00.391031
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 19, 14, 22, 0, 390882), 'Sys_Pass_Word': '9312', 'Register_Time': datetime.datetime(2014, 9, 19, 14, 22, 0, 390799), 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Active': 'false', 'App_Name': 'iden1', 'App_User': 'e99999'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:17:08.849704
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:17:08.856239
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-19 15:17:12.577590
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 19, 15, 17, 12, 577376), 'Sys_Pass_Word': '4552', 'Register_Time': datetime.datetime(2014, 9, 19, 15, 17, 12, 577339), 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Active': 'false', 'App_Name': 'iden1', 'App_User': 'e99999'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:17:32.752637
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:17:32.757097
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '4552', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-19 15:17:32.762185
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '4552', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 19, 15, 17, 32, 762108), 'App_Active': 'true'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:18:41.561878
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:18:41.566444
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:18:59.456010
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:18:59.460540
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-19 15:19:02.124653
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 19, 15, 19, 2, 124524), 'Sys_Pass_Word': '6964', 'Register_Time': datetime.datetime(2014, 9, 19, 15, 19, 2, 124489), 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Active': 'false', 'App_Name': 'iden1', 'App_User': 'e99999'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:19:17.097325
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:19:17.102019
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '6964', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-19 15:19:17.106788
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '6964', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 19, 15, 19, 17, 106664), 'App_Active': 'true'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:19:35.520781
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:19:35.525848
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:35:38.139402
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:35:38.145059
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:35:50.062337
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:35:50.067574
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:35:54.583573
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:35:54.589011
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:50:14.608845
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:50:14.614142
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:50:44.152457
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:50:44.157433
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-19 15:50:47.614564
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 19, 15, 50, 47, 614366), 'Sys_Pass_Word': '9074', 'Register_Time': datetime.datetime(2014, 9, 19, 15, 50, 47, 614328), 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Active': 'false', 'App_Name': 'iden1', 'App_User': 'e99999'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:51:10.349254
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:51:10.353901
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '9074', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-19 15:51:10.358778
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '9074', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 19, 15, 51, 10, 358697), 'App_Active': 'true'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:59:12.927226
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:59:12.932769
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:59:41.437144
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:59:41.442038
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-19 15:59:45.055844
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 19, 15, 59, 45, 55713), 'Sys_Pass_Word': '3361', 'Register_Time': datetime.datetime(2014, 9, 19, 15, 59, 45, 55678), 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Active': 'false', 'App_Name': 'iden1', 'App_User': 'e99999'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:59:45.876758
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 15:59:45.882678
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 16:03:37.896456
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 16:03:37.900952
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 16:04:59.338267
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 16:04:59.343601
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-19 16:05:02.089479
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 19, 16, 5, 2, 89341), 'Sys_Pass_Word': '7818', 'Register_Time': datetime.datetime(2014, 9, 19, 16, 5, 2, 89304), 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Active': 'false', 'App_Name': 'iden1', 'App_User': 'e99999'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 16:05:19.900642
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 16:05:19.905015
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '7818', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-19 16:05:19.909964
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '7818', 'App_Name': 'iden1', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 19, 16, 5, 19, 909881), 'App_Active': 'true'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 16:05:41.549580
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 16:05:41.554432
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_Name': 'iden1', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 17:43:09.633820
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 17:43:09.639255
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-19 17:43:13.994847
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_User': 'e99999'}
+Update Content: {'App_Name': 'iden1', 'App_Action': datetime.datetime(2014, 9, 19, 17, 43, 13, 994711), 'App_Active': 'false', 'Register_Time': datetime.datetime(2014, 9, 19, 17, 43, 13, 994674), 'App_User': 'e99999', 'Sys_Pass_Word': '1151', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 17:46:54.347160
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 17:46:54.352123
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '1151', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 17:47:02.542549
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 17:47:02.546965
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '1151', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 17:47:23.391457
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 17:47:23.395835
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 17:47:23.429364
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-19 17:47:26.662806
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_User': 'e99999'}
+Update Content: {'App_Name': 'iden1', 'App_Action': datetime.datetime(2014, 9, 19, 17, 47, 26, 662665), 'App_Active': 'false', 'Register_Time': datetime.datetime(2014, 9, 19, 17, 47, 26, 662650), 'App_User': 'e99999', 'Sys_Pass_Word': '9845', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 17:47:57.210275
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 17:47:57.215289
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '9845', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-19 17:47:57.219690
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'Sys_Pass_Word': '9845', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 19, 17, 47, 57, 219593), 'App_Active': 'true'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 17:48:05.552791
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-19 17:48:05.557079
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CFC92354-08FE-430D-A4FF-8029DBB24154', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 10:04:59.032158
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 10:04:59.058308
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CBD3BCCB-7748-44CE-A887-0FCFA4ED96D5', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-22 10:05:03.560794
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CBD3BCCB-7748-44CE-A887-0FCFA4ED96D5', 'App_User': 'e99999'}
+Update Content: {'App_Name': 'iden1', 'App_Action': datetime.datetime(2014, 9, 22, 10, 5, 3, 560576), 'App_Active': 'false', 'Register_Time': datetime.datetime(2014, 9, 22, 10, 5, 3, 560540), 'App_User': 'e99999', 'Sys_Pass_Word': '7572', 'App_Idfa': 'CBD3BCCB-7748-44CE-A887-0FCFA4ED96D5'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 10:06:15.926705
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 10:06:15.931742
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CBD3BCCB-7748-44CE-A887-0FCFA4ED96D5', 'Sys_Pass_Word': '7572', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-22 10:06:15.937009
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CBD3BCCB-7748-44CE-A887-0FCFA4ED96D5', 'Sys_Pass_Word': '7572', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 22, 10, 6, 15, 936932), 'App_Active': 'true'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 10:07:26.786442
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 10:07:26.791145
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CBD3BCCB-7748-44CE-A887-0FCFA4ED96D5', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 11:55:23.273820
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 11:55:23.302760
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CBD3BCCB-7748-44CE-A887-0FCFA4ED96D5', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 13:08:34.037513
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 13:08:34.063610
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CBD3BCCB-7748-44CE-A887-0FCFA4ED96D5', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 13:57:01.678435
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 13:57:01.704370
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CBD3BCCB-7748-44CE-A887-0FCFA4ED96D5', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:18:57.249993
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:18:57.271726
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CBD3BCCB-7748-44CE-A887-0FCFA4ED96D5', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-22 15:19:01.198580
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CBD3BCCB-7748-44CE-A887-0FCFA4ED96D5', 'App_User': 'e99999'}
+Update Content: {'App_Name': 'iden1', 'App_Action': datetime.datetime(2014, 9, 22, 15, 19, 1, 198369), 'App_Active': 'false', 'Register_Time': datetime.datetime(2014, 9, 22, 15, 19, 1, 198330), 'App_User': 'e99999', 'Sys_Pass_Word': '8904', 'App_Idfa': 'CBD3BCCB-7748-44CE-A887-0FCFA4ED96D5'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:21:07.377297
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:21:07.382009
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CBD3BCCB-7748-44CE-A887-0FCFA4ED96D5', 'Sys_Pass_Word': '8904', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-22 15:21:07.387467
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': 'CBD3BCCB-7748-44CE-A887-0FCFA4ED96D5', 'Sys_Pass_Word': '8904', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 22, 15, 21, 7, 387386), 'App_Active': 'true'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:29:09.115639
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:29:09.137879
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-22 15:29:12.765180
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999'}
+Update Content: {'App_Name': 'iden1', 'App_Action': datetime.datetime(2014, 9, 22, 15, 29, 12, 765012), 'App_Active': 'false', 'Register_Time': datetime.datetime(2014, 9, 22, 15, 29, 12, 764974), 'App_User': 'e99999', 'Sys_Pass_Word': '4239', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:30:58.968325
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:30:58.972975
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:30:59.009740
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-22 15:31:02.090439
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999'}
+Update Content: {'App_Name': 'iden1', 'App_Action': datetime.datetime(2014, 9, 22, 15, 31, 2, 90285), 'App_Active': 'false', 'Register_Time': datetime.datetime(2014, 9, 22, 15, 31, 2, 90267), 'App_User': 'e99999', 'Sys_Pass_Word': '5979', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:33:14.365841
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:33:14.385216
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'Sys_Pass_Word': '4239', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:35:36.405120
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:35:36.410255
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'Sys_Pass_Word': '5979', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:35:47.536513
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:35:47.541255
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:35:47.584493
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-22 15:35:51.104739
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999'}
+Update Content: {'App_Name': 'iden1', 'App_Action': datetime.datetime(2014, 9, 22, 15, 35, 51, 104597), 'App_Active': 'false', 'Register_Time': datetime.datetime(2014, 9, 22, 15, 35, 51, 104582), 'App_User': 'e99999', 'Sys_Pass_Word': '9836', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:36:19.257384
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:36:19.261632
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'Sys_Pass_Word': '9836', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-22 15:36:19.266138
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'Sys_Pass_Word': '9836', 'App_User': 'e99999'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 22, 15, 36, 19, 266063), 'App_Active': 'true'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:45:00.743320
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 15:45:00.758252
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 16:06:51.948115
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 16:06:51.972096
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 16:07:03.181825
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 16:07:03.186134
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 16:26:32.164525
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 16:26:32.197775
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 16:37:19.263682
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 16:37:19.292487
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 16:44:56.261145
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 16:44:56.284365
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 16:46:35.206844
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 16:46:35.211338
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 16:47:33.267002
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 16:47:33.289957
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 16:52:14.854525
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 16:52:14.882336
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 16:59:39.928714
+DB: users
+Collection: account
+Query Content: {'User_Name': 'e99999', 'User_Password': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-22 16:59:39.946255
+DB: apps
+Collection: app_register
+Query Content: {'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 16:08:05.595209
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'E99999E'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 16:10:10.700900
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'E99999E'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 16:11:57.549857
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999e'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 16:12:26.977829
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 16:12:26.991879
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 16:46:43.866269
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 16:46:43.888522
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 16:47:58.514852
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 16:47:58.529392
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 16:48:58.036836
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-23 16:49:03.779044
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999', 'App_Name': 'iden1'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 23, 16, 49, 3, 778892), 'App_User': 'e99999', 'Register_Time': datetime.datetime(2014, 9, 23, 16, 49, 3, 778877), 'Sys_Pass_Word': '6298', 'App_Active': 'false', 'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 16:51:31.631036
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 16:51:31.655078
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 16:51:31.704426
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-23 16:51:35.353782
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999', 'App_Name': 'iden1'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 23, 16, 51, 35, 353629), 'App_User': 'e99999', 'Register_Time': datetime.datetime(2014, 9, 23, 16, 51, 35, 353613), 'Sys_Pass_Word': '2909', 'App_Active': 'false', 'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 16:52:19.315056
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 16:52:19.320092
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999', 'App_Name': 'iden1', 'Sys_Pass_Word': '2909'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-23 16:52:19.369199
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e99999', 'App_Name': 'iden1', 'Sys_Pass_Word': '2909'}
+Update Content: {'App_Active': 'true', 'App_Action': datetime.datetime(2014, 9, 23, 16, 52, 19, 369094)}
+update data OK.
+>>>...>>>...MODULE:record_save() 2014-09-23 16:57:26.283936
+DB: users
+Collection: account
+Write Content: {'User_Email': 'wenjen@hanlin.com.tw', 'User_Password': '12345', 'User_Phone_Mobile': '123456789', 'User_Name': 'e00277'}
+save data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 16:59:07.037020
+DB: users
+Collection: account
+Query Content: {'User_Password': 'e99999', 'User_Name': 'e00277'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 17:17:44.463920
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e00277'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 17:17:44.469627
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e00277', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-23 17:17:47.894045
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e00277', 'App_Name': 'iden1'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 23, 17, 17, 47, 893833), 'App_User': 'e00277', 'Register_Time': datetime.datetime(2014, 9, 23, 17, 17, 47, 893785), 'Sys_Pass_Word': '1620', 'App_Active': 'false', 'App_Name': 'iden1', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 17:18:44.747951
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e00277'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-23 17:18:44.752636
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e00277', 'App_Name': 'iden1', 'Sys_Pass_Word': '1620'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-23 17:18:44.757623
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e00277', 'App_Name': 'iden1', 'Sys_Pass_Word': '1620'}
+Update Content: {'App_Active': 'true', 'App_Action': datetime.datetime(2014, 9, 23, 17, 18, 44, 757542)}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 08:57:32.836242
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e00277'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 08:57:32.852582
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e00277', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 09:53:15.747353
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e0027'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 09:54:46.717624
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e0027'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 09:56:05.333829
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e00277'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 09:56:05.338307
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e00277', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 09:57:42.843327
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e0027'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 09:58:52.054846
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e00277'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 09:58:52.059263
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e00277', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:00:46.702264
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e00277'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:00:46.706789
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e00277', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:02:16.567322
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e0027'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:02:36.900911
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e00277'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:02:36.905111
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e00277', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:02:59.060937
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e0027'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:04:23.343850
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e00278'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:04:42.815184
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e00277'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:04:42.819497
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e00277', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:04:57.840955
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e002'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:06:50.868655
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e002'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:07:02.882030
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e002e'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:08:33.549946
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e002e'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:08:48.734760
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e0027'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:09:04.499375
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e00273'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:09:15.260284
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e00277'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:09:15.264589
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e00277', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:09:27.460415
+DB: users
+Collection: account
+Query Content: {'User_Password': '1234', 'User_Name': 'e00277'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:09:37.210403
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e00277'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 10:09:37.214914
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e00277', 'App_Name': 'iden1'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 11:55:45.621650
+DB: users
+Collection: account
+Query Content: {'User_Password': 'E99999', 'User_Name': 'e99999'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 11:57:50.689910
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e00277'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 11:57:50.694999
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e00277', 'App_Name': 'iden2'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-24 11:57:54.925493
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e00277', 'App_Name': 'iden2'}
+Update Content: {'App_Action': datetime.datetime(2014, 9, 24, 11, 57, 54, 925291), 'App_User': 'e00277', 'Register_Time': datetime.datetime(2014, 9, 24, 11, 57, 54, 925254), 'Sys_Pass_Word': '1131', 'App_Active': 'false', 'App_Name': 'iden2', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 11:58:29.601228
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e00277'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 11:58:29.605679
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e00277', 'App_Name': 'iden2', 'Sys_Pass_Word': '1234'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 11:58:48.927520
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e00277'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 11:58:48.932896
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e00277', 'App_Name': 'iden2', 'Sys_Pass_Word': '1131'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-09-24 11:58:48.945893
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e00277', 'App_Name': 'iden2', 'Sys_Pass_Word': '1131'}
+Update Content: {'App_Active': 'true', 'App_Action': datetime.datetime(2014, 9, 24, 11, 58, 48, 945783)}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 11:59:14.178043
+DB: users
+Collection: account
+Query Content: {'User_Password': '12345', 'User_Name': 'e00277'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-09-24 11:59:14.182708
+DB: apps
+Collection: app_register
+Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_User': 'e00277', 'App_Name': 'iden2'}
+query data OK.
