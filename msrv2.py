@@ -15,7 +15,8 @@ from email.mime.image import MIMEImage
 import random
 
 import datetime
-import mydb
+
+import conf
 
 app = Flask(__name__)
 cors = CORS(app)
@@ -43,9 +44,9 @@ def hello_world():
 @cross_origin()
 def test_connect_mongodb():
     try:
-        client = MongoClient(mydb.TEST_DB_IP, mydb.TEST_DB_PORT)
-        db = client[mydb.TEST_DB_NAME]
-        collection = db[mydb.TEST_DB_COLLECTION_NAME]
+        client = MongoClient(conf.TEST_DB_IP, conf.TEST_DB_PORT)
+        db = client[conf.TEST_DB_NAME]
+        collection = db[conf.TEST_DB_COLLECTION_NAME]
         client.close()
         return "Mongodb test connection successful! -- "
     except Exception as e:
@@ -57,9 +58,9 @@ def test_connect_mongodb():
 @cross_origin()
 def order_query_all():
     try:
-        client = MongoClient(mydb.DB_IP, mydb.DB_PORT)
-        db = client[mydb.TEST_DB_NAME]
-        collection = db[mydb.COLLECTION_ORDER_OUTPUT]
+        client = MongoClient(conf.DB_IP, conf.DB_PORT)
+        db = client[conf.TEST_DB_NAME]
+        collection = db[conf.COLLECTION_ORDER_OUTPUT]
         #Query all data
         s = ""
         for post in collection.find():
@@ -86,9 +87,9 @@ def order_insert_multi():
         return "Remote return fail!"
 
     try:
-        client = MongoClient(mydb.DB_IP, mydb.DB_PORT)
-        db = client[mydb.DB_ORDER]
-        collection = db[mydb.COLLECTION_ORDER_OUTPUT]
+        client = MongoClient(conf.DB_IP, conf.DB_PORT)
+        db = client[conf.DB_ORDER]
+        collection = db[conf.COLLECTION_ORDER_OUTPUT]
         post_id = collection.insert(request_data)
         client.close()
     except Exception as e:
@@ -115,9 +116,9 @@ def book_insert_multi():
         return "Remote return fail!"
 
     try:
-        client = MongoClient(mydb.DB_IP, mydb.DB_PORT)
-        db = client[mydb.DB_BOOK_NAME]
-        collection = db[mydb.COLLECTION_BOOK_STOCK]
+        client = MongoClient(conf.DB_IP, conf.DB_PORT)
+        db = client[conf.DB_BOOK_NAME]
+        collection = db[conf.COLLECTION_BOOK_STOCK]
         post_id = collection.insert(request_data)
         client.close()
     except Exception as e:
@@ -157,9 +158,9 @@ def app_validation_request():
     app_name = request_data.get("App_Name")
 
     #check user exists and password correct
-    find_user_condition = {mydb.ACCOUNT_FIELD_USER_NAME:app_username,
-                           mydb.ACCOUNT_FIELD_USER_PASSWORD:app_password}
-    find_user_result = record_query(mydb.DB_USERS, mydb.COLLECTION_USERS, find_user_condition)
+    find_user_condition = {conf.ACCOUNT_FIELD_USER_NAME:app_username,
+                           conf.ACCOUNT_FIELD_USER_PASSWORD:app_password}
+    find_user_result = record_query(conf.DB_USERS, conf.COLLECTION_USERS, find_user_condition)
     log.write("find user count: "+str(find_user_result.count())+"\r\n")
     #check user exists
     if find_user_result.count() == 0:
@@ -172,10 +173,10 @@ def app_validation_request():
         return "00x005"
 
     #check app registration
-    find_app_condition = {mydb.APP_REGISTER_FIELD_APP_NAME:app_name,
-                          mydb.APP_REGISTER_FIELD_APP_IDFA:app_idfa,
-                          mydb.APP_REGISTER_FIELD_APP_USER:app_username}
-    find_app_result = record_query(mydb.DB_APPS, mydb.COLLECTION_APP_REGISTER, find_app_condition)
+    find_app_condition = {conf.APP_REGISTER_FIELD_APP_NAME:app_name,
+                          conf.APP_REGISTER_FIELD_APP_IDFA:app_idfa,
+                          conf.APP_REGISTER_FIELD_APP_USER:app_username}
+    find_app_result = record_query(conf.DB_APPS, conf.COLLECTION_APP_REGISTER, find_app_condition)
     log.write("find app count: "+str(find_app_result.count())+"\r\n")
     if find_app_result.count() == 0:
         log.write("無符合條件APP記錄\r\n")
@@ -195,15 +196,15 @@ def app_validation_request():
         # save pass word into recode, wating for user check
         now_time = datetime.datetime.now()
         log.write("query json: "+str(find_app_condition)+"\r\n")
-        update_json = {mydb.APP_REGISTER_FIELD_APP_NAME:app_name,
-                       mydb.APP_REGISTER_FIELD_APP_IDFA:app_idfa,
-                       mydb.APP_REGISTER_FIELD_APP_USER:app_username,
-                       mydb.APP_REGISTER_FIELD_Sys_Pass_Word:sn,
-                       mydb.APP_REGISTER_FIELD_REGISTER_TIME:now_time,
-                       mydb.APP_REGISTER_FIELD_ACTIVE:"false",
-                       mydb.APP_REGISTER_FIELD_ACTION:datetime.datetime.now()}
+        update_json = {conf.APP_REGISTER_FIELD_APP_NAME:app_name,
+                       conf.APP_REGISTER_FIELD_APP_IDFA:app_idfa,
+                       conf.APP_REGISTER_FIELD_APP_USER:app_username,
+                       conf.APP_REGISTER_FIELD_Sys_Pass_Word:sn,
+                       conf.APP_REGISTER_FIELD_REGISTER_TIME:now_time,
+                       conf.APP_REGISTER_FIELD_ACTIVE:"false",
+                       conf.APP_REGISTER_FIELD_ACTION:datetime.datetime.now()}
         log.write("update json: "+str(update_json)+"\r\n")
-        register_result = record_update(mydb.DB_APPS, mydb.COLLECTION_APP_REGISTER, find_app_condition, update_json)
+        register_result = record_update(conf.DB_APPS, conf.COLLECTION_APP_REGISTER, find_app_condition, update_json)
         if register_result is False:
             return "00x006"
         log.write("系統已註冊APP資訊及通關密語: "+str(register_result)+"\r\n")
@@ -219,7 +220,7 @@ def app_validation_request():
     #check app active status
     for record in find_app_result:
         #app idfa not active
-        if record[mydb.APP_REGISTER_FIELD_ACTIVE]=="false":
+        if record[conf.APP_REGISTER_FIELD_ACTIVE]=="false":
             return "00x008"
     #update action time
 
@@ -248,9 +249,9 @@ def app_reset_pass_word():
     app_name = request_data.get("App_Name")
 
     #check user exists and password correct
-    find_user_condition = {mydb.ACCOUNT_FIELD_USER_NAME:app_username,
-                           mydb.ACCOUNT_FIELD_USER_PASSWORD:app_password}
-    find_user_result = record_query(mydb.DB_USERS, mydb.COLLECTION_USERS, find_user_condition)
+    find_user_condition = {conf.ACCOUNT_FIELD_USER_NAME:app_username,
+                           conf.ACCOUNT_FIELD_USER_PASSWORD:app_password}
+    find_user_result = record_query(conf.DB_USERS, conf.COLLECTION_USERS, find_user_condition)
     log.write("find user count: "+str(find_user_result.count())+"\r\n")
     #check user exists
     if find_user_result.count() == 0:
@@ -276,18 +277,18 @@ def app_reset_pass_word():
         return "密語發送失敗，請稍後再試。"
 
     #update active, action, register time, pass word
-    find_app_json = {mydb.APP_REGISTER_FIELD_APP_NAME:app_name,
-                          mydb.APP_REGISTER_FIELD_APP_IDFA:app_idfa,
-                          mydb.APP_REGISTER_FIELD_APP_USER:app_username}
-    update_json = {mydb.APP_REGISTER_FIELD_APP_NAME:app_name,
-                   mydb.APP_REGISTER_FIELD_APP_IDFA:app_idfa,
-                   mydb.APP_REGISTER_FIELD_APP_USER:app_username,
-                   mydb.APP_REGISTER_FIELD_Sys_Pass_Word:sn,
-                   mydb.APP_REGISTER_FIELD_REGISTER_TIME:datetime.datetime.now(),
-                   mydb.APP_REGISTER_FIELD_ACTIVE:"false",
-                   mydb.APP_REGISTER_FIELD_ACTION:datetime.datetime.now()}
+    find_app_json = {conf.APP_REGISTER_FIELD_APP_NAME:app_name,
+                          conf.APP_REGISTER_FIELD_APP_IDFA:app_idfa,
+                          conf.APP_REGISTER_FIELD_APP_USER:app_username}
+    update_json = {conf.APP_REGISTER_FIELD_APP_NAME:app_name,
+                   conf.APP_REGISTER_FIELD_APP_IDFA:app_idfa,
+                   conf.APP_REGISTER_FIELD_APP_USER:app_username,
+                   conf.APP_REGISTER_FIELD_Sys_Pass_Word:sn,
+                   conf.APP_REGISTER_FIELD_REGISTER_TIME:datetime.datetime.now(),
+                   conf.APP_REGISTER_FIELD_ACTIVE:"false",
+                   conf.APP_REGISTER_FIELD_ACTION:datetime.datetime.now()}
     log.write("update json: "+str(update_json)+"\r\n")
-    update_app_info_result = record_update(mydb.DB_APPS, mydb.COLLECTION_APP_REGISTER, find_app_json, update_json)
+    update_app_info_result = record_update(conf.DB_APPS, conf.COLLECTION_APP_REGISTER, find_app_json, update_json)
     log.write("update_app_info_result: "+str(update_app_info_result)+"\r\n")
     if update_app_info_result is False:
         return "00x006"
@@ -318,8 +319,8 @@ def app_register_request():
     sys_pass_word = request_data.get("Sys_Pass_Word")
 
     #check user exists and password correct
-    find_user_condition = {mydb.ACCOUNT_FIELD_USER_NAME:app_username, mydb.ACCOUNT_FIELD_USER_PASSWORD:app_password}
-    find_user_result = record_query(mydb.DB_USERS, mydb.COLLECTION_USERS, find_user_condition)
+    find_user_condition = {conf.ACCOUNT_FIELD_USER_NAME:app_username, conf.ACCOUNT_FIELD_USER_PASSWORD:app_password}
+    find_user_result = record_query(conf.DB_USERS, conf.COLLECTION_USERS, find_user_condition)
     log.write("find user count: "+str(find_user_result.count())+"\r\n")
     #check user exists
     if find_user_result.count() == 0:
@@ -332,17 +333,17 @@ def app_register_request():
         return "00x005"
 
     # check if pass word match
-    query_register_record = {mydb.APP_REGISTER_FIELD_APP_NAME:app_name,
-                             mydb.APP_REGISTER_FIELD_APP_IDFA:app_idfa,
-                             mydb.APP_REGISTER_FIELD_APP_USER:app_username,
-                             mydb.APP_REGISTER_FIELD_Sys_Pass_Word:sys_pass_word}
+    query_register_record = {conf.APP_REGISTER_FIELD_APP_NAME:app_name,
+                             conf.APP_REGISTER_FIELD_APP_IDFA:app_idfa,
+                             conf.APP_REGISTER_FIELD_APP_USER:app_username,
+                             conf.APP_REGISTER_FIELD_Sys_Pass_Word:sys_pass_word}
     log.write("find app register json: "+str(query_register_record)+"\r\n")
-    query_register_record_result = record_query(mydb.DB_APPS, mydb.COLLECTION_APP_REGISTER, query_register_record)
+    query_register_record_result = record_query(conf.DB_APPS, conf.COLLECTION_APP_REGISTER, query_register_record)
     log.write("find app register count: "+str(query_register_record_result.count())+"\r\n")
     if (query_register_record_result.count() == 0) or (query_register_record_result is False):
         return "00x003"
     #count time interval
-    register_time = datetime.datetime.strptime(str(query_register_record_result[0][mydb.APP_REGISTER_FIELD_REGISTER_TIME]),"%Y-%m-%d %H:%M:%S.%f")
+    register_time = datetime.datetime.strptime(str(query_register_record_result[0][conf.APP_REGISTER_FIELD_REGISTER_TIME]),"%Y-%m-%d %H:%M:%S.%f")
     interval = datetime.datetime.now() - register_time
     #check interval
     if interval.seconds > 180:
@@ -350,9 +351,9 @@ def app_register_request():
         return "00x007"
     log.write("使用者通過密語驗證-間隔(秒): "+str(interval.seconds)+"\r\n")
     #update app active status and action time
-    update_json = {mydb.APP_REGISTER_FIELD_ACTIVE:"true",
-                   mydb.APP_REGISTER_FIELD_ACTION:datetime.datetime.now()}
-    update_result = record_update(mydb.DB_APPS, mydb.COLLECTION_APP_REGISTER, query_register_record, update_json)
+    update_json = {conf.APP_REGISTER_FIELD_ACTIVE:"true",
+                   conf.APP_REGISTER_FIELD_ACTION:datetime.datetime.now()}
+    update_result = record_update(conf.DB_APPS, conf.COLLECTION_APP_REGISTER, query_register_record, update_json)
     log.write("更新json: "+str(update_json)+"\r\n")
     log.write("更新啟用狀態: "+str(update_result)+"\r\n")
     log.close()
@@ -378,7 +379,7 @@ def account_create():
         return False
 
     #save user data
-    user_id = record_save(mydb.DB_USERS, mydb.COLLECTION_USERS, request_data)
+    user_id = record_save(conf.DB_USERS, conf.COLLECTION_USERS, request_data)
     if user_id is False:
         log.write("Add user fail.新增使用者失敗\r\n")
         log.close()
@@ -435,7 +436,7 @@ def record_query(use_db, use_collection, json_content):
         return False
 
     try:
-        client = MongoClient(mydb.DB_IP, mydb.DB_PORT)
+        client = MongoClient(conf.DB_IP, conf.DB_PORT)
         db = client[use_db]
         collection = db[use_collection]
         find_result = collection.find(json_content)
@@ -464,7 +465,7 @@ def record_save(use_db, use_collection, json_content):
         return False
 
     try:
-        client = MongoClient(mydb.DB_IP, mydb.DB_PORT)
+        client = MongoClient(conf.DB_IP, conf.DB_PORT)
         db = client[use_db]
         collection = db[use_collection]
         record_id = collection.insert(json_content)
@@ -499,7 +500,7 @@ def record_update(use_db, use_collection, query_json, update_json):
         return False
 
     try:
-        client = MongoClient(mydb.DB_IP, mydb.DB_PORT)
+        client = MongoClient(conf.DB_IP, conf.DB_PORT)
         db = client[use_db]
         collection = db[use_collection]
         update_result = collection.update(query_json, {"$set": update_json}, upsert=True, multi=True)
@@ -523,4 +524,4 @@ def record_delete():
 
 if __name__ == '__main__':
     #app.run(port=8088) #production environment
-    app.run(host="192.168.1.229", port=8088)
+    app.run(host=conf.HOST_IP, port=conf.HOST_PORT)
