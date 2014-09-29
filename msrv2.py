@@ -172,6 +172,11 @@ def app_validation_request():
         log.close()
         return "00x005"
 
+    #get user email
+    for user in find_user_result:
+        user_email = str(user[conf.ACCOUNT_FIELD_USER_EMAIL])
+        log.write("user email:"+str(user[conf.ACCOUNT_FIELD_USER_EMAIL])+"\r\n")
+
     #check app registration
     find_app_condition = {conf.APP_REGISTER_FIELD_APP_NAME:app_name,
                           conf.APP_REGISTER_FIELD_APP_IDFA:app_idfa,
@@ -184,7 +189,7 @@ def app_validation_request():
         #send pass security number by email random 4 numbers
         sn = str(random.randrange(1000,9999))
         from_address = "service1@snoone.net"
-        to_address = "wenjen@hanlin.com.tw"
+        to_address = user_email
         mail_subject = "App中心密語發送"
         mail_body = "請在App中輸入下列數字：\r\n"+ str(sn)
         send_mail_result = send_mail(from_address, to_address, mail_subject, mail_body)
@@ -263,11 +268,16 @@ def app_reset_pass_word():
         log.close()
         return "00x005"
 
+    #get user email
+    for user in find_user_result:
+        user_email = str(user[conf.ACCOUNT_FIELD_USER_EMAIL])
+        log.write("user email:"+str(user[conf.ACCOUNT_FIELD_USER_EMAIL])+"\r\n")
+
     #generate new pass number and send
     sn = str(random.randrange(1000,9999))
     #send security number to user
     from_address = "service1@snoone.net"
-    to_address = "wenjen@hanlin.com.tw"
+    to_address = user_email
     mail_subject = "App中心密語發送"
     mail_body = "請在App中輸入下列數字：\r\n"+ str(sn)
     send_mail_result = send_mail(from_address, to_address, mail_subject, mail_body)
