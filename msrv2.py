@@ -28,7 +28,8 @@ LOG_SEND_MAIL = APP_PATH+"/sendmail.log"
 LOG_CHECK_USER = APP_PATH+"/checkuser.log"
 LOG_DB_OPERATE = APP_PATH+"/db.log"
 
-#=============================== Book & Order =========================================
+
+#=============================== test service =========================================
 
 @app.route('/msrv2/')
 @cross_origin()
@@ -37,7 +38,6 @@ def hello_world():
     log.write('>>>...MODULE:hello_world()'+'\r\n')
     return 'Hello World wenjen!'
     #return LOG_FILE_FULL_PATH
-
 
 # Testing mongodb
 @app.route('/msrv2/connect1/')
@@ -53,26 +53,45 @@ def test_connect_mongodb():
         return str(e)
 
 
+@app.route('/msrv2/test/fileupload/' , methods=["POST"])
+@cross_origin()
+def test_fileupload():
+    log = open(LOG_FILE_FULL_PATH, 'a+')
+    log.write('>>>...MODULE:test_fileupload()'+'\r\n')
+    #request_data = len(request.files)
+    log.write(str(len(request.files))+'\r\n')
+    log.close()
+    return 'file upload!'
+
+
+#=============================== Book & Order =========================================
+
+
 # Order -- Query all
 @app.route('/msrv2/order/order_query_all/')
 @cross_origin()
 def order_query_all():
+    log = open(LOG_FILE_FULL_PATH, 'a+')
+    log.write('>>>...MODULE:order_query_all()'+'\r\n')
     try:
-        client = MongoClient(conf.DB_IP, conf.DB_PORT)
-        db = client[conf.TEST_DB_NAME]
-        collection = db[conf.COLLECTION_ORDER_OUTPUT]
+        # client = MongoClient(conf.DB_IP, conf.DB_PORT)
+        # db = client[conf.TEST_DB_NAME]
+        # collection = db[conf.COLLECTION_ORDER_OUTPUT]
         #Query all data
+        find_result = record_query(conf.DB_ORDERS, conf.COLLECTION_ORDER_OUTPUT, {})
         s = ""
-        for post in collection.find():
+        for post in find_result:
             s += str(post) + "</br>"
-        client.close()
+        log.close()
         return str(s)
     except Exception as e:
-        return str(e)
+        log.write("Query db error! " + str(e) + "\r\n")
+        log.close()
+        return str("01x001")
 
 
-# Order -- Insert multi
-@app.route("/msrv2/order/order_insert_multi/", methods=["POST"])
+# Order -- Insert
+@app.route("/msrv2/order/order_insert/", methods=["POST"])
 @cross_origin()
 def order_insert_multi():
     log = open(LOG_FILE_FULL_PATH, 'a+')
@@ -84,24 +103,21 @@ def order_insert_multi():
     except Exception as e:
         log.write("request data fail: "+str(e)+"\r\n")
         log.close()
-        return "Remote return fail!"
+        return "02x004"
 
     try:
-        client = MongoClient(conf.DB_IP, conf.DB_PORT)
-        db = client[conf.DB_ORDER]
-        collection = db[conf.COLLECTION_ORDER_OUTPUT]
-        post_id = collection.insert(request_data)
-        client.close()
-    except Exception as e:
+        insert_result = record_save(conf.DB_ORDERS, conf.COLLECTION_ORDER_OUTPUT, request_data)
+        log.write("insert OK: " + str(insert_result) + "\r\n")
         log.close()
-        return str(e)
-    log.close()
+        return "02x000"
+    except Exception as e:
+        log.write("insert fail: " + str(e) + "\r\n")
+        log.close()
+        return "02x005"
 
-    return str("OK -- "+ str(post_id))
 
-
-# Book -- Insert multi
-@app.route("/msrv2/book/book_insert_multi/", methods=["POST"])
+# Book -- Insert
+@app.route("/msrv2/book/book_insert/", methods=["POST"])
 @cross_origin()
 def book_insert_multi():
     log = open(LOG_FILE_FULL_PATH, 'a+')
@@ -113,27 +129,84 @@ def book_insert_multi():
     except Exception as e:
         log.write("request data fail: "+str(e)+"\r\n")
         log.close()
-        return "Remote return fail!"
+        return "01x004"
+
+    # write into db
+    try:
+        insert_result = record_save(conf.DB_BOOKS, conf.COLLECTION_BOOK_STOCK, request_data)
+        log.write("insert OK: " + str(insert_result) + "\r\n")
+        log.close()
+        return "01x000"
+    except Exception as e:
+        log.write("insert fail: " + str(e) + "\r\n")
+        log.close()
+        return "01x005"
+
+
+# Books -- Query by barcode number
+@app.route('/msrv2/book/book_query_by_barcode/', methods=["POST"])
+@cross_origin()
+def book_query_by_barcode():
+    log = open(LOG_FILE_FULL_PATH, 'a+')
+    log.write('>>>...MODULE:book_query_by_barcode()'+'\r\n')
 
     try:
-        client = MongoClient(conf.DB_IP, conf.DB_PORT)
-        db = client[conf.DB_BOOK_NAME]
-        collection = db[conf.COLLECTION_BOOK_STOCK]
-        post_id = collection.insert(request_data)
-        client.close()
+        #sending data from client , mut be json format
+        request_data = request.json
+        log.write("request data content: "+str(request_data)+"\r\n")
     except Exception as e:
+        log.write("request data fail: "+str(e)+"\r\n")
         log.close()
-        return str(e)
-    log.close()
+        return "01x004"
 
-    return str("OK -- "+ str(post_id))
+    try:
+        find_result = record_query(conf.DB_BOOKS, conf.COLLECTION_BOOK_STOCK, request_data)
+        log.write(str(find_result)+"\r\n")
+        s = ""
+        for post in find_result:
+            s += str(post) + "</br>"
+        log.write(s+"\r\n")
+        log.close()
+        return str(s)
+    except Exception as e:
+        log.write("Query db error! " + str(e) + "\r\n")
+        log.close()
+        return str("01x001")
 
+
+# Books -- Insert book into order
+@app.route('/msrv2/book/book_insert_into_order/', methods=["POST"])
+@cross_origin()
+def book_insert_into_order():
+    log = open(LOG_FILE_FULL_PATH, 'a+')
+    log.write('>>>...MODULE:book_insert_into_order()'+'\r\n')
+
+    try:
+        #sending data from client , mut be json format
+        #book barcode and order barcode
+        request_data = request.json
+
+        log.write("request data content: "+str(request_data)+"\r\n")
+    except Exception as e:
+        log.write("request data fail: "+str(e)+"\r\n")
+        log.close()
+        return "01x004"
+
+    try:
+        find_result = record_query(conf.DB_BOOKS, conf.COLLECTION_BOOK_STOCK, request_data)
+        log.write(str(find_result)+"\r\n")
+        s = ""
+        for post in find_result:
+            s += str(post) + "</br>"
+        log.write(s+"\r\n")
+        log.close()
+        return str(s)
+    except Exception as e:
+        log.write("Query db error! " + str(e) + "\r\n")
+        log.close()
+        return str("01x001")
 
 #=================================== App security service =====================================
-
-# 00x000:記錄資訊完全符合 00x002:使用者身份確認但APP編號有異動或第一次註冊App資訊 00x003:APP資料庫查詢失敗
-# 00x004:使用者身份無法確認 00x005:使用者資料庫查詢失敗 00x006:APP資料庫寫入失敗
-# 00x007:通關密語已超過時限 00x008:IDFA未啟用
 
 
 # App validation request(app info check: user -> idfa)
@@ -231,6 +304,7 @@ def app_validation_request():
 
     log.close()
     return "00x000"
+
 
 #force reset app pass word
 @app.route("/msrv2/security/app_reset_pass_word/", methods=["POST"])

@@ -1,86 +1,48 @@
->>>...MODULE:account_create() 2014-09-26 11:38:29.883731
-request data type: <class 'dict'>
-request data content: {'User_Password': '12345', 'User_Phone_Mobile': '123456789', 'User_Email': 'l133@hanlin.com.tw', 'User_Name': 'e00225'}
-Add user ok.
->>>...MODULE:account_create() 2014-09-26 12:01:21.637576
-request data type: <class 'dict'>
-request data content: {'User_Password': '12345', 'User_Phone_Mobile': '12345678', 'User_Email': 'l133@hanlin.com.tw', 'User_Name': 'l133'}
-Add user ok.
->>>...MODULE:account_create() 2014-09-26 12:03:25.080469
-request data type: <class 'dict'>
-request data content: {'User_Password': '12345', 'User_Phone_Mobile': '12345678', 'User_Email': 'l133@hanlin.com.tw', 'User_Name': 'l133'}
-Add user ok.
->>>...MODULE:account_create() 2014-09-26 13:29:42.101638
-request data type: <class 'dict'>
-request data content: {'User_Password': '12345', 'User_Phone_Mobile': '12345678', 'User_Email': 'sungnoone@snoone.net', 'User_Name': 'david'}
-Add user ok.
->>>...MODULE:app_validation_request()
-request data content: {'Password': '12345', 'Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'Username': 'e00277', 'App_Name': 'iden1'}
-user:{'User_Email': 'l133@hanlin.com.tw', 'User_Password': '12345', 'User_Name': 'e00277', 'User_Phone_Mobile': '123', '_id': ObjectId('5425267caab0770504dbeb10')}
-find user count: 1
-find app count: 1
->>>...MODULE:app_validation_request()
-request data content: {'Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'Password': '12345', 'Username': 'e00277', 'App_Name': 'iden1'}
-user:l133@hanlin.com.tw
-find user count: 1
-find app count: 1
->>>...MODULE:app_validation_request()
-request data content: {'Password': '12345', 'Username': 'e00277', 'App_Name': 'iden1', 'Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
-find user count: 1
-user email:l133@hanlin.com.tw
-find app count: 1
->>>...MODULE:app_validation_request()
-request data content: {'Password': '12345', 'Username': 'e00277', 'App_Name': 'iden1', 'Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
-find user count: 1
-user email:l133@hanlin.com.tw
-find app count: 0
-無符合條件APP記錄
-query json: {'App_User': 'e00277', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_Name': 'iden1'}
-update json: {'App_User': 'e00277', 'Sys_Pass_Word': '9957', 'App_Action': datetime.datetime(2014, 9, 29, 10, 46, 54, 604838), 'App_Name': 'iden1', 'App_Active': 'false', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'Register_Time': datetime.datetime(2014, 9, 29, 10, 46, 54, 604788)}
-系統已註冊APP資訊及通關密語: {'n': 1, 'updatedExisting': False, 'ok': 1, 'upserted': ObjectId('5428c7cbc87cab158aab286b'), 'nModified': 0}
->>>...MODULE:app_register_request() 2014-09-29 10:48:10.158198
-request data content: {'App_Name': 'iden1', 'Username': 'e00277', 'Sys_Pass_Word': '9957', 'Password': '12345', 'Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
-find user count: 1
-find app register json: {'App_Name': 'iden1', 'App_User': 'e00277', 'Sys_Pass_Word': '9957', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
-find app register count: 1
-使用者通過密語驗證-間隔(秒): 75
-更新json: {'App_Active': 'true', 'App_Action': datetime.datetime(2014, 9, 29, 10, 48, 10, 192646)}
-更新啟用狀態: {'n': 1, 'updatedExisting': True, 'ok': 1, 'nModified': 1}
->>>...MODULE:app_validation_request()
-request data content: {'App_Name': 'iden1', 'Username': 'e00277', 'Password': '12345', 'Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
-find user count: 1
-user email:l133@hanlin.com.tw
-find app count: 0
-無符合條件APP記錄
-query json: {'App_Name': 'iden1', 'App_User': 'e00277', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
-update json: {'App_Action': datetime.datetime(2014, 9, 29, 10, 48, 47, 878835), 'App_User': 'e00277', 'Sys_Pass_Word': '9193', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_Name': 'iden1', 'App_Active': 'false', 'Register_Time': datetime.datetime(2014, 9, 29, 10, 48, 47, 878798)}
-系統已註冊APP資訊及通關密語: {'n': 1, 'updatedExisting': False, 'ok': 1, 'upserted': ObjectId('5428c83cc87cab158aab286c'), 'nModified': 0}
->>>...MODULE:app_register_request() 2014-09-29 10:59:17.541403
-request data content: {'App_Name': 'iden1', 'Username': 'e00277', 'Sys_Pass_Word': '9193', 'Password': '12345', 'Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
-find user count: 1
-find app register json: {'App_Name': 'iden1', 'App_User': 'e00277', 'Sys_Pass_Word': '9193', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
-find app register count: 1
-使用者密語已超過有效期限-已間隔(秒): 629
->>>...MODULE:app_validation_request()
-request data content: {'App_Name': 'iden1', 'Username': 'e00277', 'Password': '12345', 'Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
-find user count: 1
-user email:l133@hanlin.com.tw
-find app count: 1
->>>...MODULE:app_reset_pass_word()
-request data content: {'App_Name': 'iden1', 'Username': 'e00277', 'Password': '12345', 'Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
-find user count: 1
-user email:l133@hanlin.com.tw
-update json: {'App_Action': datetime.datetime(2014, 9, 29, 10, 59, 44, 586794), 'App_User': 'e00277', 'Sys_Pass_Word': '3585', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_Name': 'iden1', 'App_Active': 'false', 'Register_Time': datetime.datetime(2014, 9, 29, 10, 59, 44, 586778)}
-update_app_info_result: {'n': 1, 'updatedExisting': True, 'ok': 1, 'nModified': 1}
->>>...MODULE:app_register_request() 2014-09-29 11:00:43.025210
-request data content: {'App_Name': 'iden1', 'Username': 'e00277', 'Sys_Pass_Word': '3585', 'Password': '12345', 'Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
-find user count: 1
-find app register json: {'App_Name': 'iden1', 'App_User': 'e00277', 'Sys_Pass_Word': '3585', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
-find app register count: 1
-使用者通過密語驗證-間隔(秒): 58
-更新json: {'App_Active': 'true', 'App_Action': datetime.datetime(2014, 9, 29, 11, 0, 43, 37535)}
-更新啟用狀態: {'n': 1, 'updatedExisting': True, 'ok': 1, 'nModified': 1}
->>>...MODULE:account_create() 2014-09-29 13:12:47.708921
-request data type: <class 'dict'>
-request data content: {'User_Email': 'sungnoone@gmail.com', 'User_Name': 'e99999', 'User_Phone_Mobile': '0922896569', 'User_Password': 'e99999'}
-Add user ok.
+>>>...MODULE:book_insert_multi()
+request data content: {'book_name': 'runnine man', 'book_description': '', 'book_barcode': '1234566', 'book_price': '123'}
+insert OK: 543b6843caa11134f8b5f212
+>>>...MODULE:book_insert_multi()
+request data content: {'book_name': '國語一下課本', 'book_description': '', 'book_barcode': '471641381102215', 'book_price': ''}
+insert OK: 543b68dbcaa11134f8b5f213
+>>>...MODULE:book_query_by_barcode()
+request data fail: 400: Bad Request
+>>>...MODULE:book_query_by_barcode()
+request data fail: 400: Bad Request
+>>>...MODULE:book_query_by_barcode()
+request data content: {'order_barcode': '132456'}
+>>>...MODULE:book_query_by_barcode()
+request data content: {'order_barcode': '132456'}
+>>>...MODULE:book_query_by_barcode()
+request data content: {'order_barcode': '132456'}
+>>>...MODULE:book_query_by_barcode()
+request data content: {'order_barcode': '132456'}
+>>>...MODULE:book_query_by_barcode()
+request data content: {'order_barcode': '471641381102215'}
+>>>...MODULE:book_query_by_barcode()
+request data content: {'order_barcode': '1324'}
+>>>...MODULE:book_query_by_barcode()
+request data content: {'order_barcode': '1324'}
+>>>...MODULE:book_query_by_barcode()
+request data content: {'order_barcode': '1324'}
+>>>...MODULE:book_query_by_barcode()
+request data content: {'book_barcode': '471641381102215'}
+{'book_description': '', '_id': ObjectId('543b68dbcaa11134f8b5f213'), 'book_name': '國語一下課本', 'book_price': '', 'book_barcode': '471641381102215'}</br>>>>...MODULE:book_query_by_barcode()
+request data content: {'book_barcode': '4716413811022145'}
+<pymongo.cursor.Cursor object at 0x10231fb00>
+
+>>>...MODULE:book_query_by_barcode()
+request data content: {'book_barcode': '471641381102215'}
+<pymongo.cursor.Cursor object at 0x1022ffe80>
+{'_id': ObjectId('543b68dbcaa11134f8b5f213'), 'book_name': '國語一下課本', 'book_description': '', 'book_barcode': '471641381102215', 'book_price': ''}</br>
+>>>...MODULE:book_query_by_barcode()
+request data content: {'book_barcode': '471641381102215'}
+<pymongo.cursor.Cursor object at 0x10231f278>
+{'_id': ObjectId('543b68dbcaa11134f8b5f213'), 'book_name': '國語一下課本', 'book_description': '', 'book_barcode': '471641381102215', 'book_price': ''}</br>
+>>>...MODULE:book_query_by_barcode()
+request data content: {'book_barcode': '471641381102215'}
+<pymongo.cursor.Cursor object at 0x10231ff98>
+{'_id': ObjectId('543b68dbcaa11134f8b5f213'), 'book_name': '國語一下課本', 'book_description': '', 'book_barcode': '471641381102215', 'book_price': ''}</br>
+>>>...MODULE:book_query_by_barcode()
+request data content: {'book_barcode': '471641381102215'}
+<pymongo.cursor.Cursor object at 0x102330470>
+{'_id': ObjectId('543b68dbcaa11134f8b5f213'), 'book_name': '國語一下課本', 'book_description': '', 'book_barcode': '471641381102215', 'book_price': ''}</br>

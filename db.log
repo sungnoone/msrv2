@@ -1,150 +1,75 @@
->>>...>>>...MODULE:record_save() 2014-09-26 11:38:29.939365
-DB: users
-Collection: account
-Write Content: {'User_Password': '12345', 'User_Phone_Mobile': '123456789', 'User_Email': 'l133@hanlin.com.tw', 'User_Name': 'e00225'}
+>>>...>>>...MODULE:record_save() 2014-10-13 13:50:59.182645
+DB: books
+Collection: book_in_stock
+Write Content: {'book_name': 'runnine man', 'book_description': '', 'book_barcode': '1234566', 'book_price': '123'}
 save data OK.
->>>...>>>...MODULE:record_save() 2014-09-26 12:01:21.638040
-DB: users
-Collection: account
-Write Content: {'User_Password': '12345', 'User_Phone_Mobile': '12345678', 'User_Email': 'l133@hanlin.com.tw', 'User_Name': 'l133'}
+>>>...>>>...MODULE:record_save() 2014-10-13 13:53:31.912701
+DB: books
+Collection: book_in_stock
+Write Content: {'book_name': '國語一下課本', 'book_description': '', 'book_barcode': '471641381102215', 'book_price': ''}
 save data OK.
->>>...>>>...MODULE:record_save() 2014-09-26 12:03:25.080791
-DB: users
-Collection: account
-Write Content: {'User_Password': '12345', 'User_Phone_Mobile': '12345678', 'User_Email': 'l133@hanlin.com.tw', 'User_Name': 'l133'}
-save data OK.
->>>...>>>...MODULE:record_save() 2014-09-26 13:29:42.102442
-DB: users
-Collection: account
-Write Content: {'User_Password': '12345', 'User_Phone_Mobile': '12345678', 'User_Email': 'sungnoone@snoone.net', 'User_Name': 'david'}
-save data OK.
->>>...>>>...MODULE:record_query() 2014-09-29 10:17:53.017201
-DB: users
-Collection: account
-Query Content: {'User_Name': 'e00277', 'User_Password': '12345'}
+>>>...>>>...MODULE:record_query() 2014-10-13 14:42:33.155437
+DB: books
+Collection: book_in_stock
+Query Content: {'order_barcode': '132456'}
 query data OK.
->>>...>>>...MODULE:record_query() 2014-09-29 10:17:53.080986
-DB: apps
-Collection: app_register
-Query Content: {'App_User': 'e00277', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_Name': 'iden1'}
+>>>...>>>...MODULE:record_query() 2014-10-13 14:43:20.093981
+DB: books
+Collection: book_in_stock
+Query Content: {'order_barcode': '132456'}
 query data OK.
->>>...>>>...MODULE:record_query() 2014-09-29 10:28:14.636259
-DB: users
-Collection: account
-Query Content: {'User_Name': 'e00277', 'User_Password': '12345'}
+>>>...>>>...MODULE:record_query() 2014-10-13 14:44:08.699309
+DB: books
+Collection: book_in_stock
+Query Content: {'order_barcode': '132456'}
 query data OK.
->>>...>>>...MODULE:record_query() 2014-09-29 10:28:14.643393
-DB: apps
-Collection: app_register
-Query Content: {'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_Name': 'iden1', 'App_User': 'e00277'}
+>>>...>>>...MODULE:record_query() 2014-10-13 14:45:48.643705
+DB: books
+Collection: book_in_stock
+Query Content: {'order_barcode': '471641381102215'}
 query data OK.
->>>...>>>...MODULE:record_query() 2014-09-29 10:39:47.974436
-DB: users
-Collection: account
-Query Content: {'User_Password': '12345', 'User_Name': 'e00277'}
+>>>...>>>...MODULE:record_query() 2014-10-13 14:47:30.781021
+DB: books
+Collection: book_in_stock
+Query Content: {'order_barcode': '1324'}
 query data OK.
->>>...>>>...MODULE:record_query() 2014-09-29 10:39:47.997702
-DB: apps
-Collection: app_register
-Query Content: {'App_User': 'e00277', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_Name': 'iden1'}
+>>>...>>>...MODULE:record_query() 2014-10-13 14:47:30.788737
+DB: books
+Collection: book_in_stock
+Query Content: {'order_barcode': '1324'}
 query data OK.
->>>...>>>...MODULE:record_query() 2014-09-29 10:46:49.606762
-DB: users
-Collection: account
-Query Content: {'User_Password': '12345', 'User_Name': 'e00277'}
+>>>...>>>...MODULE:record_query() 2014-10-13 14:47:30.796702
+DB: books
+Collection: book_in_stock
+Query Content: {'order_barcode': '1324'}
 query data OK.
->>>...>>>...MODULE:record_query() 2014-09-29 10:46:49.635814
-DB: apps
-Collection: app_register
-Query Content: {'App_User': 'e00277', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_Name': 'iden1'}
+>>>...>>>...MODULE:record_query() 2014-10-13 15:29:51.015230
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
 query data OK.
->>>...>>>...MODULE:record_update() 2014-09-29 10:46:54.605022
-DB: apps
-Collection: app_register
-Query Content: {'App_User': 'e00277', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_Name': 'iden1'}
-Update Content: {'App_User': 'e00277', 'Sys_Pass_Word': '9957', 'App_Action': datetime.datetime(2014, 9, 29, 10, 46, 54, 604838), 'App_Name': 'iden1', 'App_Active': 'false', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'Register_Time': datetime.datetime(2014, 9, 29, 10, 46, 54, 604788)}
-update data OK.
->>>...>>>...MODULE:record_query() 2014-09-29 10:48:10.158628
-DB: users
-Collection: account
-Query Content: {'User_Name': 'e00277', 'User_Password': '12345'}
+>>>...>>>...MODULE:record_query() 2014-10-13 15:32:37.156261
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '4716413811022145'}
 query data OK.
->>>...>>>...MODULE:record_query() 2014-09-29 10:48:10.164967
-DB: apps
-Collection: app_register
-Query Content: {'App_Name': 'iden1', 'App_User': 'e00277', 'Sys_Pass_Word': '9957', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
+>>>...>>>...MODULE:record_query() 2014-10-13 15:32:53.291061
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
 query data OK.
->>>...>>>...MODULE:record_update() 2014-09-29 10:48:10.192744
-DB: apps
-Collection: app_register
-Query Content: {'App_Name': 'iden1', 'App_User': 'e00277', 'Sys_Pass_Word': '9957', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
-Update Content: {'App_Active': 'true', 'App_Action': datetime.datetime(2014, 9, 29, 10, 48, 10, 192646)}
-update data OK.
->>>...>>>...MODULE:record_query() 2014-09-29 10:48:44.755485
-DB: users
-Collection: account
-Query Content: {'User_Name': 'e00277', 'User_Password': '12345'}
+>>>...>>>...MODULE:record_query() 2014-10-13 15:38:25.871511
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
 query data OK.
->>>...>>>...MODULE:record_query() 2014-09-29 10:48:44.761961
-DB: apps
-Collection: app_register
-Query Content: {'App_Name': 'iden1', 'App_User': 'e00277', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
+>>>...>>>...MODULE:record_query() 2014-10-13 15:41:25.601462
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
 query data OK.
->>>...>>>...MODULE:record_update() 2014-09-29 10:48:47.878969
-DB: apps
-Collection: app_register
-Query Content: {'App_Name': 'iden1', 'App_User': 'e00277', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
-Update Content: {'App_Action': datetime.datetime(2014, 9, 29, 10, 48, 47, 878835), 'App_User': 'e00277', 'Sys_Pass_Word': '9193', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_Name': 'iden1', 'App_Active': 'false', 'Register_Time': datetime.datetime(2014, 9, 29, 10, 48, 47, 878798)}
-update data OK.
->>>...>>>...MODULE:record_query() 2014-09-29 10:59:17.541752
-DB: users
-Collection: account
-Query Content: {'User_Name': 'e00277', 'User_Password': '12345'}
+>>>...>>>...MODULE:record_query() 2014-10-13 16:16:18.796692
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
 query data OK.
->>>...>>>...MODULE:record_query() 2014-09-29 10:59:17.561974
-DB: apps
-Collection: app_register
-Query Content: {'App_Name': 'iden1', 'App_User': 'e00277', 'Sys_Pass_Word': '9193', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
-query data OK.
->>>...>>>...MODULE:record_query() 2014-09-29 10:59:40.796486
-DB: users
-Collection: account
-Query Content: {'User_Name': 'e00277', 'User_Password': '12345'}
-query data OK.
->>>...>>>...MODULE:record_query() 2014-09-29 10:59:40.802495
-DB: apps
-Collection: app_register
-Query Content: {'App_Name': 'iden1', 'App_User': 'e00277', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
-query data OK.
->>>...>>>...MODULE:record_query() 2014-09-29 10:59:40.839267
-DB: users
-Collection: account
-Query Content: {'User_Name': 'e00277', 'User_Password': '12345'}
-query data OK.
->>>...>>>...MODULE:record_update() 2014-09-29 10:59:44.586945
-DB: apps
-Collection: app_register
-Query Content: {'App_Name': 'iden1', 'App_User': 'e00277', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
-Update Content: {'App_Action': datetime.datetime(2014, 9, 29, 10, 59, 44, 586794), 'App_User': 'e00277', 'Sys_Pass_Word': '3585', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246', 'App_Name': 'iden1', 'App_Active': 'false', 'Register_Time': datetime.datetime(2014, 9, 29, 10, 59, 44, 586778)}
-update data OK.
->>>...>>>...MODULE:record_query() 2014-09-29 11:00:43.025497
-DB: users
-Collection: account
-Query Content: {'User_Name': 'e00277', 'User_Password': '12345'}
-query data OK.
->>>...>>>...MODULE:record_query() 2014-09-29 11:00:43.031769
-DB: apps
-Collection: app_register
-Query Content: {'App_Name': 'iden1', 'App_User': 'e00277', 'Sys_Pass_Word': '3585', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
-query data OK.
->>>...>>>...MODULE:record_update() 2014-09-29 11:00:43.037618
-DB: apps
-Collection: app_register
-Query Content: {'App_Name': 'iden1', 'App_User': 'e00277', 'Sys_Pass_Word': '3585', 'App_Idfa': '9B93C014-75A6-4646-B655-4C63B930E246'}
-Update Content: {'App_Active': 'true', 'App_Action': datetime.datetime(2014, 9, 29, 11, 0, 43, 37535)}
-update data OK.
->>>...>>>...MODULE:record_save() 2014-09-29 13:12:47.709940
-DB: users
-Collection: account
-Write Content: {'User_Email': 'sungnoone@gmail.com', 'User_Name': 'e99999', 'User_Phone_Mobile': '0922896569', 'User_Password': 'e99999'}
-save data OK.
