@@ -46,3 +46,1345 @@ request data content: {'book_barcode': '471641381102215'}
 request data content: {'book_barcode': '471641381102215'}
 <pymongo.cursor.Cursor object at 0x102330470>
 {'_id': ObjectId('543b68dbcaa11134f8b5f213'), 'book_name': '國語一下課本', 'book_description': '', 'book_barcode': '471641381102215', 'book_price': ''}</br>
+>>>...MODULE:book_insert_into_order()
+ key:order_barcode
+ key:book_barcode
+request data content: {'order_barcode': '12345', 'book_barcode': '55555'}
+>>>...MODULE:book_insert_into_order()
+ key:order_barcode
+ key:book_barcode
+request data content: {'order_barcode': '12345', 'book_barcode': '55555'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '12345', 'book_barcode': '55555'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '12345', 'book_barcode': '55555'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '12345', 'book_barcode': '555556'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '12345', 'book_barcode': '555556'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '54321', 'order_barcode': '12345'}
+<pymongo.cursor.Cursor object at 0x102402f28>
+
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '471641381102215', 'order_barcode': '12345'}
+<pymongo.cursor.Cursor object at 0x102402208>
+{'_id': ObjectId('543b68dbcaa11134f8b5f213'), 'book_price': '', 'book_description': '', 'book_name': '國語一下課本', 'book_barcode': '471641381102215'}</br>
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '12345', 'book_barcode': '471641381102215'}
+{'book_price': '', 'book_name': '國語一下課本', '_id': ObjectId('543b68dbcaa11134f8b5f213'), 'book_description': '', 'book_barcode': '471641381102215'}</br>
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '12345', 'book_barcode': '471641381102215'}
+{'book_price': '', 'book_name': '國語一下課本', '_id': ObjectId('543b68dbcaa11134f8b5f213'), 'book_description': '', 'book_barcode': '471641381102215'}</br>
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '12345', 'book_barcode': '471641381102215'}
+{'book_price': '', 'book_name': '國語一下課本', '_id': ObjectId('543b68dbcaa11134f8b5f213'), 'book_description': '', 'book_barcode': '471641381102215'}</br>
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '12345', 'book_barcode': '471641381102215'}
+{'book_price': '', 'book_name': '國語一下課本', '_id': ObjectId('543b68dbcaa11134f8b5f213'), 'book_description': '', 'book_barcode': '471641381102215'}</br>
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '12345', 'book_barcode': '471641381102215'}
+{'book_price': '', 'book_name': '國語一下課本', '_id': ObjectId('543b68dbcaa11134f8b5f213'), 'book_description': '', 'book_barcode': '471641381102215'}</br>
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '12345', 'book_barcode': '471641381102215'}
+{'book_price': '', 'book_name': '國語一下課本', '_id': ObjectId('543b68dbcaa11134f8b5f213'), 'book_description': '', 'book_barcode': '471641381102215'}</br>
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '12345', 'book_barcode': '471641381102215'}
+{'book_price': '', 'book_name': '國語一下課本', '_id': ObjectId('543b68dbcaa11134f8b5f213'), 'book_description': '', 'book_barcode': '471641381102215'}</br>
+>>>...MODULE:order_insert()
+request data content: {'order_barcode': '1234567', 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+insert OK: 543cd5c5caa1113fab08d504
+>>>...MODULE:order_insert()
+request data content: {'order_barcode': '1234567', 'order_subscriber': '佳佳書局', 'order_address': '新中路100號-1'}
+insert OK: 543dc076caa1113fab08d505
+>>>...MODULE:order_insert()
+request data content: {'order_barcode': '1234567', 'order_subscriber': '佳佳書局', 'order_address': '新中路100號-2'}
+>>>...MODULE:order_insert()
+request data content: {'order_address': '新中路100號-2', 'order_subscriber': '佳佳書局', 'order_barcode': '1234567'}
+insert OK: 543dca32caa1114582c69dbc
+>>>...MODULE:order_insert()
+request data content: {'order_address': '新中路100號', 'order_subscriber': '佳佳書局', 'order_barcode': '1234567'}
+update OK: {'n': 1, 'ok': 1, 'nModified': 1, 'updatedExisting': True}
+>>>...MODULE:order_insert()
+request data content: {'order_address': '新中路100號', 'order_subscriber': '佳佳書局', 'order_barcode': '12345678'}
+insert OK: 543dca4acaa1114582c69dbd
+>>>...MODULE:order_insert()
+request data content: {'order_address': '建公路100號', 'order_subscriber': '大雅書局', 'order_barcode': '8825252'}
+insert OK: 543dca87caa1114582c69dbe
+>>>...MODULE:order_insert()
+request data content: {'order_address': '建功路100號', 'order_subscriber': '大雅書局', 'order_barcode': '8825252'}
+update OK: {'n': 1, 'ok': 1, 'nModified': 1, 'updatedExisting': True}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '471641381102215'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '471641381102215'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '471641381102215'}
+break1
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '471641381102215'}
+break1
+沒有訂單記錄.
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '471641381102215'}
+沒有訂單記錄.
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '471641381102215'}
+{'_id': ObjectId('543b68dbcaa11134f8b5f213'), 'book_price': '', 'book_name': '國語一下課本', 'book_description': '', 'book_barcode': '471641381102215'}</br>
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '471641381102215', 'order_barcode': '1234567'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '471641381102215', 'order_barcode': '1234567'}
+<class 'pymongo.cursor.Cursor'>
+{'book_name': '國語一下課本', 'book_price': '', 'book_description': '', 'book_barcode': '471641381102215', '_id': ObjectId('543b68dbcaa11134f8b5f213')}</br>
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '471641381102215', 'order_barcode': '1234567'}
+{'_id': ObjectId('543dca32caa1114582c69dbc'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '1234567'}
+{'_id': ObjectId('543b68dbcaa11134f8b5f213'), 'book_name': '國語一下課本', 'book_description': '', 'book_barcode': '471641381102215', 'book_price': ''}</br>
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '471641381102215', 'order_barcode': '1234567'}
+1234567
+{'book_description': '', 'book_barcode': '471641381102215', '_id': ObjectId('543b68dbcaa11134f8b5f213'), 'book_price': '', 'book_name': '國語一下課本'}</br>
+>>>...MODULE:book_insert_multi()
+request data content: {'book_barcode': '471641393811823', 'book_price': '320', 'book_description': '', 'book_name': '國小自修・社會６上'}
+insert OK: 543deb29caa1115002f43b0a
+>>>...MODULE:book_insert_multi()
+request data content: {'book_barcode': '471641393811823', 'book_price': '320', 'book_description': '', 'book_name': '國小自修・社會６上-1'}
+insert OK: 543deb48caa1115002f43b0b
+>>>...MODULE:book_insert_multi()
+request data content: {'book_barcode': '471641393811823', 'book_price': '320', 'book_description': '', 'book_name': '國小自修・社會６上'}
+insert OK: 543deb95caa1115002f43b0c
+>>>...MODULE:book_insert_multi()
+request data content: {'book_barcode': '47164139401923', 'book_price': '170', 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）'}
+insert OK: 543debf8caa1115002f43b0d
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '471641381102215', 'order_barcode': '1234567'}
+1234567
+{'book_barcode': '471641381102215', 'book_price': '', 'book_description': '', '_id': ObjectId('543b68dbcaa11134f8b5f213'), 'book_name': '國語一下課本'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '471641381102215', 'order_barcode': '1234567'}
+1234567
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '471641381102215', 'order_barcode': '1234567'}
+1234567
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '471641381102215', 'order_barcode': '1234567'}
+1234567
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '471641381102215', 'order_barcode': '1234567'}
+1234567
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '471641381102215', 'order_barcode': '1234567'}
+1234567
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '471641381102215'}
+1234567
+['1']
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '471641381102215'}
+1234567
+['1']
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '471641381102215', 'order_barcode': '1234567'}
+1234567
+['1']
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '471641381102215', 'order_barcode': '1234567'}
+1234567
+['1']
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '47164139401923', 'order_barcode': '1234567'}
+['1']
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '47164139401923', 'order_barcode': '1234567'}
+[{'book_description': '', 'book_price': '170', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_barcode': '47164139401923', 'book_name': '國小實力評量・國語１上（含首冊）'}]
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '47164139401923', 'order_barcode': '1234567'}
+[{'book_description': '', 'book_price': '170', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_barcode': '47164139401923', 'book_name': '國小實力評量・國語１上（含首冊）'}]
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '47164139401923'}
+{'n': 1, 'updatedExisting': True, 'nModified': 1, 'ok': 1}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '47164139401923'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '47164139401923'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '47164139401923', 'order_barcode': '1234567'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '47164139401923'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '47164139401923'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '47164139401923'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '47164139401923', 'order_barcode': '1234567'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '47164139401923', 'order_barcode': '1234567'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '47164139401923'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '47164139401923'}
+{'order_subscriber': '佳佳書局', 'order_barcode': '1234567', 'order_content': [{'book_description': '', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_barcode': '47164139401923', 'book_price': '170', 'book_name': '國小實力評量・國語１上（含首冊）'}], '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_address': '新中路100號'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '47164139401923'}
+1
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '47164139401923'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '47164139401923'}
+<class 'dict'>
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '47164139401923'}
+[{'_id': ObjectId('543debf8caa1115002f43b0d'), 'book_name': '國小實力評量・國語１上（含首冊）', 'book_price': '170', 'book_description': '', 'book_barcode': '47164139401923'}]
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '47164139401923', 'order_barcode': '1234567'}
+<class 'list'>
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '47164139401923', 'order_barcode': '1234567'}
+[{'book_price': '170', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_barcode': '47164139401923', 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）'}]
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '471641381102215'}
+[{'book_barcode': '47164139401923', 'book_price': '170', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_description': ''}, {'book_barcode': '471641381102215', 'book_price': '', 'book_name': '國語一下課本', '_id': ObjectId('543b68dbcaa11134f8b5f213'), 'book_description': ''}]
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '471641381102215'}
+[{'book_price': '170', 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_barcode': '47164139401923'}]
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '471641381102215'}
+[{'book_barcode': '47164139401923', 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_price': '170', '_id': ObjectId('543debf8caa1115002f43b0d')}]
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '471641381102215', 'order_barcode': '1234567'}
+{'book_barcode': '471641381102215', 'book_description': '', 'book_price': '', 'book_name': '國語一下課本', '_id': ObjectId('543b68dbcaa11134f8b5f213')}
+[{'book_barcode': '47164139401923', 'book_price': '170', 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d')}]
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '471641381102215'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '471641381102215'}
+compare json: {'book_barcode': '471641381102215'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '471641381102215'}
+compare json: {'book_barcode': '471641381102215'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '471641381102215', 'order_barcode': '1234567'}
+compare json: {'book_barcode': '471641381102215'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '471641381102215', 'order_barcode': '1234567'}
+compare json: {'book_barcode': '471641381102215'}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '471641381102215'}
+compare json: {'book_barcode': '471641381102215'}
+[{'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_description': '', 'book_barcode': '47164139401923', 'book_price': '170'}]
+>>>...MODULE:book_insert_into_order()
+request data content: {'book_barcode': '471641381102215', 'order_barcode': '1234567'}
+compare json: {'book_barcode': '471641381102215'}
+[{'_id': ObjectId('543debf8caa1115002f43b0d'), 'book_description': '', 'book_barcode': '47164139401923', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_price': '170'}]
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '471641381102215'}
+compare json: {'book_barcode': '471641381102215'}
+[{'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_price': '170', 'book_barcode': '47164139401923', 'book_description': ''}]
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '47164139401923'}
+compare json: {'book_barcode': '47164139401923'}
+[{'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_barcode': '47164139401923', 'book_price': '170'}]
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '47164139401923'}
+compare json: {'book_barcode': '47164139401923'}
+[{'_id': ObjectId('543debf8caa1115002f43b0d'), 'book_barcode': '47164139401923', 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_price': '170'}]
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '471641393811823'}
+compare json: {'book_barcode': '471641393811823'}
+[{'_id': ObjectId('543debf8caa1115002f43b0d'), 'book_price': '170', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_description': '', 'book_barcode': '47164139401923'}, {'_id': ObjectId('543deb95caa1115002f43b0c'), 'book_price': '320', 'book_description': '', 'book_barcode': '471641393811823', 'book_name': '國小自修・社會６上'}]
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '471641393811823'}
+compare json: {'book_barcode': '471641393811823'}
+[{'book_barcode': '47164139401923', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_description': '', 'book_price': '170', '_id': ObjectId('543debf8caa1115002f43b0d')}, {'book_name': '國小自修・社會６上', 'book_description': '', 'book_price': '320', 'book_barcode': '471641393811823', '_id': ObjectId('543deb95caa1115002f43b0c')}]
+{'n': 1, 'ok': 1, 'updatedExisting': True, 'nModified': 1}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+{'order_subscriber': '佳佳書局', 'order_barcode': '1234567', 'order_address': '新中路100號', '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_content': [{'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_price': '170', 'book_barcode': '47164139401923'}, {'book_description': '', 'book_name': '國小自修・社會６上', '_id': ObjectId('543deb95caa1115002f43b0c'), 'book_price': '320', 'book_barcode': '471641393811823'}]}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+{'order_subscriber': '佳佳書局', 'order_barcode': '1234567', 'order_address': '新中路100號', '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_content': [{'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_price': '170', 'book_barcode': '47164139401923'}, {'book_description': '', 'book_name': '國小自修・社會６上', '_id': ObjectId('543deb95caa1115002f43b0c'), 'book_price': '320', 'book_barcode': '471641393811823'}]}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+{'order_subscriber': '佳佳書局', 'order_barcode': '1234567', 'order_address': '新中路100號', '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_content': [{'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_price': '170', 'book_barcode': '47164139401923'}, {'book_description': '', 'book_name': '國小自修・社會６上', '_id': ObjectId('543deb95caa1115002f43b0c'), 'book_price': '320', 'book_barcode': '471641393811823'}]}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+{'order_subscriber': '佳佳書局', 'order_barcode': '1234567', 'order_address': '新中路100號', '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_content': [{'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_price': '170', 'book_barcode': '47164139401923'}, {'book_description': '', 'book_name': '國小自修・社會６上', '_id': ObjectId('543deb95caa1115002f43b0c'), 'book_price': '320', 'book_barcode': '471641393811823'}]}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+{'order_address': '新中路100號', 'order_subscriber': '佳佳書局', '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_content': [{'book_barcode': '47164139401923', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_price': '170', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_description': ''}, {'book_barcode': '471641393811823', 'book_description': '', 'book_name': '國小自修・社會６上', '_id': ObjectId('543deb95caa1115002f43b0c'), 'book_price': '320'}], 'order_barcode': '1234567'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+{'order_address': '新中路100號', 'order_subscriber': '佳佳書局', '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_content': [{'book_barcode': '47164139401923', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_price': '170', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_description': ''}, {'book_barcode': '471641393811823', 'book_description': '', 'book_name': '國小自修・社會６上', '_id': ObjectId('543deb95caa1115002f43b0c'), 'book_price': '320'}], 'order_barcode': '1234567'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+{'order_address': '新中路100號', 'order_subscriber': '佳佳書局', '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_content': [{'book_barcode': '47164139401923', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_price': '170', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_description': ''}, {'book_barcode': '471641393811823', 'book_description': '', 'book_name': '國小自修・社會６上', '_id': ObjectId('543deb95caa1115002f43b0c'), 'book_price': '320'}], 'order_barcode': '1234567'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+{'order_barcode': '1234567', 'order_address': '新中路100號', '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_subscriber': '佳佳書局', 'order_content': [{'book_name': '國小實力評量・國語１上（含首冊）', 'book_description': '', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_barcode': '47164139401923', 'book_price': '170'}, {'book_name': '國小自修・社會６上', 'book_description': '', '_id': ObjectId('543deb95caa1115002f43b0c'), 'book_barcode': '471641393811823', 'book_price': '320'}]}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+{'order_barcode': '1234567', 'order_content': [{'_id': ObjectId('543debf8caa1115002f43b0d'), 'book_price': '170', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_description': '', 'book_barcode': '47164139401923'}, {'_id': ObjectId('543deb95caa1115002f43b0c'), 'book_price': '320', 'book_name': '國小自修・社會６上', 'book_description': '', 'book_barcode': '471641393811823'}], '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_address': '新中路100號', 'order_subscriber': '佳佳書局'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+{'order_barcode': '1234567', 'order_content': [{'_id': ObjectId('543debf8caa1115002f43b0d'), 'book_price': '170', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_description': '', 'book_barcode': '47164139401923'}, {'_id': ObjectId('543deb95caa1115002f43b0c'), 'book_price': '320', 'book_name': '國小自修・社會６上', 'book_description': '', 'book_barcode': '471641393811823'}], '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_address': '新中路100號', 'order_subscriber': '佳佳書局'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+{'order_barcode': '1234567', 'order_content': [{'book_description': '', 'book_price': '170', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_name': '國小實力評量・國語１上（含首冊）', 'book_barcode': '47164139401923'}, {'book_description': '', 'book_price': '320', '_id': ObjectId('543deb95caa1115002f43b0c'), 'book_name': '國小自修・社會６上', 'book_barcode': '471641393811823'}], '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+{'order_barcode': '1234567', 'order_content': [{'book_description': '', 'book_price': '170', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_name': '國小實力評量・國語１上（含首冊）', 'book_barcode': '47164139401923'}, {'book_description': '', 'book_price': '320', '_id': ObjectId('543deb95caa1115002f43b0c'), 'book_name': '國小自修・社會６上', 'book_barcode': '471641393811823'}], '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+{'order_barcode': '12345678', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+{'order_barcode': '1234567', '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_content': [{'book_barcode': '47164139401923', 'book_description': '', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_name': '國小實力評量・國語１上（含首冊）', 'book_price': '170'}, {'book_barcode': '471641393811823', 'book_description': '', '_id': ObjectId('543deb95caa1115002f43b0c'), 'book_name': '國小自修・社會６上', 'book_price': '320'}], 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+{'order_barcode': '1234567', '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_content': [{'book_barcode': '47164139401923', 'book_description': '', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_name': '國小實力評量・國語１上（含首冊）', 'book_price': '170'}, {'book_barcode': '471641393811823', 'book_description': '', '_id': ObjectId('543deb95caa1115002f43b0c'), 'book_name': '國小自修・社會６上', 'book_price': '320'}], 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+{'order_barcode': '12345678', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+{'order_barcode': '12345678', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+{'order_barcode': '12345678', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+{'order_barcode': '12345678', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+{'order_barcode': '12345678', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+{'order_barcode': '1234567', '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_content': [{'book_barcode': '47164139401923', 'book_description': '', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_name': '國小實力評量・國語１上（含首冊）', 'book_price': '170'}, {'book_barcode': '471641393811823', 'book_description': '', '_id': ObjectId('543deb95caa1115002f43b0c'), 'book_name': '國小自修・社會６上', 'book_price': '320'}], 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+{'order_barcode': '12345678', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+{'order_barcode': '12345678', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+{'order_barcode': '1234567', '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_content': [{'book_barcode': '47164139401923', 'book_description': '', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_name': '國小實力評量・國語１上（含首冊）', 'book_price': '170'}, {'book_barcode': '471641393811823', 'book_description': '', '_id': ObjectId('543deb95caa1115002f43b0c'), 'book_name': '國小自修・社會６上', 'book_price': '320'}], 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+{'order_barcode': '12345678', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+{'order_barcode': '12345678', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+{'order_barcode': '12345678', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+{'order_barcode': '12345678', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+{'order_barcode': '12345678', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+{'order_barcode': '12345678', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+{'order_barcode': '12345678', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+{'order_barcode': '12345678', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+{'_id': ObjectId('543dca32caa1114582c69dbc'), 'order_address': '新中路100號', 'order_content': [{'_id': ObjectId('543debf8caa1115002f43b0d'), 'book_price': '170', 'book_description': '', 'book_barcode': '47164139401923', 'book_name': '國小實力評量・國語１上（含首冊）'}, {'_id': ObjectId('543deb95caa1115002f43b0c'), 'book_price': '320', 'book_description': '', 'book_barcode': '471641393811823', 'book_name': '國小自修・社會６上'}], 'order_subscriber': '佳佳書局', 'order_barcode': '1234567'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+{'order_address': '新中路100號', 'order_subscriber': '佳佳書局', 'order_barcode': '1234567', 'order_content': [{'book_price': '170', 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_barcode': '47164139401923', '_id': ObjectId('543debf8caa1115002f43b0d')}, {'book_price': '320', 'book_description': '', 'book_name': '國小自修・社會６上', 'book_barcode': '471641393811823', '_id': ObjectId('543deb95caa1115002f43b0c')}], '_id': ObjectId('543dca32caa1114582c69dbc')}
+bson json dumps: []
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+{'order_address': '新中路100號', 'order_barcode': '12345678', 'order_subscriber': '佳佳書局', '_id': ObjectId('543dca4acaa1114582c69dbd')}
+bson json dumps: []
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+order_find_result[0]: {'order_content': [{'book_price': '170', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_barcode': '47164139401923', 'book_description': ''}, {'book_price': '320', 'book_name': '國小自修・社會６上', '_id': ObjectId('543deb95caa1115002f43b0c'), 'book_barcode': '471641393811823', 'book_description': ''}], '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '1234567'}
+order: {'order_content': [{'book_price': '170', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_barcode': '47164139401923', 'book_description': ''}, {'book_price': '320', 'book_name': '國小自修・社會６上', '_id': ObjectId('543deb95caa1115002f43b0c'), 'book_barcode': '471641393811823', 'book_description': ''}], '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '1234567'}
+bson json dumps: []
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order_find_result[0]: {'_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '12345678'}
+order: {'_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '12345678'}
+bson json dumps: []
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order_find_result[0]: {'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_barcode': '12345678'}
+order: {'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_barcode': '12345678'}
+bson json dumps: []
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order_find_result[0]: {'order_barcode': '12345678', 'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd')}
+order: {'order_barcode': '12345678', 'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd')}
+bson json dumps: []
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order_find_result[0]: {'order_address': '新中路100號', 'order_barcode': '12345678', 'order_subscriber': '佳佳書局', '_id': ObjectId('543dca4acaa1114582c69dbd')}
+order: {'order_address': '新中路100號', 'order_barcode': '12345678', 'order_subscriber': '佳佳書局', '_id': ObjectId('543dca4acaa1114582c69dbd')}
+bson json dumps: []
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order_find_result[0]: {'order_subscriber': '佳佳書局', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_address': '新中路100號', 'order_barcode': '12345678'}
+order: {'order_subscriber': '佳佳書局', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_address': '新中路100號', 'order_barcode': '12345678'}
+bson json dumps: []
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order: {'order_barcode': '12345678', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order: {'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678', 'order_subscriber': '佳佳書局'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order: {'order_subscriber': '佳佳書局', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_address': '新中路100號', 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order: {'order_subscriber': '佳佳書局', 'order_barcode': '12345678', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd')}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '12345678', '_id': ObjectId('543dca4acaa1114582c69dbd')}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order_find_result[0]: {'order_address': '新中路100號', 'order_subscriber': '佳佳書局', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order_find_result[0]: {'order_barcode': '12345678', 'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd')}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order_find_result[0]: [{"order_address": "\u65b0\u4e2d\u8def100\u865f", "order_subscriber": "\u4f73\u4f73\u66f8\u5c40", "order_barcode": "12345678", "_id": {"$oid": "543dca4acaa1114582c69dbd"}}]
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order_find_result[0]: ["order_barcode", "_id", "order_address", "order_subscriber"]
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order_find_result: [{"order_subscriber": "\u4f73\u4f73\u66f8\u5c40", "order_barcode": "12345678", "_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_address": "\u65b0\u4e2d\u8def100\u865f"}]
+order_find_result type: <class 'str'>
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+order_find_result: [{'order_barcode': '1234567', '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_content': [{'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_price': '170', 'book_barcode': '47164139401923', 'book_description': ''}, {'book_barcode': '471641393811823', 'book_name': '國小自修・社會６上', '_id': ObjectId('543deb95caa1115002f43b0c'), 'book_description': '', 'book_price': '320'}]}]
+order_find_result type: <class 'list'>
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order_find_result: ['order_barcode', 'order_address', '_id', 'order_subscriber']
+order_find_result type: <class 'list'>
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+doc: {'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678', 'order_subscriber': '佳佳書局'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+doc: {'order_subscriber': '佳佳書局', 'order_barcode': '1234567', 'order_content': [{'book_description': '', 'book_price': '170', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_barcode': '47164139401923', 'book_name': '國小實力評量・國語１上（含首冊）'}, {'book_description': '', 'book_price': '320', '_id': ObjectId('543deb95caa1115002f43b0c'), 'book_name': '國小自修・社會６上', 'book_barcode': '471641393811823'}], '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_address': '新中路100號'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+doc: {'order_barcode': '12345678', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+doc: {'order_barcode': '12345678', 'order_address': '新中路100號', 'order_subscriber': '佳佳書局', '_id': ObjectId('543dca4acaa1114582c69dbd')}
+json doc: {"order_barcode": "12345678", "order_address": "\u65b0\u4e2d\u8def100\u865f", "order_subscriber": "\u4f73\u4f73\u66f8\u5c40", "_id": {"$oid": "543dca4acaa1114582c69dbd"}}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+doc: {'_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '12345678'}
+json doc: {"_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "\u4f73\u4f73\u66f8\u5c40", "order_address": "\u65b0\u4e2d\u8def100\u865f", "order_barcode": "12345678"}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+doc: {'_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '12345678'}
+json doc: {"_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "\u4f73\u4f73\u66f8\u5c40", "order_address": "\u65b0\u4e2d\u8def100\u865f", "order_barcode": "12345678"}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+doc: {'_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '12345678'}
+json doc: {"_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "\u4f73\u4f73\u66f8\u5c40", "order_address": "\u65b0\u4e2d\u8def100\u865f", "order_barcode": "12345678"}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+doc: {'_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '12345678'}
+json doc: {"_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "\u4f73\u4f73\u66f8\u5c40", "order_address": "\u65b0\u4e2d\u8def100\u865f", "order_barcode": "12345678"}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+doc: {'_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '12345678'}
+json doc: {"_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "\u4f73\u4f73\u66f8\u5c40", "order_address": "\u65b0\u4e2d\u8def100\u865f", "order_barcode": "12345678"}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+doc: {'_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '12345678'}
+json doc: {"_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "\u4f73\u4f73\u66f8\u5c40", "order_address": "\u65b0\u4e2d\u8def100\u865f", "order_barcode": "12345678"}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+doc: {'_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '12345678'}
+json doc: {"_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "\u4f73\u4f73\u66f8\u5c40", "order_address": "\u65b0\u4e2d\u8def100\u865f", "order_barcode": "12345678"}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+doc: {'_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '12345678'}
+json doc: {"_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "\u4f73\u4f73\u66f8\u5c40", "order_address": "\u65b0\u4e2d\u8def100\u865f", "order_barcode": "12345678"}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_content': [{'_id': ObjectId('543debf8caa1115002f43b0d'), 'book_description': '', 'book_price': '170', 'book_barcode': '47164139401923', 'book_name': '國小實力評量・國語１上（含首冊）'}, {'_id': ObjectId('543deb95caa1115002f43b0c'), 'book_description': '', 'book_price': '320', 'book_barcode': '471641393811823', 'book_name': '國小自修・社會６上'}], 'order_barcode': '1234567'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca4acaa1114582c69dbd'), 'order_barcode': '12345678'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+result: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', '_id': ObjectId('543dca32caa1114582c69dbc'), 'order_content': [{'_id': ObjectId('543debf8caa1115002f43b0d'), 'book_description': '', 'book_price': '170', 'book_barcode': '47164139401923', 'book_name': '國小實力評量・國語１上（含首冊）'}, {'_id': ObjectId('543deb95caa1115002f43b0c'), 'book_description': '', 'book_price': '320', 'book_barcode': '471641393811823', 'book_name': '國小自修・社會６上'}], 'order_barcode': '1234567'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x102324550>
+{0: '{"order_address": "新中路100號", "order_barcode": "12345678", "_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "佳佳書局"}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x1023243c8>
+{0: '{"order_address": "新中路100號", "order_barcode": "12345678", "_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "佳佳書局"}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+order find result: <pymongo.cursor.Cursor object at 0x102324a58>
+{0: '{"order_address": "新中路100號", "order_barcode": "1234567", "_id": {"$oid": "543dca32caa1114582c69dbc"}, "order_subscriber": "佳佳書局", "order_content": [{"book_price": "170", "book_description": "", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_name": "國小實力評量・國語１上（含首冊）", "book_barcode": "47164139401923"}, {"book_price": "320", "book_description": "", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_name": "國小自修・社會６上", "book_barcode": "471641393811823"}]}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x102324ef0>
+{0: '{"order_address": "新中路100號", "order_barcode": "12345678", "_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "佳佳書局"}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+order find result: <pymongo.cursor.Cursor object at 0x102336400>
+{0: '{"order_address": "新中路100號", "order_barcode": "1234567", "_id": {"$oid": "543dca32caa1114582c69dbc"}, "order_subscriber": "佳佳書局", "order_content": [{"book_price": "170", "book_description": "", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_name": "國小實力評量・國語１上（含首冊）", "book_barcode": "47164139401923"}, {"book_price": "320", "book_description": "", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_name": "國小自修・社會６上", "book_barcode": "471641393811823"}]}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x102336860>
+{0: '{"order_address": "新中路100號", "order_barcode": "12345678", "_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "佳佳書局"}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x102336cf8>
+{0: '{"order_address": "新中路100號", "order_barcode": "12345678", "_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "佳佳書局"}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+order find result: <pymongo.cursor.Cursor object at 0x10233c208>
+{0: '{"order_address": "新中路100號", "order_barcode": "1234567", "_id": {"$oid": "543dca32caa1114582c69dbc"}, "order_subscriber": "佳佳書局", "order_content": [{"book_price": "170", "book_description": "", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_name": "國小實力評量・國語１上（含首冊）", "book_barcode": "47164139401923"}, {"book_price": "320", "book_description": "", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_name": "國小自修・社會６上", "book_barcode": "471641393811823"}]}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+order find result: <pymongo.cursor.Cursor object at 0x10233c6a0>
+{0: '{"order_address": "新中路100號", "order_barcode": "1234567", "_id": {"$oid": "543dca32caa1114582c69dbc"}, "order_subscriber": "佳佳書局", "order_content": [{"book_price": "170", "book_description": "", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_name": "國小實力評量・國語１上（含首冊）", "book_barcode": "47164139401923"}, {"book_price": "320", "book_description": "", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_name": "國小自修・社會６上", "book_barcode": "471641393811823"}]}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x10233c940>
+{0: '{"order_address": "新中路100號", "order_barcode": "12345678", "_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "佳佳書局"}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+order find result: <pymongo.cursor.Cursor object at 0x10233cd68>
+{0: '{"order_address": "新中路100號", "order_barcode": "1234567", "_id": {"$oid": "543dca32caa1114582c69dbc"}, "order_subscriber": "佳佳書局", "order_content": [{"book_price": "170", "book_description": "", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_name": "國小實力評量・國語１上（含首冊）", "book_barcode": "47164139401923"}, {"book_price": "320", "book_description": "", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_name": "國小自修・社會６上", "book_barcode": "471641393811823"}]}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x102343208>
+{0: '{"order_address": "新中路100號", "order_barcode": "12345678", "_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "佳佳書局"}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x1023406a0>
+{0: '{"order_address": "新中路100號", "order_barcode": "12345678", "_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "佳佳書局"}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x1022fa240>
+{0: '{"order_address": "新中路100號", "order_barcode": "12345678", "_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "佳佳書局"}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x102336e10>
+{0: '{"order_address": "新中路100號", "order_barcode": "12345678", "_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "佳佳書局"}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+order find result: <pymongo.cursor.Cursor object at 0x102336d30>
+{0: '{"order_address": "新中路100號", "order_barcode": "1234567", "_id": {"$oid": "543dca32caa1114582c69dbc"}, "order_subscriber": "佳佳書局", "order_content": [{"book_price": "170", "book_description": "", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_name": "國小實力評量・國語１上（含首冊）", "book_barcode": "47164139401923"}, {"book_price": "320", "book_description": "", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_name": "國小自修・社會６上", "book_barcode": "471641393811823"}]}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x102336a58>
+{0: '{"order_address": "新中路100號", "order_barcode": "12345678", "_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "佳佳書局"}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x1023360f0>
+{0: '{"order_address": "新中路100號", "order_barcode": "12345678", "_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "佳佳書局"}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+order find result: <pymongo.cursor.Cursor object at 0x102324f28>
+{0: '{"order_address": "新中路100號", "order_barcode": "1234567", "_id": {"$oid": "543dca32caa1114582c69dbc"}, "order_subscriber": "佳佳書局", "order_content": [{"book_price": "170", "book_description": "", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_name": "國小實力評量・國語１上（含首冊）", "book_barcode": "47164139401923"}, {"book_price": "320", "book_description": "", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_name": "國小自修・社會６上", "book_barcode": "471641393811823"}]}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+order find result: <pymongo.cursor.Cursor object at 0x102324ef0>
+{0: '{"order_address": "新中路100號", "order_barcode": "1234567", "_id": {"$oid": "543dca32caa1114582c69dbc"}, "order_subscriber": "佳佳書局", "order_content": [{"book_price": "170", "book_description": "", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_name": "國小實力評量・國語１上（含首冊）", "book_barcode": "47164139401923"}, {"book_price": "320", "book_description": "", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_name": "國小自修・社會６上", "book_barcode": "471641393811823"}]}'} /r/n>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '1234567', 'book_barcode': '47164139401923'}
+沒有訂單記錄.
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x102306cf8>
+{0: '{"order_address": "新中路100號", "order_barcode": "12345678", "_id": {"$oid": "543dca4acaa1114582c69dbd"}, "order_subscriber": "佳佳書局"}'} /r/n>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '12345678', 'book_barcode': '47164139401923'}
+compare json: {'book_barcode': '47164139401923'}
+[{'book_price': '170', 'book_description': '', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_name': '國小實力評量・國語１上（含首冊）', 'book_barcode': '47164139401923'}]
+{'ok': 1, 'n': 1, 'nModified': 1, 'updatedExisting': True}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '12345678', 'book_barcode': '47164139401923'}
+compare json: {'book_barcode': '47164139401923'}
+[{'book_price': '170', 'book_description': '', 'book_barcode': '47164139401923', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d')}]
+{'ok': 1, 'n': 1, 'updatedExisting': True, 'nModified': 1}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '12345678', 'book_barcode': '47164139401923'}
+compare json: {'book_barcode': '47164139401923'}
+[{'book_price': '170', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_barcode': '47164139401923'}]
+{'ok': 1, 'n': 1, 'updatedExisting': True, 'nModified': 1}
+>>>...MODULE:order_insert()
+request data content: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '12345678'}
+insert OK: 54489f08caa1119115da5f6a
+>>>...MODULE:order_insert()
+request data content: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '12345678'}
+insert OK: 54489f1fcaa1119115da5f6b
+>>>...MODULE:order_insert()
+request data content: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '12345678'}
+update OK: {'ok': 1, 'n': 1, 'updatedExisting': True, 'nModified': 0}
+>>>...MODULE:order_insert()
+request data content: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '12345678'}
+update OK: {'ok': 1, 'n': 1, 'updatedExisting': True, 'nModified': 0}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+沒有訂單記錄.
+>>>...MODULE:order_insert()
+request data content: {'order_subscriber': '', 'order_address': '', 'order_barcode': '1234567'}
+insert OK: 5448a2c0caa1119115da5f6c
+>>>...MODULE:order_insert()
+request data content: {'order_subscriber': '', 'order_address': '', 'order_barcode': '1234567'}
+update OK: {'ok': 1, 'n': 1, 'updatedExisting': True, 'nModified': 0}
+>>>...MODULE:order_insert()
+request data content: {'order_subscriber': 'wenjen', 'order_address': 'none', 'order_barcode': '1234567'}
+update OK: {'nModified': 1, 'ok': 1, 'updatedExisting': True, 'n': 1}
+>>>...MODULE:order_insert()
+request data content: {'order_subscriber': '大雅書局', 'order_address': '大雅路111', 'order_barcode': '888888'}
+insert OK: 5448a509caa11191373c707f
+>>>...MODULE:order_insert()
+request data content: {'order_subscriber': '翰林書局', 'order_address': '新中路8-1號', 'order_barcode': '68382361'}
+insert OK: 5448ab52caa11191373c7080
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': ''}
+沒有訂單記錄.
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': ''}
+沒有訂單記錄.
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': ''}
+沒有訂單記錄.
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': ''}
+沒有訂單記錄.
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102337390>
+{0: '{"_id": {"$oid": "5448a509caa11191373c707f"}, "order_address": "大雅路111", "order_subscriber": "大雅書局", "order_barcode": "888888"}'} /r/n>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '888888', 'book_barcode': '47164139401923'}
+compare json: {'book_barcode': '47164139401923'}
+['47164139401923']
+{'nModified': 1, 'updatedExisting': True, 'ok': 1, 'n': 1}
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '888888', 'book_barcode': '47164139811823'}
+沒有書本記錄.
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '888888', 'book_barcode': '47164139811823'}
+沒有書本記錄.
+>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '888888', 'book_barcode': '471641393811823'}
+compare json: {'book_barcode': '471641393811823'}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102427588>
+{0: '{"order_content": ["47164139401923"], "order_subscriber": "大雅書局", "order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_insert_into_order()
+request data content: {'order_barcode': '888888', 'book_barcode': '471641393811823'}
+compare json: {'book_barcode': '471641393811823'}
+>>>...MODULE:book_insert_into_order()2014-10-24 08:49:45.565828
+request data content: {'book_barcode': '471641393811823', 'order_barcode': '888888'}
+compare value: 471641393811823
+>>>...MODULE:book_insert_into_order()2014-10-24 08:49:49.428324
+request data content: {'book_barcode': '471641393811823', 'order_barcode': '888888'}
+compare value: 471641393811823
+>>>...MODULE:book_insert_into_order()2014-10-24 08:55:11.984386
+request data content: {'book_barcode': '471641393811823', 'order_barcode': '888888'}
+compare value: 471641393811823
+>>>...MODULE:book_insert_into_order()2014-10-24 08:57:34.442400
+request data content: {'book_barcode': '471641393811823', 'order_barcode': '888888'}
+compare value: 471641393811823
+['47164139401923']
+{'updatedExisting': True, 'nModified': 0, 'ok': 1, 'n': 1}
+>>>...MODULE:book_insert_into_order()2014-10-24 13:31:23.961330
+request data content: {'book_barcode': '471641393811823', 'order_barcode': '888888'}
+compare value: 471641393811823
+['47164139401923', '471641393811823']
+{'ok': 1, 'nModified': 1, 'updatedExisting': True, 'n': 1}
+>>>...MODULE:book_insert_into_order()2014-10-24 13:31:51.486192
+request data content: {'book_barcode': '471641393811823', 'order_barcode': '888888'}
+compare value: 471641393811823
+['47164139401923', '471641393811823']
+{'ok': 1, 'nModified': 0, 'updatedExisting': True, 'n': 1}
+>>>...MODULE:book_insert_into_order()2014-10-24 14:44:04.799884
+request data content: {'book_barcode': '471641393811823', 'order_barcode': '888888'}
+compare value: 471641393811823
+['47164139401923', '471641393811823']
+{'ok': 1, 'nModified': 0, 'updatedExisting': True, 'n': 1}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x102421278>
+{0: '{"order_subscriber": "佳佳書局", "order_barcode": "12345678", "order_address": "新中路100號", "_id": {"$oid": "54489f1fcaa1119115da5f6b"}}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+order find result: <pymongo.cursor.Cursor object at 0x1024334e0>
+{0: '{"order_subscriber": "wenjen", "order_barcode": "1234567", "order_address": "none", "_id": {"$oid": "5448a2c0caa1119115da5f6c"}}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x1024336d8>
+{0: '{"order_subscriber": "佳佳書局", "order_barcode": "12345678", "order_address": "新中路100號", "_id": {"$oid": "54489f1fcaa1119115da5f6b"}}'} /r/n>>>...MODULE:book_insert_into_order()2014-10-24 14:45:58.902089
+request data content: {'book_barcode': '47164139401923', 'order_barcode': '12345678'}
+compare value: 47164139401923
+['47164139401923']
+{'ok': 1, 'nModified': 1, 'updatedExisting': True, 'n': 1}
+>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+order find result: <pymongo.cursor.Cursor object at 0x102437080>
+{0: '{"order_subscriber": "wenjen", "order_barcode": "1234567", "order_address": "none", "_id": {"$oid": "5448a2c0caa1119115da5f6c"}}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x102437278>
+{0: '{"order_subscriber": "佳佳書局", "order_barcode": "12345678", "order_address": "新中路100號", "order_content": ["47164139401923"], "_id": {"$oid": "54489f1fcaa1119115da5f6b"}}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+order find result: <pymongo.cursor.Cursor object at 0x102437780>
+{0: '{"order_subscriber": "wenjen", "order_barcode": "1234567", "order_address": "none", "_id": {"$oid": "5448a2c0caa1119115da5f6c"}}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x102437978>
+{0: '{"order_subscriber": "佳佳書局", "order_barcode": "12345678", "order_address": "新中路100號", "order_content": ["47164139401923"], "_id": {"$oid": "54489f1fcaa1119115da5f6b"}}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x102437e10>
+{0: '{"order_subscriber": "佳佳書局", "order_barcode": "12345678", "order_address": "新中路100號", "order_content": ["47164139401923"], "_id": {"$oid": "54489f1fcaa1119115da5f6b"}}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x1024402e8>
+{0: '{"order_subscriber": "佳佳書局", "order_barcode": "12345678", "order_address": "新中路100號", "order_content": ["47164139401923"], "_id": {"$oid": "54489f1fcaa1119115da5f6b"}}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '1234567'}
+order find result: <pymongo.cursor.Cursor object at 0x102421828>
+{0: '{"order_subscriber": "wenjen", "order_barcode": "1234567", "order_address": "none", "_id": {"$oid": "5448a2c0caa1119115da5f6c"}}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x1024219e8>
+{0: '{"order_subscriber": "佳佳書局", "order_barcode": "12345678", "order_address": "新中路100號", "order_content": ["47164139401923"], "_id": {"$oid": "54489f1fcaa1119115da5f6b"}}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x1024215f8>
+{0: '{"order_subscriber": "佳佳書局", "order_barcode": "12345678", "order_address": "新中路100號", "order_content": ["47164139401923"], "_id": {"$oid": "54489f1fcaa1119115da5f6b"}}'} /r/n>>>...MODULE:order_query_by_barcode()
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x1024217b8>
+{0: '{"order_subscriber": "佳佳書局", "order_barcode": "12345678", "order_address": "新中路100號", "order_content": ["47164139401923"], "_id": {"$oid": "54489f1fcaa1119115da5f6b"}}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-24 16:58:41.451417
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x10241f710>
+{0: '{"order_content": ["47164139401923"], "order_barcode": "12345678", "_id": {"$oid": "54489f1fcaa1119115da5f6b"}, "order_address": "新中路100號", "order_subscriber": "佳佳書局"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-24 16:58:41.505308
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x10241f128>
+>>>...MODULE:order_query_by_barcode()2014-10-24 17:00:06.008408
+request data: {'order_barcode': '1234567'}
+order find result: <pymongo.cursor.Cursor object at 0x10245f748>
+{0: '{"order_subscriber": "wenjen", "order_barcode": "1234567", "order_address": "none", "_id": {"$oid": "5448a2c0caa1119115da5f6c"}}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-24 17:00:10.932063
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x10245f400>
+{0: '{"order_subscriber": "佳佳書局", "order_barcode": "12345678", "order_address": "新中路100號", "order_content": ["47164139401923"], "_id": {"$oid": "54489f1fcaa1119115da5f6b"}}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-24 17:00:10.959684
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x10245f908>
+>>>...MODULE:order_query_by_barcode()2014-10-24 17:04:55.625217
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10245fe48>
+{0: '{"order_subscriber": "大雅書局", "order_barcode": "888888", "order_address": "大雅路111", "order_content": ["47164139401923", "471641393811823"], "_id": {"$oid": "5448a509caa11191373c707f"}}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-24 17:04:55.650813
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x1024754a8>
+>>>...MODULE:book_query_by_barcode()2014-10-24 17:04:55.660786
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x1024756a0>
+>>>...MODULE:order_query_by_barcode()2014-10-24 17:08:40.424168
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102426748>
+{0: '{"order_barcode": "888888", "order_subscriber": "大雅書局", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-24 17:08:40.456864
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x102426940>
+>>>...MODULE:book_query_by_barcode()2014-10-24 17:08:40.475295
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x102426b38>
+>>>...MODULE:order_query_by_barcode()2014-10-24 17:10:00.440842
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241f748>
+{0: '{"order_content": ["47164139401923", "471641393811823"], "_id": {"$oid": "5448a509caa11191373c707f"}, "order_address": "大雅路111", "order_subscriber": "大雅書局", "order_barcode": "888888"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-24 17:10:00.469583
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x10241f940>
+>>>...MODULE:book_query_by_barcode()2014-10-24 17:10:00.481115
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x10241fb38>
+>>>...MODULE:order_query_by_barcode()2014-10-24 17:10:50.449634
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x1024350b8>
+{0: '{"order_content": ["47164139401923", "471641393811823"], "_id": {"$oid": "5448a509caa11191373c707f"}, "order_address": "大雅路111", "order_subscriber": "大雅書局", "order_barcode": "888888"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-24 17:10:50.496108
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x1024356d8>
+>>>...MODULE:book_query_by_barcode()2014-10-24 17:10:50.506517
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x1024358d0>
+>>>...MODULE:order_query_by_barcode()2014-10-24 17:16:12.635909
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102435e10>
+{0: '{"order_content": ["47164139401923", "471641393811823"], "_id": {"$oid": "5448a509caa11191373c707f"}, "order_address": "大雅路111", "order_subscriber": "大雅書局", "order_barcode": "888888"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-24 17:16:16.330258
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x10243a470>
+>>>...MODULE:book_query_by_barcode()2014-10-24 17:16:16.350125
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x10243a668>
+>>>...MODULE:order_query_by_barcode()2014-10-24 17:17:32.642546
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243aba8>
+{0: '{"order_content": ["47164139401923", "471641393811823"], "_id": {"$oid": "5448a509caa11191373c707f"}, "order_address": "大雅路111", "order_subscriber": "大雅書局", "order_barcode": "888888"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-24 17:17:39.320253
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x102441208>
+>>>...MODULE:book_query_by_barcode()2014-10-24 17:17:39.339398
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x102441400>
+>>>...MODULE:order_query_by_barcode()2014-10-24 17:19:10.294921
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243a6a0>
+{0: '{"order_content": ["47164139401923", "471641393811823"], "_id": {"$oid": "5448a509caa11191373c707f"}, "order_address": "大雅路111", "order_subscriber": "大雅書局", "order_barcode": "888888"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-24 17:19:15.100002
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x1024354e0>
+>>>...MODULE:book_query_by_barcode()2014-10-24 17:19:15.114873
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x102435f28>
+>>>...MODULE:order_query_by_barcode()2014-10-24 17:21:44.823587
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x1024356d8>
+{0: '{"order_content": ["47164139401923", "471641393811823"], "_id": {"$oid": "5448a509caa11191373c707f"}, "order_address": "大雅路111", "order_subscriber": "大雅書局", "order_barcode": "888888"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-24 17:21:51.983819
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x10241fbe0>
+>>>...MODULE:book_query_by_barcode()2014-10-24 17:21:52.011084
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x10241fba8>
+>>>...MODULE:order_query_by_barcode()2014-10-24 17:22:34.835150
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x10241fcf8>
+{0: '{"order_content": ["47164139401923"], "_id": {"$oid": "54489f1fcaa1119115da5f6b"}, "order_address": "新中路100號", "order_subscriber": "佳佳書局", "order_barcode": "12345678"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-24 17:22:39.023944
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x10241f438>
+>>>...MODULE:order_query_by_barcode()2014-10-24 17:23:54.849562
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x1023f2400>
+{0: '{"order_content": ["47164139401923"], "_id": {"$oid": "54489f1fcaa1119115da5f6b"}, "order_address": "新中路100號", "order_subscriber": "佳佳書局", "order_barcode": "12345678"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-24 17:24:00.232183
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x102402f28>
+>>>...MODULE:order_query_by_barcode()2014-10-24 17:25:04.858684
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102442320>
+{0: '{"order_content": ["47164139401923", "471641393811823"], "_id": {"$oid": "5448a509caa11191373c707f"}, "order_address": "大雅路111", "order_subscriber": "大雅書局", "order_barcode": "888888"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-24 17:26:23.929285
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x102442438>
+>>>...MODULE:book_query_by_barcode()2014-10-24 17:26:23.960713
+request data content: b''
+query_book_json: {'book_barcode': b''}
+book_find_result: <pymongo.cursor.Cursor object at 0x102442898>
+>>>...MODULE:order_query_by_barcode()2014-10-24 17:29:48.152895
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102323748>
+{0: '{"order_barcode": "888888", "order_content": ["47164139401923", "471641393811823"], "order_subscriber": "大雅書局", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-24 17:29:51.675235
+request data content: b'47164139401923'
+query_book_json: {'book_barcode': b'47164139401923'}
+book_find_result: <pymongo.cursor.Cursor object at 0x102323978>
+>>>...MODULE:book_query_by_barcode()2014-10-24 17:29:51.685533
+request data content: b'471641393811823'
+query_book_json: {'book_barcode': b'471641393811823'}
+book_find_result: <pymongo.cursor.Cursor object at 0x102323ba8>
+>>>...MODULE:order_query_by_barcode()2014-10-24 17:31:27.387201
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x102323710>
+{0: '{"order_address": "新中路100號", "order_subscriber": "佳佳書局", "order_content": ["47164139401923"], "order_barcode": "12345678", "_id": {"$oid": "54489f1fcaa1119115da5f6b"}}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-24 17:32:17.633599
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x102371b00>
+{0: '{"order_address": "新中路100號", "order_subscriber": "佳佳書局", "order_content": ["47164139401923"], "order_barcode": "12345678", "_id": {"$oid": "54489f1fcaa1119115da5f6b"}}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-24 17:33:17.646414
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102377748>
+{0: '{"order_address": "大雅路111", "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-24 17:31:31.183264
+request data content: b'47164139401923'
+query_book_json: {'book_barcode': b'47164139401923'}
+>>>...MODULE:book_query_by_barcode()2014-10-24 17:32:17.654379
+request data content: b'47164139401923'
+query_book_json: {'book_barcode': b'47164139401923'}
+>>>...MODULE:order_query_by_barcode()2014-10-24 17:43:25.292629
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x10241f710>
+{0: '{"_id": {"$oid": "54489f1fcaa1119115da5f6b"}, "order_content": ["47164139401923"], "order_address": "新中路100號", "order_barcode": "12345678", "order_subscriber": "佳佳書局"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-24 17:43:27.078476
+request data content: b'47164139401923'
+query_book_json: {'book_barcode': b'47164139401923'}
+book_find_result: <pymongo.cursor.Cursor object at 0x10241f748>
+>>>...MODULE:order_query_by_barcode()2014-10-24 17:44:04.430540
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241fc50>
+{0: '{"_id": {"$oid": "5448a509caa11191373c707f"}, "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111", "order_barcode": "888888", "order_subscriber": "大雅書局"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-24 17:44:07.075366
+request data content: b'47164139401923'
+query_book_json: {'book_barcode': b'47164139401923'}
+book_find_result: <pymongo.cursor.Cursor object at 0x1024352e8>
+>>>...MODULE:book_query_by_barcode()2014-10-24 17:44:07.093560
+request data content: b'471641393811823'
+query_book_json: {'book_barcode': b'471641393811823'}
+book_find_result: <pymongo.cursor.Cursor object at 0x102436518>
+>>>...MODULE:order_query_by_barcode()2014-10-27 11:28:48.109930
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102432a58>
+{0: '{"_id": {"$oid": "5448a509caa11191373c707f"}, "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111", "order_barcode": "888888", "order_subscriber": "大雅書局"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 11:28:50.703216
+request data content: b'47164139401923'
+query_book_json: {'book_barcode': b'47164139401923'}
+book_find_result: <pymongo.cursor.Cursor object at 0x10243a0f0>
+>>>...MODULE:book_query_by_barcode()2014-10-27 11:28:50.725092
+request data content: b'471641393811823'
+query_book_json: {'book_barcode': b'471641393811823'}
+book_find_result: <pymongo.cursor.Cursor object at 0x102437320>
+>>>...MODULE:book_insert_into_order()2014-10-27 11:30:06.500293
+request data content: {'book_barcode': '47164139401923', 'order_barcode': '888888'}
+compare value: 47164139401923
+['47164139401923', '471641393811823']
+{'nModified': 0, 'n': 1, 'ok': 1, 'updatedExisting': True}
+>>>...MODULE:book_insert_into_order()2014-10-27 11:30:26.182068
+request data content: {'book_barcode': '47164139401923', 'order_barcode': '888888'}
+compare value: 47164139401923
+['47164139401923', '471641393811823']
+{'nModified': 0, 'n': 1, 'ok': 1, 'updatedExisting': True}
+>>>...MODULE:order_query_by_barcode()2014-10-27 11:32:12.286863
+request data: {'order_barcode': '1234567'}
+order find result: <pymongo.cursor.Cursor object at 0x102432ba8>
+{0: '{"_id": {"$oid": "5448a2c0caa1119115da5f6c"}, "order_address": "none", "order_barcode": "1234567", "order_subscriber": "wenjen"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-27 11:32:24.212082
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102432ef0>
+{0: '{"_id": {"$oid": "5448a509caa11191373c707f"}, "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111", "order_barcode": "888888", "order_subscriber": "大雅書局"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 11:33:38.763782
+request data content: b'47164139401923'
+query_book_json: {'book_barcode': b'47164139401923'}
+book_find_result: <pymongo.cursor.Cursor object at 0x1024326d8>
+>>>...MODULE:book_query_by_barcode()2014-10-27 11:33:38.778829
+request data content: b'471641393811823'
+query_book_json: {'book_barcode': b'471641393811823'}
+book_find_result: <pymongo.cursor.Cursor object at 0x102432198>
+>>>...MODULE:order_query_by_barcode()2014-10-27 11:39:51.688636
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241fd30>
+{0: '{"_id": {"$oid": "5448a509caa11191373c707f"}, "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111", "order_barcode": "888888", "order_subscriber": "大雅書局"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 11:39:54.050805
+request data content: b'47164139401923'
+query_book_json: {'book_barcode': b'47164139401923'}
+book_find_result: <pymongo.cursor.Cursor object at 0x10241fbe0>
+>>>...MODULE:book_query_by_barcode()2014-10-27 11:39:54.065165
+request data content: b'471641393811823'
+query_book_json: {'book_barcode': b'471641393811823'}
+book_find_result: <pymongo.cursor.Cursor object at 0x10241f208>
+>>>...MODULE:order_query_by_barcode()2014-10-27 11:40:51.693189
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102402e48>
+{0: '{"_id": {"$oid": "5448a509caa11191373c707f"}, "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111", "order_barcode": "888888", "order_subscriber": "大雅書局"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 11:40:57.439620
+request data content: b'47164139401923'
+query_book_json: {'book_barcode': b'47164139401923'}
+book_find_result: <pymongo.cursor.Cursor object at 0x10243e390>
+>>>...MODULE:book_query_by_barcode()2014-10-27 11:40:57.457197
+request data content: b'471641393811823'
+query_book_json: {'book_barcode': b'471641393811823'}
+book_find_result: <pymongo.cursor.Cursor object at 0x10243e5c0>
+>>>...MODULE:order_query_by_barcode()2014-10-27 11:43:10.800253
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243eb00>
+{0: '{"_id": {"$oid": "5448a509caa11191373c707f"}, "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111", "order_barcode": "888888", "order_subscriber": "大雅書局"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 11:43:13.852945
+request data content: b'47164139401923'
+query_book_json: {'book_barcode': b'47164139401923'}
+book_find_result: <pymongo.cursor.Cursor object at 0x102448198>
+>>>...MODULE:book_query_by_barcode()2014-10-27 11:43:13.870999
+request data content: b'471641393811823'
+query_book_json: {'book_barcode': b'471641393811823'}
+book_find_result: <pymongo.cursor.Cursor object at 0x1024463c8>
+>>>...MODULE:order_query_by_barcode()2014-10-27 13:13:50.452998
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102448908>
+{0: '{"_id": {"$oid": "5448a509caa11191373c707f"}, "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111", "order_barcode": "888888", "order_subscriber": "大雅書局"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 13:13:52.955718
+request data content: b'47164139401923'
+query_book_json: {'book_barcode': b'47164139401923'}
+book_find_result: <pymongo.cursor.Cursor object at 0x10243ecc0>
+>>>...MODULE:book_query_by_barcode()2014-10-27 13:13:52.996971
+request data content: b'471641393811823'
+query_book_json: {'book_barcode': b'471641393811823'}
+book_find_result: <pymongo.cursor.Cursor object at 0x10243e860>
+>>>...MODULE:order_query_by_barcode()2014-10-27 13:19:01.893877
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102402dd8>
+{0: '{"_id": {"$oid": "5448a509caa11191373c707f"}, "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111", "order_barcode": "888888", "order_subscriber": "大雅書局"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 13:19:04.603344
+request data content: b'47164139401923'
+query_book_json: {'book_barcode': b'47164139401923'}
+book_find_result: <pymongo.cursor.Cursor object at 0x10241f2b0>
+>>>...MODULE:book_query_by_barcode()2014-10-27 13:19:04.626441
+request data content: b'471641393811823'
+query_book_json: {'book_barcode': b'471641393811823'}
+book_find_result: <pymongo.cursor.Cursor object at 0x10241f9e8>
+>>>...MODULE:order_query_by_barcode()2014-10-27 13:20:59.791149
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102325710>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111", "order_subscriber": "大雅書局"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 13:21:02.325080
+request data content: b'47164139401923'
+query_book_json: {'book_barcode': b'47164139401923'}
+book_find_result: <pymongo.cursor.Cursor object at 0x102325940>
+>>>...MODULE:book_query_by_barcode()2014-10-27 13:21:02.358616
+request data content: b'471641393811823'
+query_book_json: {'book_barcode': b'471641393811823'}
+book_find_result: <pymongo.cursor.Cursor object at 0x102325b70>
+>>>...MODULE:order_query_by_barcode()2014-10-27 13:23:10.217757
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241f748>
+{0: '{"order_subscriber": "大雅書局", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_address": "大雅路111", "order_content": ["47164139401923", "471641393811823"], "order_barcode": "888888"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 13:23:18.466313
+request data content: b'47164139401923'
+query_book_json: {'book_barcode': b'47164139401923'}
+book_find_result: <pymongo.cursor.Cursor object at 0x10241f978>
+>>>...MODULE:book_query_by_barcode()2014-10-27 13:23:18.482912
+request data content: b'471641393811823'
+query_book_json: {'book_barcode': b'471641393811823'}
+book_find_result: <pymongo.cursor.Cursor object at 0x10241fba8>
+>>>...MODULE:order_query_by_barcode()2014-10-27 13:30:37.853029
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10231f748>
+{0: '{"order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111", "order_subscriber": "大雅書局", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_barcode": "888888"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 13:30:39.890214
+request data content: b'47164139401923'
+query_book_json: {'book_barcode': b'47164139401923'}
+book_find_result count: 0
+>>>...MODULE:book_query_by_barcode()2014-10-27 13:30:39.922683
+request data content: b'471641393811823'
+query_book_json: {'book_barcode': b'471641393811823'}
+book_find_result count: 0
+>>>...MODULE:order_query_by_barcode()2014-10-27 13:35:45.525642
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241f780>
+{0: '{"order_subscriber": "大雅書局", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_address": "大雅路111", "order_barcode": "888888", "order_content": ["47164139401923", "471641393811823"]}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 13:35:47.578750
+request data fail: 'str' object has no attribute 'decode'
+>>>...MODULE:book_query_by_barcode()2014-10-27 13:35:47.590882
+request data fail: 'str' object has no attribute 'decode'
+>>>...MODULE:order_query_by_barcode()2014-10-27 13:38:42.279586
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241f780>
+{0: '{"order_barcode": "888888", "order_content": ["47164139401923", "471641393811823"], "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 13:38:44.146031
+request data content: 47164139401923
+query_book_json: {'book_barcode': b'47164139401923'}
+book_find_result count: 0
+>>>...MODULE:book_query_by_barcode()2014-10-27 13:38:44.163155
+request data content: 471641393811823
+query_book_json: {'book_barcode': b'471641393811823'}
+book_find_result count: 0
+>>>...MODULE:order_query_by_barcode()2014-10-27 13:40:14.617765
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e7b8>
+{0: '{"_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_barcode": "888888", "order_address": "大雅路111", "order_content": ["47164139401923", "471641393811823"]}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 13:40:17.645517
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': b'47164139401923'}
+book_find_result count: 0
+>>>...MODULE:book_query_by_barcode()2014-10-27 13:40:17.667166
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': b'471641393811823'}
+book_find_result count: 0
+>>>...MODULE:order_query_by_barcode()2014-10-27 13:43:15.943389
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10231e7b8>
+{0: '{"order_barcode": "888888", "order_subscriber": "大雅書局", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 13:43:18.836195
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+>>>...MODULE:book_query_by_barcode()2014-10-27 13:43:18.940915
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+>>>...MODULE:order_query_by_barcode()2014-10-27 13:47:52.266363
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e7b8>
+{0: '{"_id": {"$oid": "5448a509caa11191373c707f"}, "order_barcode": "888888", "order_address": "大雅路111", "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"]}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 13:47:55.269476
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+>>>...MODULE:book_query_by_barcode()2014-10-27 13:47:55.308841
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+>>>...MODULE:order_query_by_barcode()2014-10-27 13:49:52.775344
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e7b8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 13:49:54.910829
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-27 13:49:54.939831
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-27 13:54:50.684263
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102435198>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 13:54:53.752019
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-27 13:54:53.772910
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-27 13:56:00.689450
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439f60>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 13:56:05.656780
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-27 13:56:05.674647
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-27 13:57:51.285041
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243bd68>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 13:57:54.179623
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-27 13:57:54.247015
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-27 15:37:53.478882
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439da0>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 15:37:55.910585
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-27 15:37:55.933716
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-27 16:02:44.924705
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x1024392b0>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 16:02:47.864518
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-27 16:02:47.886534
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-27 16:07:06.889364
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e9e8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 16:07:09.107400
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-27 16:07:09.130012
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-27 16:55:47.329594
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243e278>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 16:55:49.616292
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-27 16:55:49.636022
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-27 17:02:34.523784
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102441048>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 17:02:38.036077
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-27 17:02:38.067918
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-27 17:06:21.890248
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102449e10>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 17:06:24.421722
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-27 17:06:24.455698
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-27 17:08:24.123238
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243ecf8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-27 17:08:26.519144
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-27 17:08:26.544695
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-28 08:34:10.319777
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x1023febe0>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-28 08:34:12.589003
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-28 08:34:12.611574
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}

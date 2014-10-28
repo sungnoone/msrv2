@@ -1,0 +1,137 @@
+>>>...>>>...MODULE:json_compare_key_value() 2014-10-15 16:21:06.452730
+i : {'book_barcode': '47164139401923', 'book_price': '170', 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d')}
+i : {'book_barcode': '47164139401923', 'book_price': '170', 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d')}
+i : {'book_barcode': '47164139401923', 'book_price': '170', 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d')}
+i : {'book_barcode': '47164139401923', 'book_price': '170', 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d')}
+i : {'book_barcode': '47164139401923', 'book_price': '170', 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d')}
+>>>...>>>...MODULE:json_compare_key_value() 2014-10-15 16:32:51.349502
+source key: book_barcode source value:471641381102215
+compare target item: {'book_name': '國小實力評量・國語１上（含首冊）', 'book_price': '170', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_description': '', 'book_barcode': '47164139401923'}
+compare target item key: book_name compare target item value: 國小實力評量・國語１上（含首冊）
+compare target item key: book_price compare target item value: 170
+>>>...>>>...MODULE:json_compare_key_value() 2014-10-15 16:35:27.849840
+source key: book_barcode source value:471641381102215
+compare target item: {'book_price': '170', 'book_barcode': '47164139401923', 'book_description': '', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_name': '國小實力評量・國語１上（含首冊）'}
+compare target item key: book_price compare target item value: 170
+compare target item key: book_barcode compare target item value: 47164139401923
+compare target item key: book_description compare target item value: 
+>>>...>>>...MODULE:json_compare_key_value() 2014-10-15 16:41:16.176618
+source key: book_barcode source value:471641381102215
+compare target item: {'_id': ObjectId('543debf8caa1115002f43b0d'), 'book_price': '170', 'book_barcode': '47164139401923', 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）'}
+>>>...>>>...MODULE:json_compare_key_value() 2014-10-15 16:44:09.128206
+source key:book_barcode source value:471641381102215
+compare target item:{'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_description': '', 'book_barcode': '47164139401923', 'book_price': '170'}
+compare target item key:book_name compare target item value:國小實力評量・國語１上（含首冊）
+compare target item key:_id compare target item value:543debf8caa1115002f43b0d
+compare target item key:book_description compare target item value:
+compare target item key:book_barcode compare target item value:47164139401923
+source json match in json list.
+source json:{'book_barcode': '471641381102215'}
+json list:[{'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_description': '', 'book_barcode': '47164139401923', 'book_price': '170'}]
+>>>...>>>...MODULE:json_compare_key_value() 2014-10-15 16:45:32.789458
+source key:book_barcode source value:471641381102215
+compare target item:{'_id': ObjectId('543debf8caa1115002f43b0d'), 'book_description': '', 'book_barcode': '47164139401923', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_price': '170'}
+compare target item key:_id compare target item value:543debf8caa1115002f43b0d
+compare target item key:book_description compare target item value:
+compare target item key:book_barcode compare target item value:47164139401923
+compare target item key:book_name compare target item value:國小實力評量・國語１上（含首冊）
+compare target item key:book_price compare target item value:170
+>>>...>>>...MODULE:json_compare_key_value() 2014-10-15 16:46:46.722497
+source key:book_barcode source value:471641381102215
+compare target item:{'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_price': '170', 'book_barcode': '47164139401923', 'book_description': ''}
+compare target item key:book_name compare target item value:國小實力評量・國語１上（含首冊）
+compare target item key:_id compare target item value:543debf8caa1115002f43b0d
+compare target item key:book_price compare target item value:170
+compare target item key:book_barcode compare target item value:47164139401923
+compare target item key:book_description compare target item value:
+no match key/value pairs.
+>>>...>>>...MODULE:json_compare_key_value() 2014-10-15 16:47:55.792553
+source key:book_barcode source value:47164139401923
+compare target item:{'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_barcode': '47164139401923', 'book_price': '170'}
+compare target item key:book_description compare target item value:
+compare target item key:book_name compare target item value:國小實力評量・國語１上（含首冊）
+compare target item key:_id compare target item value:543debf8caa1115002f43b0d
+compare target item key:book_barcode compare target item value:47164139401923
+source json match in json list.
+source json:{'book_barcode': '47164139401923'}
+json list:[{'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_barcode': '47164139401923', 'book_price': '170'}]
+>>>...>>>...MODULE:json_compare_key_value() 2014-10-15 16:57:49.336794
+source key:book_barcode source value:47164139401923
+compare target item:{'_id': ObjectId('543debf8caa1115002f43b0d'), 'book_barcode': '47164139401923', 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_price': '170'}
+compare target item key:_id compare target item value:543debf8caa1115002f43b0d
+compare target item key:book_barcode compare target item value:47164139401923
+source json match in json list.
+source json:{'book_barcode': '47164139401923'}
+json list:[{'_id': ObjectId('543debf8caa1115002f43b0d'), 'book_barcode': '47164139401923', 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_price': '170'}]
+>>>...>>>...MODULE:json_compare_key_value() 2014-10-15 16:59:26.329232
+source key:book_barcode source value:471641393811823
+compare target item:{'_id': ObjectId('543debf8caa1115002f43b0d'), 'book_price': '170', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_description': '', 'book_barcode': '47164139401923'}
+compare target item key:_id compare target item value:543debf8caa1115002f43b0d
+compare target item key:book_price compare target item value:170
+compare target item key:book_name compare target item value:國小實力評量・國語１上（含首冊）
+compare target item key:book_description compare target item value:
+compare target item key:book_barcode compare target item value:47164139401923
+no match key/value pairs.
+>>>...>>>...MODULE:json_compare_key_value() 2014-10-15 17:01:08.715349
+source key:book_barcode source value:471641393811823
+compare target item:{'book_barcode': '47164139401923', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_description': '', 'book_price': '170', '_id': ObjectId('543debf8caa1115002f43b0d')}
+compare target item key:book_barcode compare target item value:47164139401923
+compare target item key:book_name compare target item value:國小實力評量・國語１上（含首冊）
+compare target item key:book_description compare target item value:
+compare target item key:book_price compare target item value:170
+compare target item key:_id compare target item value:543debf8caa1115002f43b0d
+no match key/value pairs.
+>>>...>>>...MODULE:json_compare_key_value() 2014-10-23 14:19:46.008678
+source key:book_barcode source value:47164139401923
+no match key/value pairs.
+>>>...>>>...MODULE:json_compare_key_value() 2014-10-23 14:20:33.212915
+source key:book_barcode source value:47164139401923
+compare target item:{'book_price': '170', 'book_description': '', 'book_barcode': '47164139401923', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d')}
+compare target item key:book_price compare target item value:170
+compare target item key:book_description compare target item value:
+compare target item key:book_barcode compare target item value:47164139401923
+source json match in json list.
+source json:{'book_barcode': '47164139401923'}
+json list:[{'book_price': '170', 'book_description': '', 'book_barcode': '47164139401923', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d')}]
+>>>...>>>...MODULE:json_compare_key_value() 2014-10-23 14:22:08.064918
+source key:book_barcode source value:47164139401923
+compare target item:{'book_price': '170', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_barcode': '47164139401923'}
+compare target item key:book_price compare target item value:170
+compare target item key:_id compare target item value:543debf8caa1115002f43b0d
+compare target item key:book_description compare target item value:
+compare target item key:book_name compare target item value:國小實力評量・國語１上（含首冊）
+compare target item key:book_barcode compare target item value:47164139401923
+source json match in json list.
+source json:{'book_barcode': '47164139401923'}
+json list:[{'book_price': '170', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_barcode': '47164139401923'}]
+>>>...>>>...MODULE:json_compare_key_value() 2014-10-23 16:14:30.491279
+source key:book_barcode source value:47164139401923
+no match key/value pairs.
+>>>...>>>...MODULE:json_compare_key_value() 2014-10-23 16:16:45.860470
+source key:book_barcode source value:471641393811823
+compare target item:47164139401923
+>>>...>>>...MODULE:json_compare_key_value() 2014-10-23 16:20:43.778555
+source key:book_barcode source value:471641393811823
+compare target item:47164139401923
+>>>...>>>...MODULE:json_compare_key_value() 2014-10-24 08:49:45.604784
+>>>...>>>...MODULE:json_compare_key_value() 2014-10-24 08:55:11.996803
+>>>...>>>...MODULE:array_compare_value() 2014-10-24 08:57:34.453537
+<class 'list'>
+>>>...>>>...MODULE:array_compare_value() 2014-10-24 13:31:24.563147
+compare array:['47164139401923']
+compare value:471641393811823
+>>>...>>>...MODULE:array_compare_value() 2014-10-24 13:31:51.498090
+compare array:['47164139401923', '471641393811823']
+compare value:471641393811823
+>>>...>>>...MODULE:array_compare_value() 2014-10-24 14:44:04.819820
+compare array:['47164139401923', '471641393811823']
+compare value:471641393811823
+>>>...>>>...MODULE:array_compare_value() 2014-10-24 14:45:58.918380
+compare array:[]
+compare value:47164139401923
+>>>...>>>...MODULE:array_compare_value() 2014-10-27 11:30:06.513057
+compare array:['47164139401923', '471641393811823']
+compare value:47164139401923
+>>>...>>>...MODULE:array_compare_value() 2014-10-27 11:30:26.194428
+compare array:['47164139401923', '471641393811823']
+compare value:47164139401923

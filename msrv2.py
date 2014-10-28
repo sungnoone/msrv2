@@ -1,7 +1,7 @@
 #-*- coding:utf-8 -*-
 
 import sys, os
-from flask import Flask
+from flask import Flask, jsonify, Response
 from flask_cors import *
 from pymongo import *
 import json
@@ -24,6 +24,7 @@ app.config["CORS_HEADERS"] = "Content-Type"
 
 APP_PATH = os.path.dirname(os.path.realpath(__file__))
 LOG_FILE_FULL_PATH = APP_PATH+"/msrv2.log"
+LOG_SUB_FUNCTION_PATH = APP_PATH+"/function.log"
 LOG_SEND_MAIL = APP_PATH+"/sendmail.log"
 LOG_CHECK_USER = APP_PATH+"/checkuser.log"
 LOG_DB_OPERATE = APP_PATH+"/db.log"
@@ -72,13 +73,10 @@ def test_fileupload():
 @cross_origin()
 def order_query_all():
     log = open(LOG_FILE_FULL_PATH, 'a+')
-    log.write('>>>...MODULE:order_query_all()'+'\r\n')
+    log.write(">>>...MODULE:order_query_all()"+str(datetime.datetime.now())+"\r\n")
     try:
-        # client = MongoClient(conf.DB_IP, conf.DB_PORT)
-        # db = client[conf.TEST_DB_NAME]
-        # collection = db[conf.COLLECTION_ORDER_OUTPUT]
         #Query all data
-        find_result = record_query(conf.DB_ORDERS, conf.COLLECTION_ORDER_OUTPUT, {})
+        find_result = record_query(conf.DB_ORDERS, conf.COLLECTION_ORDER_SHIPPING, {})
         s = ""
         for post in find_result:
             s += str(post) + "</br>"
@@ -90,12 +88,50 @@ def order_query_all():
         return str("01x001")
 
 
-# Order -- Insert
+# Order -- query by barcode
+@app.route("/msrv2/order/order_query_by_barcode/", methods=["POST"])
+@cross_origin()
+def order_query_by_barcode():
+    log = open(LOG_FILE_FULL_PATH, 'a+')
+    log.write(">>>...MODULE:order_query_by_barcode()"+str(datetime.datetime.now())+"\r\n")
+
+    try:
+        request_data = request.json
+        log.write("request data: "+str(request_data)+"\r\n")
+    except Exception as e:
+        log.write("request data fail: "+str(e)+"\r\n")
+        log.close()
+        return "02x004"
+
+    order_find_result = record_query(conf.DB_ORDERS, conf.COLLECTION_ORDER_SHIPPING, request_data)
+
+    if order_find_result == False:
+        log.write("query fail.\r\n")
+        log.close()
+        return "02x005"
+
+    if order_find_result.count() == 0:
+        log.write("沒有訂單記錄.\r\n")
+        log.close()
+        return "02x006"
+
+    log.write("order find result: "+str(order_find_result)+"\r\n")
+
+    order_json = {}
+    for idx, idoc in enumerate(order_find_result):
+        idoc_json = bson.json_util.dumps(idoc, ensure_ascii=False)
+        order_json.update({idx:idoc_json})
+        log.write("%s /r/n" % order_json)
+    log.close()
+    return bson.json_util.dumps(order_json, ensure_ascii=False)
+
+
+# Order -- Insert(new)
 @app.route("/msrv2/order/order_insert/", methods=["POST"])
 @cross_origin()
-def order_insert_multi():
+def order_insert():
     log = open(LOG_FILE_FULL_PATH, 'a+')
-    log.write(">>>...MODULE:order_insert_multi()\r\n")
+    log.write(">>>...MODULE:order_insert()"+str(datetime.datetime.now())+"\r\n")
 
     try:
         request_data = request.json
@@ -105,15 +141,124 @@ def order_insert_multi():
         log.close()
         return "02x004"
 
+    #get barcode
+    order_shipping_barcode = ""
+    order_shipping_subscriber = ""
+    order_shipping_address = ""
+    for key, value in request_data.items():
+        if key == conf.ORDER_SHIPPING_BARCODE:
+            order_shipping_barcode = value
+        elif key == conf.ORDER_SHIPPING_SUBSCRIBER:
+            order_shipping_subscriber = value
+        elif key == conf.ORDER_SHIPPING_ADDRESS:
+            order_shipping_address = value
+
+    #if exist then update it, if not exist then add
+    order_find_result = record_query(conf.DB_ORDERS, conf.COLLECTION_ORDER_SHIPPING, {conf.ORDER_SHIPPING_BARCODE:order_shipping_barcode})
+    if order_find_result.count() == 0:
+        insert_result = record_save(conf.DB_ORDERS, conf.COLLECTION_ORDER_SHIPPING, request_data)
+        if insert_result == False:
+            log.write("insert fail: " + str(insert_result) + "\r\n")
+            log.close()
+            return "02x005"
+        else:
+            log.write("insert OK: " + str(insert_result) + "\r\n")
+            log.close()
+            return "02x000"
+    else:
+        update_json = {conf.ORDER_SHIPPING_SUBSCRIBER:order_shipping_subscriber , conf.ORDER_SHIPPING_ADDRESS:order_shipping_address}
+        update_result = record_update(conf.DB_ORDERS, conf.COLLECTION_ORDER_SHIPPING, {conf.ORDER_SHIPPING_BARCODE:order_shipping_barcode}, update_json)
+        if update_result == False:
+            log.write("update fail: " + str(update_result) + "\r\n")
+            log.close()
+            return "02x005"
+        else:
+            log.write("update OK: " + str(update_result) + "\r\n")
+            log.close()
+            return "02x000"
+
+
+# Orders -- Insert book into order
+@app.route('/msrv2/book/book_insert_into_order/', methods=["POST"])
+@cross_origin()
+def book_insert_into_order():
+    log = open(LOG_FILE_FULL_PATH, 'a+')
+    log.write('>>>...MODULE:book_insert_into_order()'+str(datetime.datetime.now())+'\r\n')
+
+    book_barcode = ""
+    order_barcode = ""
     try:
-        insert_result = record_save(conf.DB_ORDERS, conf.COLLECTION_ORDER_OUTPUT, request_data)
-        log.write("insert OK: " + str(insert_result) + "\r\n")
-        log.close()
-        return "02x000"
+        #sending data from client , mut be json format
+        #book barcode and order barcode
+        request_data = request.json
+        log.write("request data content: "+str(request_data)+"\r\n")
+        for key, value in request_data.items():
+            if key == conf.BOOK_IN_STOCK_FIELD_BARCODE:
+                book_barcode = value
+            elif key == conf.ORDER_SHIPPING_BARCODE:
+                order_barcode = value
     except Exception as e:
-        log.write("insert fail: " + str(e) + "\r\n")
+        log.write("request data fail: "+str(e)+"\r\n")
+        log.close()
+        return "02x004"
+
+    #must have book barcode and order barcode
+    if (book_barcode == "") or (order_barcode == ""):
+        log.write("To be lack of book barcode or  order barcode"+"\r\n")
+        return "02x004"
+
+    #find book
+    books_find_result = record_query(conf.DB_BOOKS, conf.COLLECTION_BOOK_STOCK, {conf.BOOK_IN_STOCK_FIELD_BARCODE:book_barcode})
+    #find order
+    orders_find_result = record_query(conf.DB_ORDERS, conf.COLLECTION_ORDER_SHIPPING, {conf.ORDER_SHIPPING_BARCODE:order_barcode})
+
+    if books_find_result == False:
+        log.write("query book fail.\r\n")
+        log.close
+        return "01x001"
+    elif orders_find_result == False:
+        log.write("query order fail.\r\n")
+        log.close
+        return "02x004"
+
+    if books_find_result.count() == 0:
+        log.write("沒有書本記錄.\r\n")
+        log.close
+        return "01x006"
+    elif orders_find_result.count() == 0:
+        log.write("沒有訂單記錄.\r\n")
+        log.close
+        return "02x006"
+
+    #log.write(str(orders_find_result[0][conf.ORDER_SHIPPING_BARCODE])+"\r\n")
+    s = []
+    for post in orders_find_result:
+        for key, value in post.items():
+            if key == conf.ORDER_SHIPPING_CONTENT:
+                #get original books
+                s.extend(value)
+
+    for post in books_find_result:
+        for key, value in post.items():
+            if key == conf.BOOK_IN_STOCK_FIELD_BARCODE:
+                compare_value = value
+                log.write("compare value: "+str(compare_value)+"\r\n")
+                #compare if any same barcode book exist in original order content
+                compare_result = array_compare_value(compare_value, s)
+                if compare_result == False:
+                    s.append(value)
+
+    log.write(str(s)+"\r\n")
+    #update order
+    order_update_result = record_update(conf.DB_ORDERS, conf.COLLECTION_ORDER_SHIPPING, {conf.ORDER_SHIPPING_BARCODE:order_barcode}, {conf.ORDER_SHIPPING_CONTENT:s})
+    if order_update_result == False:
+        log.write("update order fail.\r\n")
         log.close()
         return "02x005"
+    else:
+        log.write(str(order_update_result)+"\r\n")
+        log.close()
+        return "02x000"
 
 
 # Book -- Insert
@@ -121,7 +266,7 @@ def order_insert_multi():
 @cross_origin()
 def book_insert_multi():
     log = open(LOG_FILE_FULL_PATH, 'a+')
-    log.write(">>>...MODULE:book_insert_multi()\r\n")
+    log.write(">>>...MODULE:book_insert_multi()"+str(datetime.datetime.now())+"\r\n")
 
     try:
         request_data = request.json
@@ -148,63 +293,33 @@ def book_insert_multi():
 @cross_origin()
 def book_query_by_barcode():
     log = open(LOG_FILE_FULL_PATH, 'a+')
-    log.write('>>>...MODULE:book_query_by_barcode()'+'\r\n')
+    log.write(">>>...MODULE:book_query_by_barcode()"+str(datetime.datetime.now())+"\r\n")
 
     try:
         #sending data from client , mut be json format
-        request_data = request.json
+        request_data = request.data
+        log.write("request data type: "+str(type(request_data))+"\r\n")
+        if type(request_data) is bytes:
+            request_data = request_data.decode("utf-8")
         log.write("request data content: "+str(request_data)+"\r\n")
     except Exception as e:
         log.write("request data fail: "+str(e)+"\r\n")
         log.close()
         return "01x004"
 
-    try:
-        find_result = record_query(conf.DB_BOOKS, conf.COLLECTION_BOOK_STOCK, request_data)
-        log.write(str(find_result)+"\r\n")
-        s = ""
-        for post in find_result:
-            s += str(post) + "</br>"
-        log.write(s+"\r\n")
-        log.close()
-        return str(s)
-    except Exception as e:
-        log.write("Query db error! " + str(e) + "\r\n")
-        log.close()
-        return str("01x001")
+    query_book_json = {conf.BOOK_IN_STOCK_FIELD_BARCODE:request_data}
+    log.write("query_book_json: "+str(query_book_json)+"\r\n")
+    book_find_result = record_query(conf.DB_BOOKS, conf.COLLECTION_BOOK_STOCK, query_book_json)
+    log.write("book_find_result count: "+str(book_find_result.count())+"\r\n")
 
+    book_json = {}
+    for idx, idoc in enumerate(book_find_result):
+        idoc_json = bson.json_util.dumps(idoc, ensure_ascii=False)
+        book_json.update({idx:idoc_json})
+        log.write("book_json: "+str(book_json)+"\r\n")
+    log.close()
+    return bson.json_util.dumps(book_json, ensure_ascii=False)
 
-# Books -- Insert book into order
-@app.route('/msrv2/book/book_insert_into_order/', methods=["POST"])
-@cross_origin()
-def book_insert_into_order():
-    log = open(LOG_FILE_FULL_PATH, 'a+')
-    log.write('>>>...MODULE:book_insert_into_order()'+'\r\n')
-
-    try:
-        #sending data from client , mut be json format
-        #book barcode and order barcode
-        request_data = request.json
-
-        log.write("request data content: "+str(request_data)+"\r\n")
-    except Exception as e:
-        log.write("request data fail: "+str(e)+"\r\n")
-        log.close()
-        return "01x004"
-
-    try:
-        find_result = record_query(conf.DB_BOOKS, conf.COLLECTION_BOOK_STOCK, request_data)
-        log.write(str(find_result)+"\r\n")
-        s = ""
-        for post in find_result:
-            s += str(post) + "</br>"
-        log.write(s+"\r\n")
-        log.close()
-        return str(s)
-    except Exception as e:
-        log.write("Query db error! " + str(e) + "\r\n")
-        log.close()
-        return str("01x001")
 
 #=================================== App security service =====================================
 
@@ -214,7 +329,7 @@ def book_insert_into_order():
 @cross_origin()
 def app_validation_request():
     log = open(LOG_FILE_FULL_PATH, 'a+')
-    log.write(">>>...MODULE:app_validation_request()\r\n")
+    log.write(">>>...MODULE:app_validation_request()"+str(datetime.datetime.now())+"\r\n")
 
     request_data = request.json
     log.write("request data content: "+str(request_data)+"\r\n")
@@ -311,7 +426,7 @@ def app_validation_request():
 @cross_origin()
 def app_reset_pass_word():
     log = open(LOG_FILE_FULL_PATH, 'a+')
-    log.write(">>>...MODULE:app_reset_pass_word()\r\n")
+    log.write(">>>...MODULE:app_reset_pass_word()"+str(datetime.datetime.now())+"\r\n")
 
     request_data = request.json
     log.write("request data content: "+str(request_data)+"\r\n")
@@ -602,6 +717,43 @@ def record_update(use_db, use_collection, query_json, update_json):
 def record_delete():
     return True
 
+
+#ccompare json object, compare target must be json array(list) type
+def json_compare_key_value(source_json, json_list):
+    log = open(LOG_SUB_FUNCTION_PATH, 'a+')
+    log.write(">>>...>>>...MODULE:json_compare_key_value() "+str(datetime.datetime.now())+"\r\n")
+    #get key and value from source json
+    for source_key, source_value in source_json.items():
+        log.write("source key:"+str(source_key)+" source value:"+str(source_value)+"\r\n")
+        for single_item in json_list:
+            log.write("compare target item:"+str(single_item)+"\r\n")
+            for key, value in single_item.items():
+                log.write("compare target item key:"+str(key)+" compare target item value:"+str(value)+"\r\n")
+                if key == source_key and value == source_value:
+                    log.write("source json match in json list."+"\r\n")
+                    log.write("source json:"+str(source_json)+"\r\n")
+                    log.write("json list:"+str(json_list)+"\r\n")
+                    log.close()
+                    return True
+    log.write("no match key/value pairs.\r\n")
+    log.close()
+    return False
+
+
+#compare array
+def array_compare_value(source_value, array):
+    log = open(LOG_SUB_FUNCTION_PATH, 'a+')
+    log.write(">>>...>>>...MODULE:array_compare_value() "+str(datetime.datetime.now())+"\r\n")
+
+    log.write("compare array:"+str(array)+"\r\n")
+    log.write("compare value:"+str(source_value)+"\r\n")
+
+    for item in array:
+        if item == source_value:
+            return True
+
+    log.close()
+    return False
 
 #=================================================================
 

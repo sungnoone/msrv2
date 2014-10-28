@@ -73,3 +73,2427 @@ DB: books
 Collection: book_in_stock
 Query Content: {'book_barcode': '471641381102215'}
 query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-14 14:09:31.361148
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '54321'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-14 14:10:52.526172
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-14 14:11:37.650529
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-14 14:11:39.522578
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-14 14:40:07.876469
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-14 14:40:56.825182
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-14 14:43:53.263945
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-14 14:43:55.364292
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-14 14:43:56.276207
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-10-14 15:50:29.124245
+DB: orders
+Collection: order_shipping
+Write Content: {'order_barcode': '1234567', 'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2014-10-15 08:31:50.024617
+DB: orders
+Collection: order_shipping
+Write Content: {'order_barcode': '1234567', 'order_subscriber': '佳佳書局', 'order_address': '新中路100號-1'}
+save data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 09:13:22.917510
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-10-15 09:13:22.926150
+DB: orders
+Collection: order_shipping
+Write Content: {'order_address': '新中路100號-2', 'order_subscriber': '佳佳書局', 'order_barcode': '1234567'}
+save data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 09:13:30.964220
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-10-15 09:13:30.969580
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+Update Content: {'order_address': '新中路100號', 'order_subscriber': '佳佳書局'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 09:13:46.005171
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-10-15 09:13:46.011190
+DB: orders
+Collection: order_shipping
+Write Content: {'order_address': '新中路100號', 'order_subscriber': '佳佳書局', 'order_barcode': '12345678'}
+save data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 09:14:47.936385
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '8825252'}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-10-15 09:14:47.942944
+DB: orders
+Collection: order_shipping
+Write Content: {'order_address': '建公路100號', 'order_subscriber': '大雅書局', 'order_barcode': '8825252'}
+save data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 09:15:07.594317
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '8825252'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-10-15 09:15:07.600720
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '8825252'}
+Update Content: {'order_address': '建功路100號', 'order_subscriber': '大雅書局'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 11:01:54.255549
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 11:01:54.277588
+DB: books
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 11:20:19.965801
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 11:20:19.982374
+DB: books
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 11:21:06.646216
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 11:21:06.651528
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 11:22:00.883124
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 11:22:00.887256
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 11:23:33.969839
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 11:23:33.996677
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 11:26:25.990826
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 11:26:25.995057
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 11:28:35.359300
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 11:28:35.373355
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-10-15 11:34:01.891391
+DB: books
+Collection: book_in_stock
+Write Content: {'book_barcode': '471641393811823', 'book_price': '320', 'book_description': '', 'book_name': '國小自修・社會６上'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2014-10-15 11:34:32.996478
+DB: books
+Collection: book_in_stock
+Write Content: {'book_barcode': '471641393811823', 'book_price': '320', 'book_description': '', 'book_name': '國小自修・社會６上-1'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2014-10-15 11:35:49.267277
+DB: books
+Collection: book_in_stock
+Write Content: {'book_barcode': '471641393811823', 'book_price': '320', 'book_description': '', 'book_name': '國小自修・社會６上'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2014-10-15 11:37:28.224862
+DB: books
+Collection: book_in_stock
+Write Content: {'book_barcode': '47164139401923', 'book_price': '170', 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）'}
+save data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 11:53:41.128650
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 11:53:41.133475
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 12:00:26.721236
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 12:00:26.759297
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 12:01:42.310354
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 12:01:42.313398
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 12:01:44.268040
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 12:01:44.270980
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:02:01.117821
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:02:01.121778
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:02:02.953481
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:02:02.957171
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:03:41.544340
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:03:41.547487
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:03:43.007383
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:03:43.010924
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:05:58.790586
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:05:58.795332
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:06:01.053962
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:06:01.057272
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:08:36.519544
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:08:36.522643
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:10:08.485887
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:10:08.489571
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:10:09.489745
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:10:09.492608
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:36:59.760616
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:36:59.765984
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-10-15 13:36:59.774898
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+Update Content: {'order_content': [{'book_price': '170', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_description': '', 'book_barcode': '47164139401923'}]}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:42:51.755142
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:42:51.760183
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:43:53.889715
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:43:53.894415
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:57:39.829531
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:57:39.832636
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:58:57.949197
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:58:57.952148
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:59:39.666241
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 13:59:39.669588
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:01:32.391783
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:01:32.396130
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:03:58.662040
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:03:58.666299
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:04:34.214903
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:04:34.218630
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:08:20.032986
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:08:20.036615
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:09:14.795264
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:09:14.799330
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:10:16.808186
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:10:16.811142
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:11:27.508902
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:11:27.512853
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:12:31.773148
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:12:31.777293
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:23:13.835888
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:23:13.839270
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:42:53.018150
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:42:53.022150
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:44:14.263319
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:44:14.268116
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:46:19.645038
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 14:46:19.649266
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 15:38:13.709190
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 15:38:13.712488
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:19:31.999581
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:19:32.004505
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:21:06.433766
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:21:06.436813
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:32:51.335085
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:32:51.338395
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:35:27.836511
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:35:27.839992
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:35:29.690064
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:35:29.693153
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:41:16.165852
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:41:16.169471
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:41:17.804729
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:41:17.807571
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:44:09.113756
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:44:09.116952
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:45:32.776812
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:45:32.780573
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:46:46.708245
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641381102215'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:46:46.711691
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:47:55.772804
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:47:55.776226
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:57:49.325829
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:57:49.329142
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:59:26.315548
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 16:59:26.319688
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 17:01:08.701107
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-15 17:01:08.704846
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-10-15 17:01:08.715906
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+Update Content: {'order_content': [{'book_barcode': '47164139401923', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_description': '', 'book_price': '170', '_id': ObjectId('543debf8caa1115002f43b0d')}, {'book_name': '國小自修・社會６上', 'book_description': '', 'book_price': '320', 'book_barcode': '471641393811823', '_id': ObjectId('543deb95caa1115002f43b0c')}]}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 11:07:22.912001
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 11:10:49.188176
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 11:50:36.641241
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 11:51:36.644690
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 11:52:56.652252
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 11:54:06.657596
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:10:47.567942
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:15:57.051226
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:17:37.059472
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:19:27.423590
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:20:17.429771
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:21:17.436103
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:21:57.441382
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:29:48.843389
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:30:05.190944
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:30:45.194266
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:30:52.673179
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:32:45.210696
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:35:09.938856
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:37:39.953600
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:38:19.958589
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:38:30.897680
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:39:39.967849
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:42:38.843816
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:44:24.321149
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:44:47.418494
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:45:54.334559
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:48:24.352164
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:49:04.357158
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:49:44.361494
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 13:51:14.797405
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 14:51:45.263044
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 15:05:31.570752
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 15:07:23.409265
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 15:07:28.021561
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 15:08:35.306939
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 15:08:59.267464
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 15:26:02.278672
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 15:26:07.857347
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-16 15:28:25.628876
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 09:00:09.237821
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 09:01:14.412356
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 09:03:26.089562
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 09:08:44.885854
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 09:11:23.124477
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 09:12:33.130839
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 09:13:03.132978
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 09:13:43.150379
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 09:15:07.953693
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 09:17:38.266061
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 09:19:12.309861
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 09:19:52.312974
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 09:21:12.323272
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 09:27:32.364655
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 09:28:52.372702
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 09:30:12.383277
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 10:34:37.780738
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 10:35:51.236386
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 10:46:21.345391
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 10:48:23.752845
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 11:23:47.884474
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 11:25:17.894494
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 11:26:05.638366
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 11:29:26.065283
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 11:31:07.534888
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 11:38:39.982377
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 11:39:19.985975
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 11:40:09.991649
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 12:02:08.275297
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 13:45:19.181038
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 13:47:49.192201
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 14:03:03.108365
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 14:03:53.112898
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:07:56.020736
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:14:46.330790
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:20:09.740700
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:20:29.741445
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:21:39.747308
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:22:49.752308
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:23:49.760485
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:24:09.760819
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:25:09.768527
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:26:09.776315
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:27:39.791448
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:28:39.792873
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:30:30.492764
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:31:50.497775
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:32:50.504375
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:33:44.324180
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:34:10.598335
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:35:36.312397
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:37:46.328402
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:47:56.521996
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:48:39.079578
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:50:09.087327
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:54:39.118865
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 16:55:19.122498
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-17 17:09:43.570564
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 08:43:48.056610
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 09:45:13.705429
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 10:01:02.200339
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 10:06:12.149116
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 10:07:02.152540
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 10:08:43.189660
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 10:10:13.200648
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 10:11:34.734698
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 10:12:17.456349
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 10:13:33.369609
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 10:14:03.372490
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 14:39:39.554815
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 15:01:14.900667
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 15:01:20.116845
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 16:41:35.415507
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 16:41:56.882339
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 16:53:31.329242
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 16:54:11.300092
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 16:54:31.738073
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 16:55:01.306957
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 16:55:05.425365
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 16:55:29.450796
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 16:55:35.407215
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 16:55:51.314184
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 16:56:41.318619
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 16:57:51.327250
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 16:57:54.939449
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 16:57:59.691459
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 16:59:19.630836
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 17:06:30.470162
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-20 17:10:06.076887
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 14:19:22.218905
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 14:19:22.252783
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 14:19:38.603349
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 14:19:45.993902
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 14:19:45.997685
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-10-23 14:19:46.031923
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+Update Content: {'order_content': [{'book_price': '170', 'book_description': '', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_name': '國小實力評量・國語１上（含首冊）', 'book_barcode': '47164139401923'}]}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 14:20:33.201339
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 14:20:33.204602
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-10-23 14:20:33.213383
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+Update Content: {'order_content': [{'book_price': '170', 'book_description': '', 'book_barcode': '47164139401923', 'book_name': '國小實力評量・國語１上（含首冊）', '_id': ObjectId('543debf8caa1115002f43b0d')}]}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 14:22:07.999074
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 14:22:08.002707
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-10-23 14:22:08.065256
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+Update Content: {'order_content': [{'book_price': '170', '_id': ObjectId('543debf8caa1115002f43b0d'), 'book_description': '', 'book_name': '國小實力評量・國語１上（含首冊）', 'book_barcode': '47164139401923'}]}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 14:24:08.824434
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-10-23 14:24:08.832639
+DB: orders
+Collection: order_shipping
+Write Content: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '12345678'}
+save data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 14:24:31.075259
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-10-23 14:24:31.082527
+DB: orders
+Collection: order_shipping
+Write Content: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號', 'order_barcode': '12345678'}
+save data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 14:25:23.035286
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-10-23 14:25:23.041114
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+Update Content: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 14:33:50.428130
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-10-23 14:33:50.435449
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+Update Content: {'order_subscriber': '佳佳書局', 'order_address': '新中路100號'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 14:38:47.522537
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 14:40:00.686532
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-10-23 14:40:00.701180
+DB: orders
+Collection: order_shipping
+Write Content: {'order_subscriber': '', 'order_address': '', 'order_barcode': '1234567'}
+save data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 14:40:45.693259
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-10-23 14:40:45.698930
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+Update Content: {'order_subscriber': '', 'order_address': ''}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 14:45:31.479662
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-10-23 14:45:31.497369
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+Update Content: {'order_subscriber': 'wenjen', 'order_address': 'none'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 14:49:45.336680
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-10-23 14:49:45.354119
+DB: orders
+Collection: order_shipping
+Write Content: {'order_subscriber': '大雅書局', 'order_address': '大雅路111', 'order_barcode': '888888'}
+save data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 15:16:34.040887
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '68382361'}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-10-23 15:16:34.070552
+DB: orders
+Collection: order_shipping
+Write Content: {'order_subscriber': '翰林書局', 'order_address': '新中路8-1號', 'order_barcode': '68382361'}
+save data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 15:17:37.536657
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': ''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 15:18:12.028208
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': ''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 15:19:42.763932
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': ''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 16:12:08.258674
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': ''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 16:13:27.501619
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 16:14:29.894961
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 16:14:29.903921
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-10-23 16:14:30.491654
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+Update Content: {'order_content': ['47164139401923']}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 16:15:20.060107
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 16:15:20.063920
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 16:15:48.865140
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 16:15:48.867964
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 16:16:45.844816
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 16:16:45.848880
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 16:20:23.743206
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 16:20:43.766972
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-23 16:20:43.770014
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 08:49:45.566222
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 08:49:45.597159
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 08:49:49.428583
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 08:49:49.433103
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 08:55:11.984719
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 08:55:11.988708
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 08:57:34.442712
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 08:57:34.446429
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-10-24 08:57:34.453913
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+Update Content: {'order_content': ['47164139401923']}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 13:31:23.961853
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 13:31:24.555564
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-10-24 13:31:24.563431
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+Update Content: {'order_content': ['47164139401923', '471641393811823']}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 13:31:51.486450
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 13:31:51.489222
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-10-24 13:31:51.498455
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+Update Content: {'order_content': ['47164139401923', '471641393811823']}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 14:44:04.800465
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 14:44:04.805458
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-10-24 14:44:04.820281
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+Update Content: {'order_content': ['47164139401923', '471641393811823']}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 14:44:55.044132
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 14:45:16.238965
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 14:45:18.688607
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 14:45:58.902376
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 14:45:58.905674
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-10-24 14:45:58.918748
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+Update Content: {'order_content': ['47164139401923']}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 14:46:29.286058
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 14:46:31.193685
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 14:46:59.298132
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 14:47:01.314485
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 14:47:52.768135
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 14:48:32.773212
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 14:53:53.571681
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 14:53:56.976019
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 14:55:42.398016
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 14:56:22.401093
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 16:58:41.451811
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 16:58:41.505646
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:00:06.008740
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:00:10.932351
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:00:10.959953
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:04:55.625507
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:04:55.651078
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:04:55.661008
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:08:40.424528
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:08:40.457389
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:08:40.476043
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:10:00.441173
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:10:00.469846
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:10:00.481364
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:10:50.449886
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:10:50.496446
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:10:50.506758
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:16:12.636199
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:16:16.330588
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:16:16.350644
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:17:32.642825
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:17:39.320571
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:17:39.339630
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:19:10.295182
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:19:15.100372
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:19:15.115095
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:21:44.823873
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:21:51.984189
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:21:52.011319
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:22:34.835416
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:22:39.024312
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:23:54.849814
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:24:00.232431
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:25:04.858975
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:26:23.929528
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:26:23.960993
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b''}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:29:48.153223
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:29:51.675631
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:29:51.685759
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:31:27.387518
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:31:31.183511
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:32:17.633840
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:32:17.654660
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:33:17.646662
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:33:22.526044
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:33:22.544857
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:43:25.292943
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '12345678'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:43:27.078966
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:44:04.430796
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:44:07.078089
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-24 17:44:07.093985
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:28:48.163314
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:28:50.704016
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:28:50.725348
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:30:06.500587
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:30:06.503477
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-10-27 11:30:06.545594
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+Update Content: {'order_content': ['47164139401923', '471641393811823']}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:30:26.182376
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:30:26.185087
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2014-10-27 11:30:26.194858
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+Update Content: {'order_content': ['47164139401923', '471641393811823']}
+update data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:32:12.287188
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '1234567'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:32:24.212324
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:33:38.764496
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:33:38.779152
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:39:51.688946
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:39:54.051481
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:39:54.065468
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:40:51.693443
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:40:57.440457
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:40:57.457464
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:43:10.800567
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:43:13.853198
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 11:43:13.871255
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:13:50.453750
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:13:52.956124
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:13:52.997244
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:19:01.894197
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:19:04.603653
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:19:04.626700
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:20:59.791558
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:21:02.325340
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:21:02.358855
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:23:10.218085
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:23:18.466736
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:23:18.483144
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:30:37.853349
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:30:39.890481
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:30:39.922941
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:35:45.525989
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:38:42.279910
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:38:44.146461
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:38:44.163400
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:40:14.618098
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:40:17.645829
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:40:17.667447
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': b'471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:43:15.943724
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:43:18.836443
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:43:18.941185
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:47:52.266776
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:47:55.269951
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:47:55.309091
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:49:52.775725
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:49:54.911121
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:49:54.940081
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:54:50.684588
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:54:53.752932
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:54:53.773139
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:56:00.689759
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:56:05.657028
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:56:05.674944
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:57:51.285292
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:57:54.179897
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 13:57:54.247265
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 15:37:53.479552
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 15:37:55.911040
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 15:37:55.934047
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 16:02:44.925154
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 16:02:47.864844
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 16:02:47.887444
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 16:07:06.889662
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 16:07:09.107963
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 16:07:09.130247
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 16:55:47.330259
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 16:55:49.616706
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 16:55:49.636312
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 17:02:34.524050
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 17:02:38.036346
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 17:02:38.068185
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 17:06:21.890558
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 17:06:24.422023
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 17:06:24.455948
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 17:08:24.123577
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 17:08:26.519402
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-27 17:08:26.545040
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-28 08:34:10.320977
+DB: orders
+Collection: order_shipping
+Query Content: {'order_barcode': '888888'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-28 08:34:12.589544
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '47164139401923'}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-10-28 08:34:12.611888
+DB: books
+Collection: book_in_stock
+Query Content: {'book_barcode': '471641393811823'}
+query data OK.

@@ -13,7 +13,7 @@ DB_PORT = 27017
 
 # DB -- Order
 DB_ORDERS = "orders"
-COLLECTION_ORDER_OUTPUT = "order_shipping"
+COLLECTION_ORDER_SHIPPING = "order_shipping"
 #fields name map
 ORDER_SHIPPING_BARCODE = "order_barcode"
 ORDER_SHIPPING_SUBSCRIBER = "order_subscriber"
@@ -70,8 +70,10 @@ APP_REGISTER_FIELD_ACTION = "App_Action"
 # 01x001:資料庫查詢失敗
 # 01x004: request data fail
 # 01x005: 資料庫插入失敗
+# 01x006: 沒有書本記錄
 
 ## orders
 # 02x000 OK
 # 02x004 request data fail
-# 02x005: 資料庫插入失敗
+# 02x005: 資料庫失敗
+# 02x006: 沒有訂單記錄
