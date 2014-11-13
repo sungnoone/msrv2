@@ -135,3 +135,6 @@ compare value:47164139401923
 >>>...>>>...MODULE:array_compare_value() 2014-10-27 11:30:26.194428
 compare array:['47164139401923', '471641393811823']
 compare value:47164139401923
+>>>...>>>...MODULE:array_compare_value() 2014-10-31 08:30:37.446713
+compare array:['47164139401923', '471641393811823']
+compare value:471641382913300021

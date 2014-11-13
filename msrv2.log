@@ -1388,3 +1388,1250 @@ request data content: 471641393811823
 query_book_json: {'book_barcode': '471641393811823'}
 book_find_result count: 1
 book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-29 17:03:54.818184
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e3c8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-29 17:04:55.512640
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e208>
+{0: '{"order_barcode": "12345678", "_id": {"$oid": "54489f1fcaa1119115da5f6b"}, "order_subscriber": "佳佳書局", "order_content": ["47164139401923"], "order_address": "新中路100號"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-29 17:09:12.818169
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e400>
+{0: '{"order_barcode": "12345678", "_id": {"$oid": "54489f1fcaa1119115da5f6b"}, "order_subscriber": "佳佳書局", "order_content": ["47164139401923"], "order_address": "新中路100號"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-29 17:09:15.008344
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-29 17:11:36.505874
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439b70>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-29 17:12:57.778015
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439b38>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-30 08:28:16.028619
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x1024393c8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-30 08:28:17.271851
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-30 08:28:17.282468
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-30 09:07:54.903162
+request data type: <class 'bytes'>
+request data content: 888888
+query_book_json: {'book_barcode': '888888'}
+book_find_result count: 0
+>>>...MODULE:book_query_by_barcode()2014-10-30 09:09:59.573729
+request data type: <class 'bytes'>
+request data content: 888888
+query_book_json: {'book_barcode': '888888'}
+book_find_result count: 0
+>>>...MODULE:book_query_by_barcode()2014-10-30 09:12:00.040565
+request data type: <class 'bytes'>
+request data content: 888888
+query_book_json: {'book_barcode': '888888'}
+book_find_result count: 0
+>>>...MODULE:order_query_by_barcode()2014-10-30 09:16:39.711055
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243b828>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-30 09:16:39.919939
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-30 09:16:39.926867
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-30 09:23:21.965674
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243b0f0>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-30 09:23:22.005953
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-30 09:23:22.015394
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-30 09:59:27.601357
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10244d2b0>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-30 09:59:31.386384
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-30 09:59:31.420742
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-30 11:35:39.182567
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439b70>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-30 11:35:39.816555
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-30 11:35:39.828010
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-30 11:59:23.621477
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x102439438>
+{0: '{"order_barcode": "12345678", "_id": {"$oid": "54489f1fcaa1119115da5f6b"}, "order_subscriber": "佳佳書局", "order_content": ["47164139401923"], "order_address": "新中路100號"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-30 11:59:24.138980
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-30 11:59:34.064160
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439f60>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-30 11:59:34.088070
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-30 11:59:34.101602
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-30 14:33:59.762729
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e4a8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-30 14:44:32.349548
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e828>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-30 15:41:51.052389
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241ee10>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-30 15:44:30.467231
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e0b8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-30 15:49:10.319145
+request data: {'order_barcode': '888889'}
+沒有訂單記錄.
+>>>...MODULE:order_query_by_barcode()2014-10-30 15:49:17.815021
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241ef60>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-30 15:51:27.323972
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x1023f2630>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-30 15:55:01.877056
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x1023feb00>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-30 15:56:27.449542
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x1023fec18>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-30 15:58:46.298240
+request data: {'order_barcode': '471641382913300021'}
+沒有訂單記錄.
+>>>...MODULE:order_query_by_barcode()2014-10-30 15:59:08.108383
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243e2e8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-30 16:10:45.725757
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243eac8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-30 16:32:56.181042
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243e0f0>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_insert_multi()2014-10-30 16:51:26.562888
+request data content: {'book_name': '國中國文一上習作教用版', 'book_price': '999', 'book_barcode': '471641382913300021', 'book_description': ''}
+insert OK: 5451fc0ecaa111af86c99d58
+>>>...MODULE:order_query_by_barcode()2014-10-31 08:29:59.698609
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243ee48>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-31 08:30:02.708362
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-31 08:30:02.730148
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:book_insert_into_order()2014-10-31 08:30:36.869964
+request data content: {'order_barcode': '888888', 'book_barcode': '471641382913300021'}
+compare value: 471641382913300021
+['47164139401923', '471641393811823', '471641382913300021']
+{'nModified': 1, 'updatedExisting': True, 'ok': 1, 'n': 1}
+>>>...MODULE:order_query_by_barcode()2014-10-31 08:30:51.657495
+request data: {'order_barcode': '12345678'}
+order find result: <pymongo.cursor.Cursor object at 0x10243e198>
+{0: '{"order_barcode": "12345678", "_id": {"$oid": "54489f1fcaa1119115da5f6b"}, "order_subscriber": "佳佳書局", "order_content": ["47164139401923"], "order_address": "新中路100號"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-31 08:30:52.549040
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-31 08:30:57.977274
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243e4a8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-31 08:31:01.283857
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-31 08:31:01.303465
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-31 08:31:01.321378
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-31 08:31:13.562442
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241ec50>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-31 08:31:17.315539
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-31 08:31:17.337642
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-31 08:31:17.359719
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:order_query_by_barcode()2014-10-31 08:40:34.221945
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x1024393c8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-31 11:15:54.790537
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439908>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-31 11:18:33.523371
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439ac8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-31 11:24:16.629116
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439198>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-31 11:37:28.641680
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439400>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-10-31 13:45:22.183479
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243b2e8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-10-31 13:45:43.992804
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-31 13:46:29.817854
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-10-31 13:46:29.850084
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 11:36:25.374091
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243b9b0>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 11:37:38.284702
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 11:51:05.655377
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243b080>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 11:51:24.504172
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 11:52:26.560075
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10244d860>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 11:52:42.530263
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 11:54:23.001411
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10244d6d8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 11:54:41.415302
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 11:57:03.337126
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10244da90>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 11:57:22.381174
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 11:58:49.318149
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243bb70>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 11:59:09.286158
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 14:04:44.975917
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439b70>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 14:05:02.787596
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 14:05:05.512576
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 14:05:05.523904
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 14:10:36.740328
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439908>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-11-03 14:11:10.719552
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439a90>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 14:11:27.694703
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 14:11:29.911872
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 14:11:29.920138
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 14:15:09.795723
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e3c8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 14:16:09.695206
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 14:16:11.607207
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 14:16:11.614321
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 14:18:25.784427
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x1023f22b0>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 14:18:45.748603
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 14:18:48.947469
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 14:18:48.954621
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 14:57:27.353390
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243e2b0>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 14:57:53.604759
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 14:57:56.811126
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 14:57:58.683456
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 14:59:54.638830
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243e358>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 15:00:07.849236
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 15:03:06.200936
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243e278>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 15:03:29.671007
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 15:03:34.146787
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 15:03:35.572578
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 15:05:36.541967
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102449c18>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 15:05:51.594011
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 15:05:59.610300
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 15:06:58.464754
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 15:09:49.668399
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102449cf8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 15:10:09.488185
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 15:10:51.146915
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10244d7f0>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 15:11:15.002528
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 15:11:24.613714
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 15:12:01.408328
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 15:49:08.020341
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102449278>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 15:49:29.467942
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 15:49:52.508392
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 15:49:52.810657
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 15:58:29.802776
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243ed68>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 15:59:00.223352
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 15:59:08.453069
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 15:59:12.525192
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 16:00:34.234713
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x1023fee80>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 16:00:48.359503
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 16:03:29.512110
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x1023feef0>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 16:03:31.947367
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 16:03:31.956130
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 16:03:31.965420
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 16:04:06.499546
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e4e0>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 16:04:33.245365
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 16:08:46.217869
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e320>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-11-03 16:12:19.240624
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e2e8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-11-03 16:14:24.196779
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e898>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-11-03 16:17:39.279046
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439e48>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 16:18:10.348936
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 16:19:45.580503
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439630>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-11-03 16:24:44.125783
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x1024393c8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-11-03 16:27:08.240322
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439710>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 16:27:57.260400
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 16:36:14.960537
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439be0>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 16:36:25.239858
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 16:37:48.114842
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243bf28>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 16:38:04.400267
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 16:38:14.060984
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 16:38:14.537843
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 16:38:24.364500
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 16:38:24.371945
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-03 16:39:58.366076
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243b7f0>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-03 16:40:12.189428
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 16:42:37.181700
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-03 16:42:37.189873
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-04 09:47:27.201887
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10244d2e8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-04 09:47:38.526834
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-04 09:47:51.954405
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-04 09:47:51.962540
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-04 09:59:47.995128
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439d30>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-04 09:59:58.251504
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-04 10:00:01.974381
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-04 10:00:02.556296
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-04 10:47:33.895631
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439908>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-04 10:48:04.921434
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-04 10:48:07.730546
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-04 10:48:07.745043
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-04 13:39:17.367080
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e278>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-11-04 13:40:31.115803
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241ee48>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-11-04 13:44:58.106061
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e128>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-11-04 15:24:39.813828
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241ed68>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-11-04 15:28:49.184280
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e2e8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-11-04 15:34:27.112367
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241eef0>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-04 15:34:57.732908
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-04 15:35:16.246413
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-04 15:35:16.253456
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-04 15:35:41.125792
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-04 15:35:41.133130
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-04 15:42:28.730750
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243e908>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-04 15:42:31.018062
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-04 15:42:31.038157
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-04 15:42:31.067424
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-04 15:44:42.469074
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243e048>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-11-04 16:09:55.617316
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243ef28>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-11-05 08:36:00.398123
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x1024494e0>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-05 08:36:56.992169
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 08:37:33.856155
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 08:37:33.864048
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 08:38:34.832594
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 08:38:34.841112
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 08:38:35.411102
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 08:38:35.417703
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-05 09:49:43.295780
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10244d550>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-05 09:49:57.815494
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 09:49:57.822938
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 09:49:58.396959
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 09:50:34.695084
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 09:50:45.234248
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 09:50:45.242972
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 09:51:31.530707
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 09:51:31.538726
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-05 10:40:54.234951
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243ea90>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-05 10:41:32.467607
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 10:41:37.048677
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 10:41:37.061989
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-05 10:45:40.372200
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243e780>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-05 10:45:58.800663
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 10:46:08.915805
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 10:46:08.923013
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-05 10:52:43.378586
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x1023fedd8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-05 10:52:57.846871
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 10:53:05.173010
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 10:53:05.221129
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-05 10:53:20.237660
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e7b8>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-05 10:53:31.349129
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 10:53:38.170419
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 10:53:38.358777
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-05 14:17:58.642749
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10241e198>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-05 14:18:12.453543
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 14:18:20.357967
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 14:18:20.441512
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 14:18:29.174927
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 14:18:29.185393
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-05 15:46:04.763984
+request data: {'order_barcode': '471641331412700021'}
+沒有訂單記錄.
+>>>...MODULE:order_query_by_barcode()2014-11-05 15:46:16.998007
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102439c88>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-05 15:46:41.046629
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 15:46:43.952846
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 15:46:43.959816
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 15:47:04.068342
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 15:47:04.075657
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-05 15:50:20.244241
+request data: {'order_barcode': '471641382913300021'}
+沒有訂單記錄.
+>>>...MODULE:order_query_by_barcode()2014-11-05 15:50:39.042909
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10243b940>
+{0: '{"order_barcode": "888888", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-05 15:50:48.465034
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_barcode": "471641382913300021", "book_description": "", "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 15:50:52.452550
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 15:50:52.460386
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 15:50:57.773981
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_barcode": "47164139401923", "book_description": "", "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-05 15:50:57.783030
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_barcode": "471641393811823", "book_description": "", "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-07 10:44:49.518847
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102457550>
+{0: '{"order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_barcode": "888888"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-11-07 10:46:46.741843
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x1024575c0>
+{0: '{"order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_barcode": "888888"}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-07 10:47:04.928866
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_barcode": "471641382913300021", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_price": "999", "book_name": "國中國文一上習作教用版", "book_description": ""}'}
+>>>...MODULE:book_query_by_barcode()2014-11-07 10:47:09.532007
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_barcode": "47164139401923", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_price": "170", "book_name": "國小實力評量・國語１上（含首冊）", "book_description": ""}'}
+>>>...MODULE:book_query_by_barcode()2014-11-07 10:47:09.551537
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_barcode": "471641393811823", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_price": "320", "book_name": "國小自修・社會６上", "book_description": ""}'}
+>>>...MODULE:book_query_by_barcode()2014-11-07 10:47:18.940913
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_barcode": "47164139401923", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_price": "170", "book_name": "國小實力評量・國語１上（含首冊）", "book_description": ""}'}
+>>>...MODULE:book_query_by_barcode()2014-11-07 10:47:18.957744
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_barcode": "471641393811823", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_price": "320", "book_name": "國小自修・社會６上", "book_description": ""}'}
+>>>...MODULE:order_query_by_barcode()2014-11-10 11:14:35.640514
+request data: {'order_barcode': '*7164*3829*3300*21'}
+沒有訂單記錄.
+>>>...MODULE:order_query_by_barcode()2014-11-10 11:15:06.982289
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x1024755c0>
+{0: '{"order_content": ["47164139401923", "471641393811823", "471641382913300021"], "order_address": "大雅路111", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_subscriber": "大雅書局", "order_barcode": "888888"}'} /r/n>>>...MODULE:order_query_by_barcode()2014-11-10 13:21:56.662949
+request data: {'order_barcode': ''}
+沒有訂單記錄.
+>>>...MODULE:order_query_by_barcode()2014-11-10 13:22:03.553393
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102416320>
+{0: '{"order_subscriber": "大雅書局", "order_address": "大雅路111", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_barcode": "888888", "order_content": ["47164139401923", "471641393811823", "471641382913300021"]}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-10 13:22:34.141209
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_barcode": "471641382913300021", "book_description": "", "book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-10 13:22:40.280042
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_barcode": "47164139401923", "book_description": "", "book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-10 13:22:40.298286
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_barcode": "471641393811823", "book_description": "", "book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-10 13:24:03.691021
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x102416d30>
+{0: '{"order_subscriber": "大雅書局", "order_address": "大雅路111", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_barcode": "888888", "order_content": ["47164139401923", "471641393811823", "471641382913300021"]}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-10 13:24:13.555824
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_barcode": "471641382913300021", "book_description": "", "book_name": "國中國文一上習作教用版", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_price": "999"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-10 13:24:18.478663
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_barcode": "47164139401923", "book_description": "", "book_name": "國小實力評量・國語１上（含首冊）", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_price": "170"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-10 13:24:18.486556
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_barcode": "471641393811823", "book_description": "", "book_name": "國小自修・社會６上", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_price": "320"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-10 15:00:13.707195
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x10351e7f0>
+{0: '{"order_subscriber": "大雅書局", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_barcode": "888888", "order_address": "大雅路111", "order_content": ["47164139401923", "471641393811823", "471641382913300021"]}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-10 15:00:17.498635
+request data type: <class 'bytes'>
+request data content: 471641393811823
+query_book_json: {'book_barcode': '471641393811823'}
+book_find_result count: 1
+book_json: {0: '{"book_description": "", "book_barcode": "471641393811823", "book_price": "320", "_id": {"$oid": "543deb95caa1115002f43b0c"}, "book_name": "國小自修・社會６上"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-10 15:00:17.529523
+request data type: <class 'bytes'>
+request data content: 47164139401923
+query_book_json: {'book_barcode': '47164139401923'}
+book_find_result count: 1
+book_json: {0: '{"book_description": "", "book_barcode": "47164139401923", "book_price": "170", "_id": {"$oid": "543debf8caa1115002f43b0d"}, "book_name": "國小實力評量・國語１上（含首冊）"}'}
+>>>...MODULE:book_query_by_barcode()2014-11-10 15:00:17.540436
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_description": "", "book_barcode": "471641382913300021", "book_price": "999", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_name": "國中國文一上習作教用版"}'}
+>>>...MODULE:order_query_by_barcode()2014-11-11 15:27:44.068912
+request data: {'order_barcode': '471641382913300021'}
+沒有訂單記錄.
+>>>...MODULE:order_query_by_barcode()2014-11-11 15:27:58.614442
+request data: {'order_barcode': '888888'}
+order find result: <pymongo.cursor.Cursor object at 0x103537630>
+{0: '{"order_subscriber": "大雅書局", "_id": {"$oid": "5448a509caa11191373c707f"}, "order_barcode": "888888", "order_address": "大雅路111", "order_content": ["47164139401923", "471641393811823", "471641382913300021"]}'} /r/n>>>...MODULE:book_query_by_barcode()2014-11-11 15:28:07.793983
+request data type: <class 'bytes'>
+request data content: 471641382913300021
+query_book_json: {'book_barcode': '471641382913300021'}
+book_find_result count: 1
+book_json: {0: '{"book_description": "", "book_barcode": "471641382913300021", "book_price": "999", "_id": {"$oid": "5451fc0ecaa111af86c99d58"}, "book_name": "國中國文一上習作教用版"}'}
